@@ -356,18 +356,9 @@ margin-bottom: {{ section.settings.margin_bottom }}px;
     {%- if request.page_type == 'index' -%}
     <h1 class="header__heading">
       {%- endif -%}
-      <a href="{{ routes.root_url }}" class="header__heading-link link link--text focus-inset">
-        {%- if section.settings.logo != blank -%}
-        {%- assign image_size_2x = section.settings.logo_width | times: 2 | at_most: 5760 -%}
-        <img
-          srcset="{{ section.settings.logo | image_url: width: section.settings.logo_width }} 1x, {{ section.settings.logo | image_url: width: image_size_2x }} 2x"
-          src="{{ section.settings.logo | image_url: width: section.settings.logo_width }}" loading="lazy"
-          class="header__heading-logo" width="{{ section.settings.logo.width }}"
-          height="{{ section.settings.logo.height }}"
-          alt="{{ section.settings.logo.alt | default: shop.name | escape }}">
-        {%- else -%}
-        <span class="h2">{{ shop.name }}</span>
-        {%- endif -%}
+      <a href="{{ routes.root_url }}" class="site-header__logo-image{% if section.settings.align_logo == 'center' %} site-header__logo-image--centered{% endif %}">
+        {% capture image_size %}{{ section.settings.logo_max_width | escape }}{% endcapture %}
+        <img src="{{ 'logo-branco.svg' | asset_url }}" alt="{{ shop.name }}" width="{{ section.settings.logo_width }}">
       </a>
       {%- if request.page_type == 'index' -%}
     </h1>
