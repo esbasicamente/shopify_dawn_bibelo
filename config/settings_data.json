@@ -119,8 +119,7 @@
         "type": "header",
         "settings": {
           "color_scheme": "accent-1",
-          "logo": "shopify:\/\/shop_images\/BIBELO_LOGO_editavel-1.png",
-          "logo_width": 150,
+          "logo_width": 200,
           "logo_position": "top-left",
           "menu": "main-menu",
           "menu_type_desktop": "dropdown",
