@@ -15,7 +15,7 @@
     "heading_scale": 100,
     "type_body_font": "poppins_n3",
     "body_scale": 100,
-    "page_width": 1200,
+    "page_width": 1600,
     "spacing_sections": 0,
     "spacing_grid_horizontal": 8,
     "spacing_grid_vertical": 8,
@@ -95,6 +95,7 @@
     "predictive_search_enabled": true,
     "predictive_search_show_vendor": false,
     "predictive_search_show_price": false,
+    "favicon": "shopify:\/\/shop_images\/favicon.png",
     "currency_code_enabled": true,
     "sections": {
       "announcement-bar": {
@@ -120,7 +121,7 @@
         "settings": {
           "color_scheme": "accent-1",
           "logo_width": 200,
-          "logo_position": "top-left",
+          "logo_position": "middle-left",
           "menu": "main-menu",
           "menu_type_desktop": "dropdown",
           "show_line_separator": true,
