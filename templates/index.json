@@ -60,8 +60,8 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
+            "heading": "Regista-te e ganha 10% desconto!",
+            "heading_size": "h2"
           }
         },
         "text": {
@@ -76,10 +76,10 @@
         "text"
       ],
       "settings": {
-        "color_scheme": "background-1",
+        "color_scheme": "accent-2",
         "full_width": true,
         "padding_top": 40,
-        "padding_bottom": 0
+        "padding_bottom": 40
       }
     }
   },
