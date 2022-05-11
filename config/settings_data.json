@@ -3,7 +3,7 @@
     "colors_solid_button_labels": "#ffffff",
     "colors_accent_1": "#5a6965",
     "gradient_accent_1": "",
-    "colors_accent_2": "#b59f5f",
+    "colors_accent_2": "#bda05a",
     "gradient_accent_2": "",
     "colors_text": "#121212",
     "colors_outline_button_labels": "#121212",
@@ -118,10 +118,10 @@
       "header": {
         "type": "header",
         "settings": {
-          "color_scheme": "background-1",
+          "color_scheme": "accent-1",
           "logo": "shopify:\/\/shop_images\/BIBELO_LOGO_editavel-1.png",
-          "logo_width": 90,
-          "logo_position": "middle-left",
+          "logo_width": 150,
+          "logo_position": "top-left",
           "menu": "main-menu",
           "menu_type_desktop": "dropdown",
           "show_line_separator": true,
