@@ -321,24 +321,15 @@ padding-bottom: {{ section.settings.padding_bottom }}px;
         {%- endif -%}
       </div>
       <div class="footer__column footer__column--info">
-        {%- if section.settings.payment_enable -%}
-        <div class="footer__payment">
-          <span class="visually-hidden">{{ 'sections.footer.payment' | t }}</span>
-          <ul class="list list-payment" role="list">
-            {%- for type in shop.enabled_payment_types -%}
-            <li class="list-payment__item">
-              {{ type | payment_type_svg_tag: class: 'icon icon--full-color' }}
-            </li>
-            {%- endfor -%}
-          </ul>
-        </div>
-        {%- endif -%}
         <div class="footer__copyright caption">
-          <small class="copyright__content">&copy; {{ 'now' | date: "%Y" }},
-            {{ shop.name | link_to: routes.root_url }}</small>
-          <small class="copyright__content">{{ powered_by_link }}</small>
+          <small class="copyright__content">&copy; {{ 'now' | date: "%Y" }}, {{ shop.name | link_to: routes.root_url }}</small>
+          <br><a href="https://www.basicamente.pt" title="Website Desenvolvido pela Basicamente" target="_blank"><span style="color:black;font-size:11px"><strong>Basicamente</strong>.pt</span></a>
         </div>
       </div>
+      <div class="footer__payment">
+            <img class="payments" src="https://cdn.shopify.com/s/files/1/0628/6963/5318/files/metodos_pagamento_cor_f1443971-f44b-4df2-8697-6b6a75cc8db0.png?v=1644922792" alt="Métodos de Pagamento Seguros"/>
+        	<img class="shipping" src="https://cdn.shopify.com/s/files/1/0628/6963/5318/files/metodos_envio.png?v=1644922808" alt="Métodos de Envio"/>
+          </div>
     </div>
   </div>
 </footer>
@@ -547,33 +538,6 @@ customElements.define('localization-form', LocalizationForm);
 "type": "header",
 "content": "t:sections.footer.settings.header__3.content",
 "info": "t:sections.footer.settings.header__4.info"
-},
-{
-"type": "checkbox",
-"id": "enable_country_selector",
-"default": true,
-"label": "t:sections.footer.settings.enable_country_selector.label"
-},
-{
-"type": "header",
-"content": "t:sections.footer.settings.header__5.content",
-"info": "t:sections.footer.settings.header__6.info"
-},
-{
-"type": "checkbox",
-"id": "enable_language_selector",
-"default": true,
-"label": "t:sections.footer.settings.enable_language_selector.label"
-},
-{
-"type": "header",
-"content": "t:sections.footer.settings.header__7.content"
-},
-{
-"type": "checkbox",
-"id": "payment_enable",
-"default": true,
-"label": "t:sections.footer.settings.payment_enable.label"
 },
 {
 "type": "header",
