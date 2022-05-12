@@ -54,6 +54,69 @@
         "accessibility_info": "Slideshow Bibelô"
       }
     },
+    "16523666019c61e216": {
+      "type": "multicolumn",
+      "blocks": {
+        "1652366601ca94d03c-0": {
+          "type": "column",
+          "settings": {
+            "title": "Entregas rápidas",
+            "text": "<p>Desde  a 2 dias Portugal Continental<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1652366601ca94d03c-1": {
+          "type": "column",
+          "settings": {
+            "title": "Portes Grátis",
+            "text": "<p>Portes Grátis em encomendas superiores a 50€<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1652366601ca94d03c-2": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "f05bdc98-5100-49f3-8a03-8f344b9e60ea": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1652366601ca94d03c-0",
+        "1652366601ca94d03c-1",
+        "1652366601ca94d03c-2",
+        "f05bdc98-5100-49f3-8a03-8f344b9e60ea"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "accent-1",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "16523648951c633595": {
       "type": "featured-collection",
       "settings": {
@@ -196,6 +259,7 @@
   },
   "order": [
     "16522869307591a941",
+    "16523666019c61e216",
     "16523648951c633595",
     "165236576645a5d748",
     "rich_text",
