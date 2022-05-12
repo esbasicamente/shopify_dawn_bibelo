@@ -129,7 +129,7 @@ padding-bottom: {{ section.settings.padding_bottom }}px;
           {%- else -%}
           {{ 'image' | placeholder_svg_tag: 'placeholder-svg placeholder' }}
           {%- endif -%}
-          {%- if section.settings.show_social -%}
+          {%- if block.settings.show_social -%}
           <ul class="footer__list-social list-unstyled list-social" role="list">
             {%- if settings.social_twitter_link != blank -%}
               <li class="list-social__item">
@@ -499,7 +499,18 @@ customElements.define('localization-form', LocalizationForm);
 }
 ],
 "default": "center"
-}
+},
+{
+  "type": "header",
+  "content": "t:sections.footer.settings.header__2.content",
+  "info": "t:sections.footer.settings.header__2.info"
+  },
+  {
+  "type": "checkbox",
+  "id": "show_social",
+  "default": false,
+  "label": "t:sections.footer.settings.show_social.label"
+  }
 ]
 }
 ],
@@ -531,17 +542,6 @@ customElements.define('localization-form', LocalizationForm);
 ],
 "default": "background-1",
 "label": "t:sections.all.colors.label"
-},
-{
-"type": "header",
-"content": "t:sections.footer.settings.header__2.content",
-"info": "t:sections.footer.settings.header__2.info"
-},
-{
-"type": "checkbox",
-"id": "show_social",
-"default": false,
-"label": "t:sections.footer.settings.show_social.label"
 },
 {
 "type": "header",
