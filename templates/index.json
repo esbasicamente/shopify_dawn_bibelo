@@ -67,16 +67,25 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>Share information about your brand with your customers.<\/p>"
+          }
+        },
+        "5ae393b4-683f-41df-bb94-b1dd075a369a": {
+          "type": "button",
+          "settings": {
+            "button_label": "Registar agora",
+            "button_link": "\/account\/register",
+            "button_style_secondary": true
           }
         }
       },
       "block_order": [
         "heading",
-        "text"
+        "text",
+        "5ae393b4-683f-41df-bb94-b1dd075a369a"
       ],
       "settings": {
-        "color_scheme": "accent-2",
+        "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 40
