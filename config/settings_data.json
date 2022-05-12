@@ -140,39 +140,21 @@
               "alignment": ""
             }
           },
-          "footer-0": {
-            "type": "link_list",
+          "de7d0f78-3a89-4350-b05f-36cebfc6f281": {
+            "type": "newsletter",
             "settings": {
-              "heading": "Quick links",
-              "menu": "footer"
-            }
-          },
-          "79d7a866-5eaa-476b-8f44-fbc7cb9ef413": {
-            "type": "link_list",
-            "settings": {
-              "heading": "Quick links",
-              "menu": "footer"
-            }
-          },
-          "f9266fe3-a24c-41b2-bdfc-20d309504127": {
-            "type": "link_list",
-            "settings": {
-              "heading": "Quick links",
-              "menu": "footer"
+              "newsletter_enable": true,
+              "newsletter_heading": "Subscribe to our emails"
             }
           }
         },
         "block_order": [
           "0bce1b6a-4d60-43bc-bf32-24d6fe7f124b",
-          "footer-0",
-          "79d7a866-5eaa-476b-8f44-fbc7cb9ef413",
-          "f9266fe3-a24c-41b2-bdfc-20d309504127"
+          "de7d0f78-3a89-4350-b05f-36cebfc6f281"
         ],
         "settings": {
           "color_scheme": "accent-1",
-          "newsletter_enable": false,
-          "newsletter_heading": "Newsletter",
-          "show_social": true,
+          "show_social": false,
           "enable_country_selector": false,
           "enable_language_selector": false,
           "payment_enable": true,
