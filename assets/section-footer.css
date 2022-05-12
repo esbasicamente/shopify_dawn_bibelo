@@ -360,7 +360,7 @@ noscript .localization-selector.link {
 
 .footer__copyright {
   text-align: center;
-  margin-top: 0.5rem;
+  margin-top: 1rem;
 }
 
 @media screen and (min-width: 750px) {
@@ -377,7 +377,6 @@ noscript .localization-selector.link {
 @media screen and (min-width: 750px) {
   .footer__payment {
     text-align: right;
-    margin-top: 0.5rem;
   }
 }
 
