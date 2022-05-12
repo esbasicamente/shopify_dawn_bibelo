@@ -54,46 +54,6 @@
         "accessibility_info": "Slideshow Bibelô"
       }
     },
-    "16523651306fb7867f": {
-      "type": "collage",
-      "blocks": {
-        "e9d9cb37-e8da-4f79-ab8e-b5f3e523d1d1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/0.jpg",
-            "image_padding": false
-          }
-        },
-        "2368b5d1-963c-4b27-bfd2-8cb5a0e60975": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/2.jpg",
-            "image_padding": false
-          }
-        },
-        "03cb9a66-6e25-435f-88cc-62aab724fd93": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/1.jpg",
-            "image_padding": false
-          }
-        }
-      },
-      "block_order": [
-        "e9d9cb37-e8da-4f79-ab8e-b5f3e523d1d1",
-        "2368b5d1-963c-4b27-bfd2-8cb5a0e60975",
-        "03cb9a66-6e25-435f-88cc-62aab724fd93"
-      ],
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "16523648951c633595": {
       "type": "featured-collection",
       "settings": {
@@ -171,7 +131,6 @@
     },
     "rich_text": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
@@ -201,7 +160,7 @@
         "5ae393b4-683f-41df-bb94-b1dd075a369a"
       ],
       "settings": {
-        "color_scheme": "background-1",
+        "color_scheme": "accent-1",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 40
@@ -237,7 +196,6 @@
   },
   "order": [
     "16522869307591a941",
-    "16523651306fb7867f",
     "16523648951c633595",
     "165236576645a5d748",
     "rich_text",
