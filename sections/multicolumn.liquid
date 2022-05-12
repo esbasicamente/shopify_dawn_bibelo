@@ -86,6 +86,9 @@
                 </div>
               {%- endif -%}
               <div class="multicolumn-card__info">
+                {%- if block.settings.fa-icon != blank -%}
+                  {{ block.settings.fa-icon }}
+                {%- endif -%}
                 {%- if block.settings.title != blank -%}
                   <h3>{{ block.settings.title | escape }}</h3>
                 {%- endif -%}
@@ -344,7 +347,7 @@
         {
           "type": "text",
           "id": "fa-icon",
-          "label": "Fontawesome Icon HTML"
+          "label": "Fontawesome Icon HTML (Opcional)"
         },
         {
           "type": "text",
