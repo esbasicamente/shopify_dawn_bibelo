@@ -105,7 +105,7 @@
         "collection": "relogios",
         "products_to_show": 10,
         "columns_desktop": 5,
-        "full_width": true,
+        "full_width": false,
         "show_view_all": false,
         "view_all_style": "outline",
         "enable_desktop_slider": true,
