@@ -356,24 +356,27 @@ noscript .localization-selector.link {
 }
 
 
-@media screen and (min-width: 750px) {
-  .footer__payment {
-    margin-top: 0.5rem;
-  }
-}
+
 
 .footer__copyright {
-  text-align: left;
+  text-align: center;
   margin-top: 0.5rem;
-}
-
-.footer__payment {
-  text-align: right;
 }
 
 @media screen and (min-width: 750px) {
   .footer__copyright {
+    text-align: left;
+  }
+}
+
+.footer__payment {
+  text-align: center;
+}
+
+@media screen and (min-width: 750px) {
+  .footer__payment {
     text-align: right;
+    margin-top: 0.5rem;
   }
 }
 
