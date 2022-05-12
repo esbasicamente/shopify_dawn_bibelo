@@ -82,9 +82,9 @@ padding-bottom: {{ section.settings.padding_bottom }}px;
             </div>
             {%- endif -%}
             <div class="multicolumn-card__info">
-              {%- if block.settings.icon != blank -%}
-              ICON AQUI{{ block.settings.icon }}
-              {%- endif -%}
+             
+              ICON AQUI
+   
               {%- if block.settings.title != blank -%}
               <h3>{{ block.settings.title | escape }}</h3>
               {%- endif -%}
@@ -345,11 +345,6 @@ padding-bottom: {{ section.settings.padding_bottom }}px;
 "id": "image",
 "label": "t:sections.multicolumn.blocks.column.settings.image.label"
 },
-{
-  "type": "text",
-  "id": "fa-icon",
-  "label": "Font Awesome Icon"
-  },
 {
 "type": "text",
 "id": "title",
