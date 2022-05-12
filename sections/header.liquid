@@ -371,9 +371,9 @@ margin-bottom: {{ section.settings.margin_bottom }}px;
     {%- if section.settings.menu != blank -%}
     {%- if section.settings.menu_type_desktop == 'dropdown' -%}
     <nav class="header__inline-menu">
-      <ul class="list-menu list-menu--inline" role="list">
+      <ul class="text-transform list-menu list-menu--inline" role="list">
         {%- for link in section.settings.menu.links -%}
-        <li class="text-transform">
+        <li>
           {%- if link.links != blank -%}
           <header-menu>
             <details id="Details-HeaderMenu-{{ forloop.index }}">
