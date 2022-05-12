@@ -60,6 +60,7 @@
         "1652366601ca94d03c-0": {
           "type": "column",
           "settings": {
+            "fa-icon": "<i class=\"fa-solid fa-truck\"><\/i>",
             "title": "Entregas rápidas",
             "text": "<p>Desde 1 a 2 dias Portugal Continental<\/p>",
             "link_label": "",
@@ -69,6 +70,7 @@
         "1652366601ca94d03c-2": {
           "type": "column",
           "settings": {
+            "fa-icon": "",
             "title": "Pagamentos Seguros",
             "text": "<p>Escolhe o teu método favorito de pagamento<\/p>",
             "link_label": "",
@@ -78,6 +80,7 @@
         "1652366601ca94d03c-1": {
           "type": "column",
           "settings": {
+            "fa-icon": "",
             "title": "Portes Grátis",
             "text": "<p>Portes Grátis em encomendas superiores a 50€<\/p>",
             "link_label": "",
@@ -87,6 +90,7 @@
         "f05bdc98-5100-49f3-8a03-8f344b9e60ea": {
           "type": "column",
           "settings": {
+            "fa-icon": "",
             "title": "Levantamento em Loja",
             "text": "<p>Faz a tua encomenda e levanta em loja<\/p>",
             "link_label": "",
