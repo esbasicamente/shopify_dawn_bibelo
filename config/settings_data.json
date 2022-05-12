@@ -123,8 +123,8 @@
           "logo_width": 200,
           "logo_position": "middle-left",
           "menu": "main-menu",
-          "menu_type_desktop": "dropdown",
-          "show_line_separator": true,
+          "menu_type_desktop": "mega",
+          "show_line_separator": false,
           "enable_sticky_header": true,
           "margin_bottom": 0
         }
@@ -171,9 +171,6 @@
         ],
         "settings": {
           "color_scheme": "accent-1",
-          "enable_country_selector": false,
-          "enable_language_selector": false,
-          "payment_enable": true,
           "margin_top": 48,
           "padding_top": 36,
           "padding_bottom": 36
