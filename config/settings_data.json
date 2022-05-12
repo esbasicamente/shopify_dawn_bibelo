@@ -84,9 +84,9 @@
     "sold_out_badge_color_scheme": "inverse",
     "accent_icons": "text",
     "social_twitter_link": "",
-    "social_facebook_link": "",
+    "social_facebook_link": "https:\/\/www.facebook.com\/ourivesariabibelo",
     "social_pinterest_link": "",
-    "social_instagram_link": "",
+    "social_instagram_link": "https:\/\/www.instagram.com\/ourivesariabibelo\/",
     "social_tiktok_link": "",
     "social_tumblr_link": "",
     "social_snapchat_link": "",
@@ -132,37 +132,30 @@
       "footer": {
         "type": "footer",
         "blocks": {
+          "0bce1b6a-4d60-43bc-bf32-24d6fe7f124b": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/logo-branco.png",
+              "image_width": 150,
+              "alignment": ""
+            }
+          },
           "footer-0": {
             "type": "link_list",
             "settings": {
               "heading": "Quick links",
               "menu": "footer"
             }
-          },
-          "footer-1": {
-            "type": "link_list",
-            "settings": {
-              "heading": "Info",
-              "menu": "footer"
-            }
-          },
-          "footer-2": {
-            "type": "text",
-            "settings": {
-              "heading": "Our mission",
-              "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
-            }
           }
         },
         "block_order": [
-          "footer-0",
-          "footer-1",
-          "footer-2"
+          "0bce1b6a-4d60-43bc-bf32-24d6fe7f124b",
+          "footer-0"
         ],
         "settings": {
-          "color_scheme": "background-1",
-          "newsletter_enable": true,
-          "newsletter_heading": "Subscribe to our emails",
+          "color_scheme": "accent-1",
+          "newsletter_enable": false,
+          "newsletter_heading": "Newsletter",
           "show_social": true,
           "enable_country_selector": false,
           "enable_language_selector": false,
