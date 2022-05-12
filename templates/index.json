@@ -60,21 +60,21 @@
         "e9d9cb37-e8da-4f79-ab8e-b5f3e523d1d1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/mix_match_3.jpg",
+            "image": "shopify:\/\/shop_images\/0.jpg",
             "image_padding": false
           }
         },
         "2368b5d1-963c-4b27-bfd2-8cb5a0e60975": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/mix_match_1.jpg",
+            "image": "shopify:\/\/shop_images\/2.jpg",
             "image_padding": false
           }
         },
         "03cb9a66-6e25-435f-88cc-62aab724fd93": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/mix_match_2.jpg",
+            "image": "shopify:\/\/shop_images\/1.jpg",
             "image_padding": false
           }
         }
