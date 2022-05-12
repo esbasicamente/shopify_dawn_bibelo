@@ -121,6 +121,54 @@
         "padding_bottom": 36
       }
     },
+    "165236576645a5d748": {
+      "type": "image-banner",
+      "blocks": {
+        "1652365766223c7e8f-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Nova Coleção",
+            "heading_size": "h2"
+          }
+        },
+        "1652365766223c7e8f-1": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "1652365766223c7e8f-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "ver agora",
+            "button_link_1": "shopify:\/\/collections\/aneis",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1652365766223c7e8f-0",
+        "1652365766223c7e8f-1",
+        "1652365766223c7e8f-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/img-1.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "accent-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "rich_text": {
       "type": "rich-text",
       "disabled": true,
@@ -191,6 +239,7 @@
     "16522869307591a941",
     "16523651306fb7867f",
     "16523648951c633595",
+    "165236576645a5d748",
     "rich_text",
     "1652364900047587ea"
   ]
