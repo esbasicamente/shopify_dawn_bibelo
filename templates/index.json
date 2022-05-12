@@ -60,6 +60,7 @@
         "1652366601ca94d03c-0": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/ico1.png",
             "title": "Entregas rápidas",
             "text": "<p>Desde 1 a 2 dias Portugal Continental<\/p>",
             "link_label": "",
@@ -104,7 +105,7 @@
         "title": "",
         "heading_size": "h2",
         "image_width": "full",
-        "image_ratio": "adapt",
+        "image_ratio": "square",
         "columns_desktop": 4,
         "column_alignment": "left",
         "background_style": "none",
