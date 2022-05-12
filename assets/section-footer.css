@@ -70,7 +70,8 @@
 }
 
 .footer__localization:empty+.footer__column--info {
-  align-items: center;
+  align-items: start2
+  ;
 }
 
 @media screen and (max-width: 749px) {
