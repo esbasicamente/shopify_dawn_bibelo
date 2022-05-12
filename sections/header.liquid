@@ -322,14 +322,11 @@ margin-bottom: {{ section.settings.margin_bottom }}px;
                     autocorrect="off" autocomplete="off" autocapitalize="off" spellcheck="false" {%- endif -%}>
                   <label class="field__label" for="Search-In-Modal-1">{{ 'general.search.search' | t }}</label>
                   <input type="hidden" name="options[prefix]" value="last">
-                  <form action="{{ routes.search_url }}">
-                    <input type="text"
-                      placeholder="Search"
-                      name="q"
-                      value="{{ search.terms | escape }}"
-                   >
-                    <input type="submit" value="Search">
-                  </form>
+                  <button class="search__button field__button" aria-label="{{ 'general.search.search' | t }}">
+                    <svg class="icon icon-search" aria-hidden="true" focusable="false" role="presentation">
+                      <use href="#icon-search">
+                    </svg>
+                  </button>
                 </div>
 
                 {%- if settings.predictive_search_enabled -%}
@@ -494,9 +491,8 @@ margin-bottom: {{ section.settings.margin_bottom }}px;
           <summary class="header__icon header__icon--search header__icon--summary link focus-inset modal__toggle"
             aria-haspopup="dialog" aria-label="{{ 'general.search.search' | t }}">
             <span>
-              <svg class="modal__toggle-open icon icon-search" aria-hidden="true" focusable="false" role="presentation">
-                <use href="#icon-search">
-              </svg>
+  
+              
               <svg class="modal__toggle-close icon icon-close" aria-hidden="true" focusable="false" role="presentation">
                 <use href="#icon-close">
               </svg>
