@@ -156,11 +156,11 @@
         "1652365766223c7e8f-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/img-1.jpg",
-        "image_overlay_opacity": 0,
+        "image": "shopify:\/\/shop_images\/img-1_6c671017-6174-479b-ab22-771dd7befb7a.jpg",
+        "image_overlay_opacity": 20,
         "image_height": "small",
         "adapt_height_first_image": true,
-        "desktop_content_position": "middle-center",
+        "desktop_content_position": "top-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "accent-1",
