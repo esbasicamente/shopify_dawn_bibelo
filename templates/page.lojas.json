@@ -2,13 +2,72 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "16524527676283828e": {
+      "type": "multicolumn",
+      "blocks": {
+        "16524527673209e604-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/loja.jpg",
+            "fa-icon": "",
+            "title": "Porto",
+            "text": "<p>Rua da Estrada Principal 1334,<br\/>4485-176 Gião - Vila do Conde<\/p><p><\/p><p><strong>Telefone: <\/strong>+351 229 280 099<\/p><p><strong>Telemóvel: <\/strong>+351 936 431 632<\/p>",
+            "link_label": "ver no google maps",
+            "link": "#"
+          }
+        },
+        "16524527673209e604-1": {
+          "type": "column",
+          "settings": {
+            "fa-icon": "",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "16524527673209e604-2": {
+          "type": "column",
+          "settings": {
+            "fa-icon": "",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16524527673209e604-0",
+        "16524527673209e604-1",
+        "16524527673209e604-2"
+      ],
+      "settings": {
+        "title": "As nossas lojas",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "16524527676283828e"
   ]
 }
