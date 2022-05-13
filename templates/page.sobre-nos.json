@@ -33,8 +33,8 @@
             "fa-icon": "",
             "title": "Sobre nós",
             "text": "<p>Ourivesaria Bibelô - Desde 1990. Somos uma empresa de cariz familiar, que ao longo do tempo foi adquirindo a experiência necessária para lhe proporcionar um serviço de qualidade e excelência.<\/p><p>Temos como princípios os valores da seriedade e rigor profissional, que se refletem na qualidade dos nossos serviços.<\/p><p>Na Ourivesaria Bibelô encontra ao seu dispor um atendimento personalizado que lhe oferece toda a atenção e simpatia, priveligiando a simplicidade e o bom gosto.<\/p><p>Através do empenho e dedicação dos nossos colaboradores tentamos conquistar a sua confiança.<\/p><p><\/p><p>Encontrará ao seu dispor peças com um design arrojado e variado, desde a peça clássica à mais moderna, que acompanham e completam cada momento da sua vida.<\/p><p><\/p><p>Ficamos à espera da sua visita!<\/p>",
-            "link_label": "",
-            "link": ""
+            "link_label": "conheça as nossas lojas",
+            "link": "shopify:\/\/pages\/lojas"
           }
         }
       },
@@ -49,7 +49,7 @@
         "columns_desktop": 3,
         "column_alignment": "left",
         "background_style": "none",
-        "button_label": "Button label",
+        "button_label": "",
         "button_link": "",
         "color_scheme": "background-1",
         "columns_mobile": "1",
