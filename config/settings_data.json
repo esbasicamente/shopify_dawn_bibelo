@@ -179,7 +179,8 @@
       "main-password-header": {
         "type": "main-password-header",
         "settings": {
-          "logo_max_width": 100,
+          "logo": "shopify:\/\/shop_images\/BIBELO_LOGO_editavel-1.png",
+          "logo_max_width": 160,
           "color_scheme": "background-1"
         }
       },
