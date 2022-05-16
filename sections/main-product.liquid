@@ -317,6 +317,21 @@
                 </div>
               </details>
             </div>
+        
+        
+        <span style="font-size: 1.3rem;color: #5A6A65;"><b> <i class="fas fa-check"></i> Entrega prevista <span id="fromDate"></span>.</b></span>
+
+        {{ 'date-pt-PT.js' | asset_url | script_tag }}
+        <script>
+          var fromDate = Date.today().addDays(2);
+          if (fromDate.is().saturday() || fromDate.is().sunday()) {
+            fromDate = fromDate.next().tuesday();
+          }
+          document.getElementById('fromDate').innerHTML = fromDate.toString('dddd dd MMMM');
+
+        </script>
+        
+        
           {%- when 'quantity_selector' -%}
             <div class="product-form__input product-form__quantity{% if settings.inputs_shadow_vertical_offset != 0 and settings.inputs_shadow_vertical_offset < 0 %} product-form__quantity-top{% endif %}" {{ block.shopify_attributes }}>
               <label class="form__label" for="Quantity-{{ section.id }}">
