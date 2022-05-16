@@ -97,6 +97,10 @@
     "predictive_search_show_price": false,
     "favicon": "shopify:\/\/shop_images\/favicon.png",
     "currency_code_enabled": true,
+    "checkout_logo_image": "shopify:\/\/shop_images\/BIBELO_LOGO_editavel-1.png",
+    "checkout_sidebar_background_color": "#5a6965",
+    "checkout_accent_color": "#5a6965",
+    "checkout_button_color": "#5a6965",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
