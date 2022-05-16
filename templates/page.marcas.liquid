@@ -1,0 +1,202 @@
+<style>
+  
+  @media only screen and (min-width: 750px) {
+    .section-header {
+      margin-bottom: -30px;
+    }
+  }
+
+  @media only screen and (max-width: 767px) {
+    .tab {
+      overflow-x: auto!important;
+      width: 100%!important;
+      display: flex;
+      white-space: nowrap;
+      justify-content: start!important;
+    }
+    .grid-li {
+      grid-template-columns: 1fr 1fr 1fr!important;
+    }
+    .tabcontent {
+      padding: 6px 0px!important;
+    }
+     .img-fluid{
+    width: 100%!important;
+  }
+  }
+
+  .grid-li {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    text-align: center;
+    grid-gap: 2rem;
+  }
+
+  .grid-li span {
+    display: block;
+    padding-bottom: 30px;
+    font-size: 13px;
+    line-height: 21px;
+  }
+
+  .tab {
+    overflow: hidden;
+    border: 0;
+    background-color: #FFF;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: left;
+  }
+
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 14px;
+    border-bottom: 2px solid #FFF;
+    color: #000;
+    font-family: "Roboto Condensed", sans-serif;
+    letter-spacing: 0.5px;
+  }
+
+  .tab button:hover {
+    background-color: #FFF;
+    font-weight: 600;
+    border: 0;
+    border-bottom: 1px #D7B182 solid;
+    font-weight: 600;
+  }
+
+  .tab button.active {
+    background-color: #FFF;
+    font-weight: 600;
+    border: 0;
+    border-bottom: 1px #D7B182 solid;
+  }
+
+  .tabcontent {
+    display: none;
+    border: 0;
+    margin-bottom: 50px;
+  }
+
+  .brands {
+    text-align: center;
+  } 
+
+  .grid-li a {
+    color: #000;
+    text-decoration: none;	
+  }
+
+  .grid-li span {
+    font-size: 16px!important;
+  }
+
+  .imagem-border {
+    margin-bottom: 50px;
+    border-bottom: 1px solid #FFF;
+
+  }
+
+  .imagem-border:hover {
+    opacity: 0.7;
+  }
+  
+  .img-fluid{
+    width: 140px;
+    height: auto;
+    object-fit: contain;
+    margin: auto;
+    display: block;
+  }
+  
+  .space-text {
+  	margin-top: 36px;
+  }
+
+</style>
+
+{% assign numbers = '01234567890&' %}
+{% assign section_letter = '' %}
+
+
+<div class="page-width">
+  
+  <div class="grid">
+    <div class="space-text grid__item medium-up--five-sixths medium-up--push-one-twelfth">
+      <h1>{{ page.title }}</h1>
+    </div>
+  </div>
+  
+  <div class="grid">
+      <div class="tab">
+        <button class="tablinks active" onclick="openCity(event, 'all')">TODAS AS MARCAS</button>   
+        {% for product_vendor in shop.vendors %}
+        {% capture product_letter %}{{ product_vendor | truncate: 1, '' | upcase }}{% endcapture %}
+        {% if numbers contains product_letter %}{% assign product_letter = '0-9' %}{% endif %}
+        {% if product_letter != section_letter %}
+        {% assign section_letter = product_letter %}
+        <button class="tablinks" onclick="openCity(event, '{{ section_letter }}')">{{ section_letter }}</button>
+        {% endif %}
+        {% endfor %}
+      </div>
+  </div>
+  
+
+
+  <div id="all" style="display:block;" class="tabcontent"> 
+    <div class="grid-li">
+      {% for product_vendor in shop.vendors %}
+      <a href="/collections/vendors?q={{ product_vendor }}&sort_by=created-descending">
+        <img class="imagem-border replace_img img-fluid" alt="{{ product_vendor }}" src="{{ product_vendor | replace: "á", "a" | replace: "é", "e" | replace: " ", "-" | remove: "'" | append:'.jpg' | downcase | asset_url }}">
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+
+
+  {% for product_vendor in shop.vendors %}
+  {% capture product_letter %}{{ product_vendor | truncate: 1, '' | upcase }}{% endcapture %}
+  {% if numbers contains product_letter %}{% assign product_letter = '0-9' %}{% endif %}
+  {% if product_letter != section_letter %}
+  {% assign section_letter = product_letter %}
+  {% unless forloop.first %}</div></div>{% endunless %}
+<div id="{{ section_letter }}" class="tabcontent">
+  <div class="grid-li">
+    {% endif %}
+    <a href="/collections/vendors?q={{ product_vendor }}&sort_by=created-descending">
+      <img class="imagem-border replace_img img-fluid" alt="{{ product_vendor }}" src="{{ product_vendor | replace: "á", "a" | replace: "é", "e" | replace: " ", "-" | remove: "'" | append:'.jpg' | downcase | asset_url }}">
+    </a>
+    {% endfor %}  
+  </div>
+
+
+
+<script>
+  
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+
+}
+</script>
+
+    </div>
+  </div>
+</div>
