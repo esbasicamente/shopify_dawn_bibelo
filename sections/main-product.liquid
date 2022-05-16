@@ -230,11 +230,28 @@
               {%- endform -%}
             </div>
           {%- when 'description' -%}
-            {%- if product.description != blank -%}
-              <div class="product__description rte quick-add-hidden">
+
+            {%- if product.description or product.metafields.my_fields.detalhes -%}
+ 		
+        	<div class="tab">
+  				<button class="tablinks" onclick="openCity(event, 'Description')" id="defaultOpen">Descrição</button>
+  				<button class="tablinks" onclick="openCity(event, 'Details')">Detalhes</button>
+			</div>
+  
+  			<div id="Description" class="tabcontent">
+ 				<div class="content product__description rte">
                 {{ product.description }}
-              </div>
+              	</div>
+			</div>
+
+			<div id="Details" class="tabcontent">
+   				<div class="content product__description rte">
+        		{{ product.metafields.my_fields.detalhes }}
+        	</div>
+			</div>
             {%- endif -%}
+        
+        
           {%- when 'custom_liquid' -%}
             {{ block.settings.custom_liquid }}
           {%- when 'collapsible_tab' -%}
