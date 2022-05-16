@@ -48,6 +48,12 @@
           "type": "description",
           "settings": {
           }
+        },
+        "6a1a918c-3ed3-4935-912a-bf1bd61a60f9": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<a style=\"background-color:#FFF; color:#702744;\"\nclass=\"button button--full-width button--primary\"\nhref=\"https:\/\/wa.me\/+351910681170\"\ntarget=\"_blank\"\n>\n\n\n\n<span><b>Precisa de ajuda?<\/b> Whatsapp<\/span>\n\n<img style=\"margin-left: 10px;\" src=\"{{ 'whatsapp.webp' | asset_url }}\" width=\"20px\">\n\n<\/a>"
+          }
         }
       },
       "block_order": [
@@ -58,7 +64,8 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "description"
+        "description",
+        "6a1a918c-3ed3-4935-912a-bf1bd61a60f9"
       ],
       "settings": {
         "enable_sticky_info": true,
