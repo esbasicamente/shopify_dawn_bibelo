@@ -35,6 +35,12 @@ padding-bottom: {{ section.settings.padding_bottom }}px;
 }
 }
 
+@media screen and (max-width: 767px) {
+
+.mobile-center {
+	align-items: center;
+}
+}
 {%- endstyle -%}
 
 <footer class="footer color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding">
