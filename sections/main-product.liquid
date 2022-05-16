@@ -275,19 +275,12 @@
             </div>
         
         
-        
+        {{ 'date-pt-PT.js' | asset_url | script_tag }}
         {%- if product.selected_or_first_available_variant.available -%}
         <span style="font-size: 1.3rem;color: #5A6A65;"><b> <i class="fas fa-check"></i> Entrega prevista <span id="fromDate"></span>.</b></span>
 
-        {{ 'date-pt-PT.js' | asset_url | script_tag }}
-        <script>
-          var fromDate = Date.today().addDays(2);
-          if (fromDate.is().saturday() || fromDate.is().sunday()) {
-            fromDate = fromDate.next().tuesday();
-          }
-          document.getElementById('fromDate').innerHTML = fromDate.toString('dddd dd MMMM');
-
-        </script>
+        
+       
         {% endif %}
         
         
@@ -714,10 +707,16 @@ function openCity(evt, cityName) {
 }
   
   document.getElementById("defaultOpen").click();
+      
+      
+          var fromDate = Date.today().addDays(2);
+          if (fromDate.is().saturday() || fromDate.is().sunday()) {
+            fromDate = fromDate.next().tuesday();
+          }
+          document.getElementById('fromDate').innerHTML = fromDate.toString('dddd dd MMMM');
+      
 </script>
-  
-  
-<script>
+
     
 </section>
 
