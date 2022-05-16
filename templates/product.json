@@ -113,20 +113,31 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "c7dc2649-0b85-41d0-a1a8-e666f7096d65": {
+          "type": "column",
+          "settings": {
+            "fa-icon": "",
+            "title": "Apoio ao Cliente",
+            "text": "<p>Telefone: 256 00 000<\/p><p>Whatsapp: +351 910 000 000<\/p><p>geral@ourivesaria-bibelo.com<\/p>",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "column-0",
         "column-1",
         "e0c61dbf-31dd-41f5-a8bf-208d1b6b323e",
-        "b7dd8081-b22b-4ae5-a89c-11753e9ebaf6"
+        "b7dd8081-b22b-4ae5-a89c-11753e9ebaf6",
+        "c7dc2649-0b85-41d0-a1a8-e666f7096d65"
       ],
       "settings": {
         "title": "",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 4,
+        "columns_desktop": 5,
         "column_alignment": "left",
         "background_style": "none",
         "button_label": "",
