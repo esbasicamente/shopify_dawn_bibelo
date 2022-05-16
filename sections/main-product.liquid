@@ -24,6 +24,49 @@
   .space {
   	margin-top: 1rem!important;
   }
+  
+  .tab {
+  overflow: hidden;
+  background-color: #FFF;
+  border: 1px solid #F7F7F7;
+}
+.tab button {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #262844;
+  text-transform: uppercase;
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 1.3rem;
+  width: 50%;
+}
+.tab button:hover {
+  background-color: #F7F7F7;
+}
+
+.tab button.active {
+  background-color: #F7F7F7;
+}
+
+.tabcontent {
+  display: none;
+  padding: 0 12px;
+  border-top: none;
+  animation: fadeEffect 1s;
+}
+
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+  
+.product__description {
+  font-size: 1.3rem;
+  }
+ 
   {%- endstyle -%}
 
   <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
