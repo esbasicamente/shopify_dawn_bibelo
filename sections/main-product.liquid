@@ -287,7 +287,7 @@
         
         {%- when 'description' -%}
 
-            {%- if product.description or product.metafields.my_fields.detalhes -%}
+            {%- if product.description != blank or product.metafields.my_fields.detalhes != blank -%}
  		
         	<div class="tab">
               <button class="tablinks" onclick="openCity(event, 'Details')" id="defaultOpen">Detalhes</button>
