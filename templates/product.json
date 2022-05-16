@@ -97,7 +97,7 @@
         "e0c61dbf-31dd-41f5-a8bf-208d1b6b323e": {
           "type": "column",
           "settings": {
-            "fa-icon": "",
+            "fa-icon": "<i class=\"fas fa-box\"><\/i>",
             "title": "Portes Grátis",
             "text": "<p>Portes Grátis em encomendas superiores a 50€<\/p>",
             "link_label": "",
@@ -107,7 +107,7 @@
         "b7dd8081-b22b-4ae5-a89c-11753e9ebaf6": {
           "type": "column",
           "settings": {
-            "fa-icon": "<i class=\"fas fa-store-alt\"><\/i>",
+            "fa-icon": "",
             "title": "Levantamento em Loja",
             "text": "<p>Faz a tua encomenda e levanta em loja<\/p>",
             "link_label": "",
