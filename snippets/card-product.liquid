@@ -151,7 +151,7 @@
                     id="{{ product_form_id }}-submit"
                     type="submit"
                     name="add"
-                    class="quick-add__submit button button--full-width button--secondary"
+                    class="quick-add__submit button button--full-width button--primary"
                     aria-haspopup="dialog"
                     aria-labelledby="{{ product_form_id }}-submit title-{{ section_id }}-{{ card_product.id }}"
                     aria-live="polite"
@@ -160,7 +160,7 @@
                   >
                     <span>
                       {%- if card_product.selected_or_first_available_variant.available -%}
-                       asd
+                        {{ 'products.product.add_to_cart' | t }}
                       {%- else -%}
                         {{ 'products.product.sold_out' | t }}
                       {%- endif -%}
