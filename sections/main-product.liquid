@@ -273,7 +273,7 @@
                 {{ form | payment_terms }}
               {%- endform -%}
             </div>
-        
+        {% unless product.variants.first.inventory_quantity > 0 %}
         <span style="font-size: 1.3rem;color: #5A6A65;"><b> <i class="fas fa-check"></i> Entrega prevista <span id="fromDate"></span>.</b></span>
 
         {{ 'date-pt-PT.js' | asset_url | script_tag }}
@@ -285,7 +285,7 @@
           document.getElementById('fromDate').innerHTML = fromDate.toString('dddd dd MMMM');
 
         </script>
-        
+        {% endunless %}
         {%- when 'description' -%}
 
             {%- if product.description or product.metafields.my_fields.detalhes -%}
