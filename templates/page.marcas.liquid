@@ -152,7 +152,7 @@
     <div class="grid-li">
       {% for product_vendor in shop.vendors %}
       <a href="/collections/vendors?q={{ product_vendor }}&sort_by=created-descending">
-        <img class="imagem-border replace_img img-fluid" alt="{{ product_vendor }}" src="{{ product_vendor | replace: "á", "a" | replace: "é", "e" | replace: " ", "-" | remove: "'" | append:'.jpg' | downcase | asset_url }}">
+        <img class="imagem-border replace_img img-fluid" alt="{{ product_vendor }}" src="{{ product_vendor | replace: "á", "a" | replace: "é", "e" | remove: " " | remove: "'" | append:'.png' | downcase | asset_url }}">
       </a>
       {% endfor %}
     </div>
@@ -169,7 +169,7 @@
   <div class="grid-li">
     {% endif %}
     <a href="/collections/vendors?q={{ product_vendor }}&sort_by=created-descending">
-      <img class="imagem-border replace_img img-fluid" alt="{{ product_vendor }}" src="{{ product_vendor | replace: "á", "a" | replace: "é", "e" | replace: " ", "-" | remove: "'" | append:'.jpg' | downcase | asset_url }}">
+      <img class="imagem-border replace_img img-fluid" alt="{{ product_vendor }}" src="{{ product_vendor | replace: "á", "a" | replace: "é", "e" | remove: " " | remove: "'" | append:'.png' | downcase | asset_url }}">
     </a>
     {% endfor %}  
   </div>
