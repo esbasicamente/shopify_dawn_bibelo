@@ -20,34 +20,10 @@
             "link_label": "ver no google maps",
             "link": "#"
           }
-        },
-        "16524527673209e604-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/loja.jpg",
-            "fa-icon": "",
-            "title": "Loja 2",
-            "text": "<p><strong>Telefone: <\/strong>+351 229 280 099<\/p><p><strong>Telemóvel: <\/strong>+351 936 431 632<\/p><p>-<\/p><p>Rua da Estrada Principal 1334,<br\/>4485-176 Gião - Vila do Conde<\/p>",
-            "link_label": "ver no google maps",
-            "link": "#"
-          }
-        },
-        "16524527673209e604-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/loja.jpg",
-            "fa-icon": "",
-            "title": "Loja 3",
-            "text": "<p><strong>Telefone: <\/strong>+351 229 280 099<\/p><p><strong>Telemóvel: <\/strong>+351 936 431 632<\/p><p>-<\/p><p>Rua da Estrada Principal 1334,<br\/>4485-176 Gião - Vila do Conde<\/p>",
-            "link_label": "ver no google maps",
-            "link": "#"
-          }
         }
       },
       "block_order": [
-        "16524527673209e604-0",
-        "16524527673209e604-1",
-        "16524527673209e604-2"
+        "16524527673209e604-0"
       ],
       "settings": {
         "title": "",
@@ -55,7 +31,7 @@
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
-        "column_alignment": "left",
+        "column_alignment": "center",
         "background_style": "none",
         "button_label": "",
         "button_link": "",
