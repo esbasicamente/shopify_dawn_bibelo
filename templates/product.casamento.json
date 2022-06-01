@@ -85,7 +85,7 @@
         "column-0": {
           "type": "column",
           "settings": {
-            "fa-icon": "",
+            "fa-icon": "<i class=\"fas fa-comment\"><\/i>",
             "title": "Ajustes Grátis",
             "text": "<p>Entrega das alianças em 1-2 semanas<\/p>",
             "link_label": "",
