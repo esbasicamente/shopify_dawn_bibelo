@@ -95,7 +95,7 @@
         "column-1": {
           "type": "column",
           "settings": {
-            "fa-icon": "",
+            "fa-icon": "<i class=\"fas fa-shield-alt\"><\/i>",
             "title": "Pague em 3x sem juros",
             "text": "<p>Escolha agora e pague em várias vezes sem juros<\/p>",
             "link_label": "",
