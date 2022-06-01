@@ -85,7 +85,7 @@
         "column-0": {
           "type": "column",
           "settings": {
-            "fa-icon": "<i class=\"fas fa-ring\"><\/i>",
+            "fa-icon": "",
             "title": "Ajustes Grátis",
             "text": "<p>Entrega das alianças em 1-2 semanas<\/p>",
             "link_label": "",
@@ -95,7 +95,7 @@
         "column-1": {
           "type": "column",
           "settings": {
-            "fa-icon": "<i class=\"fas fa-shield-alt\"><\/i>",
+            "fa-icon": "",
             "title": "Pague em 3x sem juros",
             "text": "<p>Escolha agora e pague em várias vezes sem juros<\/p>",
             "link_label": "",
@@ -105,9 +105,9 @@
         "e0c61dbf-31dd-41f5-a8bf-208d1b6b323e": {
           "type": "column",
           "settings": {
-            "fa-icon": "<i class=\"fas fa-box\"><\/i>",
-            "title": "Portes Grátis",
-            "text": "<p>Portes Grátis em encomendas superiores a 50€<\/p>",
+            "fa-icon": "<i class=\"fas fa-eye\"><\/i>",
+            "title": "Garantia até 5 anos",
+            "text": "<p>As alianças têm até 5 anos de garantia em caso estragos naturais<\/p>",
             "link_label": "",
             "link": ""
           }
