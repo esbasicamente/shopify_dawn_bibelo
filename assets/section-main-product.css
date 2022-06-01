@@ -1189,3 +1189,7 @@ a.product__text {
   margin-left: 1.2rem;
   flex-shrink: 0;
 }
+
+  #ProductInfo-template--15636151828671__main {
+  	display: none!important;
+  }
