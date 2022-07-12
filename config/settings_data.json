@@ -127,7 +127,7 @@
           "logo_width": 160,
           "logo_position": "middle-left",
           "menu": "main-menu",
-          "menu_type_desktop": "mega",
+          "menu_type_desktop": "dropdown",
           "show_line_separator": false,
           "enable_sticky_header": true,
           "margin_bottom": 0
@@ -140,7 +140,7 @@
             "type": "image",
             "settings": {
               "image": "shopify:\/\/shop_images\/logo-branco.png",
-              "image_width": 150,
+              "image_width": 160,
               "alignment": "",
               "show_social": true
             }
