@@ -1,7 +1,36 @@
 {
   "sections": {
+    "165790223989b47442": {
+      "type": "rich-text",
+      "blocks": {
+        "1657902239440b5100-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ collection.title }}",
+            "heading_size": "h2"
+          }
+        },
+        "1657902239440b5100-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Esta é a nossa área de Alianças. Temos mais de 500 modelos diferentes de alianças de casamento a todos os preços.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1657902239440b5100-0",
+        "1657902239440b5100-1"
+      ],
+      "settings": {
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
+      "disabled": true,
       "settings": {
         "show_collection_description": true,
         "show_collection_image": false,
@@ -11,11 +40,11 @@
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
-        "products_per_page": 24,
+        "products_per_page": 20,
         "columns_desktop": 4,
         "image_ratio": "square",
         "show_secondary_image": false,
-        "show_vendor": true,
+        "show_vendor": false,
         "show_rating": false,
         "enable_quick_add": false,
         "enable_filtering": false,
@@ -28,6 +57,7 @@
     }
   },
   "order": [
+    "165790223989b47442",
     "banner",
     "product-grid"
   ]
