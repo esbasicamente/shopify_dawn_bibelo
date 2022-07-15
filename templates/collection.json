@@ -1,7 +1,36 @@
 {
   "sections": {
+    "1657900738b9b493c1": {
+      "type": "rich-text",
+      "blocks": {
+        "165790073801de7859-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ collection.title }}",
+            "heading_size": "h2"
+          }
+        },
+        "165790073801de7859-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Descubra os preços irresistíveis em produtos selecionados! Agarre a oportunidade e compre a joia ou o relógio que sempre quis. Aproveite!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "165790073801de7859-0",
+        "165790073801de7859-1"
+      ],
+      "settings": {
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
+      "disabled": true,
       "settings": {
         "show_collection_description": true,
         "show_collection_image": false,
@@ -28,6 +57,7 @@
     }
   },
   "order": [
+    "1657900738b9b493c1",
     "banner",
     "product-grid"
   ]
