@@ -10,16 +10,16 @@
             "heading_size": "h2"
           }
         },
-        "165790073801de7859-1": {
+        "37114f8e-29dd-4b02-81af-e4dc2eabebd4": {
           "type": "text",
           "settings": {
-            "text": "<p>Descubra os preços irresistíveis em produtos selecionados! Agarre a oportunidade e compre a joia ou o relógio que sempre quis. Aproveite!<\/p>"
+            "text": "<p>adicionar fonte de dados descrição coleção<\/p>"
           }
         }
       },
       "block_order": [
         "165790073801de7859-0",
-        "165790073801de7859-1"
+        "37114f8e-29dd-4b02-81af-e4dc2eabebd4"
       ],
       "settings": {
         "color_scheme": "background-2",
