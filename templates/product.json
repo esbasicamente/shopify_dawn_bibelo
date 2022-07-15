@@ -22,6 +22,13 @@
             "text_style": "subtitle"
           }
         },
+        "d3911b45-fa1b-4fc7-a992-612b236b7682": {
+          "type": "text",
+          "settings": {
+            "text": "Ref: {{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
         "price": {
           "type": "price",
           "settings": {
@@ -60,6 +67,7 @@
         "vendor",
         "title",
         "caption",
+        "d3911b45-fa1b-4fc7-a992-612b236b7682",
         "price",
         "variant_picker",
         "quantity_selector",
