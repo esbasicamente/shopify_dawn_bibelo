@@ -7,19 +7,12 @@
           "type": "heading",
           "settings": {
             "heading": "{{ collection.title }}",
-            "heading_size": "h2"
-          }
-        },
-        "37114f8e-29dd-4b02-81af-e4dc2eabebd4": {
-          "type": "text",
-          "settings": {
-            "text": "<p>adicionar fonte de dados descrição coleção<\/p>"
+            "heading_size": "h1"
           }
         }
       },
       "block_order": [
-        "165790073801de7859-0",
-        "37114f8e-29dd-4b02-81af-e4dc2eabebd4"
+        "165790073801de7859-0"
       ],
       "settings": {
         "color_scheme": "background-2",
