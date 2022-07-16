@@ -158,14 +158,14 @@
           "b515340d-39a6-4362-8c08-657fbaf89d71": {
             "type": "link_list",
             "settings": {
-              "heading": "Ajuda e Condições",
+              "heading": "AJUDA E CONDIÇÕES",
               "menu": "footer"
             }
           },
           "cd377e67-9798-483c-90f7-82c31601b302": {
             "type": "text",
             "settings": {
-              "heading": "Apoio ao Cliente",
+              "heading": "APOIO AO CLIENTE",
               "subtext": "<p>geral@ourivesaria-bibelo.com<\/p><p>whatsapp: +315 910 000 000<\/p><p>contacto: 265 000 000<\/p>"
             }
           },
@@ -173,7 +173,7 @@
             "type": "newsletter",
             "settings": {
               "newsletter_enable": true,
-              "newsletter_heading": "Newsletter"
+              "newsletter_heading": "NEWSLETTER"
             }
           }
         },
