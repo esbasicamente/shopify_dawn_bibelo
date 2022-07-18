@@ -157,23 +157,25 @@
             "image_padding": false
           }
         },
-        "b2e7766b-7e7c-46cd-b3ea-b879d02c589b": {
-          "type": "image",
+        "dc1c2c57-847b-42bc-85f7-1fb3453e11f0": {
+          "type": "product",
           "settings": {
-            "image_padding": false
+            "product": "",
+            "second_image": false
           }
         },
-        "16581358681667d626-2": {
-          "type": "collection",
+        "74d0fb8b-6e47-4836-8877-87918c2e86c7": {
+          "type": "product",
           "settings": {
-            "collection": ""
+            "product": "",
+            "second_image": false
           }
         }
       },
       "block_order": [
         "7e5dfaab-9929-42cd-9254-8f31714771c3",
-        "b2e7766b-7e7c-46cd-b3ea-b879d02c589b",
-        "16581358681667d626-2"
+        "dc1c2c57-847b-42bc-85f7-1fb3453e11f0",
+        "74d0fb8b-6e47-4836-8877-87918c2e86c7"
       ],
       "settings": {
         "heading": "Multimedia collage",
