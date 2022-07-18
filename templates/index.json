@@ -225,8 +225,8 @@
         "7c0ddea4-9079-4958-9a67-0f2d0c0918a7"
       ],
       "settings": {
-        "title": "Collections",
-        "heading_size": "h1",
+        "title": "",
+        "heading_size": "h2",
         "image_ratio": "square",
         "columns_desktop": 4,
         "color_scheme": "background-1",
