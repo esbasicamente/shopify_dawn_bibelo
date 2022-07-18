@@ -12,7 +12,7 @@
             "subheading": "O Relógio mais avançado do mundo.",
             "button_label": "Ver Mais",
             "link": "shopify:\/\/collections\/seiko-astron",
-            "button_style_secondary": false,
+            "button_style_secondary": true,
             "box_align": "middle-left",
             "show_text_box": false,
             "text_alignment": "left",
@@ -30,7 +30,7 @@
             "subheading": "Estilo sofisticado e único, acessíveis a todas as mulheres.",
             "button_label": "Ver Mais",
             "link": "shopify:\/\/collections\/all",
-            "button_style_secondary": false,
+            "button_style_secondary": true,
             "box_align": "middle-left",
             "show_text_box": false,
             "text_alignment": "left",
@@ -151,19 +151,16 @@
     "1658135868811a6065": {
       "type": "collage",
       "blocks": {
-        "16581358681667d626-0": {
-          "type": "video",
+        "7e5dfaab-9929-42cd-9254-8f31714771c3": {
+          "type": "image",
           "settings": {
-            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "description": "Describe the video",
             "image_padding": false
           }
         },
-        "16581358681667d626-1": {
-          "type": "product",
+        "b2e7766b-7e7c-46cd-b3ea-b879d02c589b": {
+          "type": "image",
           "settings": {
-            "product": "",
-            "second_image": false
+            "image_padding": false
           }
         },
         "16581358681667d626-2": {
@@ -174,8 +171,8 @@
         }
       },
       "block_order": [
-        "16581358681667d626-0",
-        "16581358681667d626-1",
+        "7e5dfaab-9929-42cd-9254-8f31714771c3",
+        "b2e7766b-7e7c-46cd-b3ea-b879d02c589b",
         "16581358681667d626-2"
       ],
       "settings": {
