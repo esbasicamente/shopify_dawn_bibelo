@@ -289,7 +289,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/aliancas_1.png",
-        "height": "small",
+        "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
