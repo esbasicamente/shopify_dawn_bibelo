@@ -121,6 +121,49 @@
         "padding_bottom": 36
       }
     },
+    "1658143139e9923009": {
+      "type": "image-with-text",
+      "blocks": {
+        "1658143139fb5ccf73-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "1658143139fb5ccf73-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "1658143139fb5ccf73-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1658143139fb5ccf73-0",
+        "1658143139fb5ccf73-1",
+        "1658143139fb5ccf73-2"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "16523648951c633595": {
       "type": "featured-collection",
       "settings": {
@@ -190,66 +233,28 @@
         "padding_bottom": 36
       }
     },
-    "rich_text": {
-      "type": "rich-text",
-      "disabled": true,
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Regista-te e ganha 10% desconto!",
-            "heading_size": "h2"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": ""
-          }
-        },
-        "5ae393b4-683f-41df-bb94-b1dd075a369a": {
-          "type": "button",
-          "settings": {
-            "button_label": "Registar agora",
-            "button_link": "\/account\/register",
-            "button_style_secondary": true
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text",
-        "5ae393b4-683f-41df-bb94-b1dd075a369a"
-      ],
-      "settings": {
-        "color_scheme": "accent-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 40
-      }
-    },
-    "165813718010174590": {
+    "16581432475b54f8d1": {
       "type": "collection-list",
       "blocks": {
-        "1658137180d6f9e265-0": {
+        "1658143247e95038cb-0": {
           "type": "featured_collection",
           "settings": {
             "collection": ""
           }
         },
-        "1658137180d6f9e265-1": {
+        "1658143247e95038cb-1": {
           "type": "featured_collection",
           "settings": {
             "collection": ""
           }
         },
-        "1658137180d6f9e265-2": {
+        "1658143247e95038cb-2": {
           "type": "featured_collection",
           "settings": {
             "collection": ""
           }
         },
-        "1a90eaab-4e6f-40bc-a71f-4cd8ad68eb39": {
+        "7c0ddea4-9079-4958-9a67-0f2d0c0918a7": {
           "type": "featured_collection",
           "settings": {
             "collection": ""
@@ -257,19 +262,19 @@
         }
       },
       "block_order": [
-        "1658137180d6f9e265-0",
-        "1658137180d6f9e265-1",
-        "1658137180d6f9e265-2",
-        "1a90eaab-4e6f-40bc-a71f-4cd8ad68eb39"
+        "1658143247e95038cb-0",
+        "1658143247e95038cb-1",
+        "1658143247e95038cb-2",
+        "7c0ddea4-9079-4958-9a67-0f2d0c0918a7"
       ],
       "settings": {
         "title": "Collections",
-        "heading_size": "h2",
+        "heading_size": "h1",
         "image_ratio": "square",
         "columns_desktop": 4,
         "color_scheme": "background-1",
         "show_view_all": false,
-        "columns_mobile": "1",
+        "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
@@ -279,9 +284,9 @@
   "order": [
     "16522869307591a941",
     "16523666019c61e216",
+    "1658143139e9923009",
     "16523648951c633595",
     "1658135868811a6065",
-    "rich_text",
-    "165813718010174590"
+    "16581432475b54f8d1"
   ]
 }
