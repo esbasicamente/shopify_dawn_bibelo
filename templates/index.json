@@ -209,6 +209,28 @@
         "padding_bottom": 36
       }
     },
+    "1658164322ec0e5634": {
+      "type": "rich-text",
+      "blocks": {
+        "1658164322f365cae5-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Ver Mais",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1658164322f365cae5-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "1658159649977cb515": {
       "type": "collection-list",
       "blocks": {
@@ -315,6 +337,7 @@
     "16523666019c61e216",
     "16523648951c633595",
     "1658135868811a6065",
+    "1658164322ec0e5634",
     "1658159649977cb515",
     "16581584000346920f"
   ]
