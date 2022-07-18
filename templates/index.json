@@ -151,9 +151,12 @@
     "1658135868811a6065": {
       "type": "collage",
       "blocks": {
-        "7e5dfaab-9929-42cd-9254-8f31714771c3": {
-          "type": "image",
+        "883f5d36-425d-4450-988a-2d4cfd28ecee": {
+          "type": "video",
           "settings": {
+            "cover_image": "shopify:\/\/shop_images\/119065842_3559282144117206_7487605455396081162_n.jpg",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=9hYn-F8_JZ0",
+            "description": "Anel Noivado Romantis",
             "image_padding": false
           }
         },
@@ -173,7 +176,7 @@
         }
       },
       "block_order": [
-        "7e5dfaab-9929-42cd-9254-8f31714771c3",
+        "883f5d36-425d-4450-988a-2d4cfd28ecee",
         "dc1c2c57-847b-42bc-85f7-1fb3453e11f0",
         "74d0fb8b-6e47-4836-8877-87918c2e86c7"
       ],
