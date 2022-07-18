@@ -211,29 +211,30 @@
     },
     "16581432475b54f8d1": {
       "type": "collection-list",
+      "disabled": true,
       "blocks": {
         "1658143247e95038cb-0": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "relogios-de-homem"
           }
         },
         "1658143247e95038cb-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "relogios-de-mulher"
           }
         },
         "1658143247e95038cb-2": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "aliancas-de-casamento"
           }
         },
         "7c0ddea4-9079-4958-9a67-0f2d0c0918a7": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "promocoes"
           }
         }
       },
@@ -246,12 +247,56 @@
       "settings": {
         "title": "",
         "heading_size": "h2",
-        "image_ratio": "square",
+        "image_ratio": "portrait",
         "columns_desktop": 4,
         "color_scheme": "background-1",
         "show_view_all": false,
         "columns_mobile": "2",
         "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "16581584000346920f": {
+      "type": "image-with-text",
+      "blocks": {
+        "1658158400c6b53f14-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "ALIANÇAS DE CASAMENTO",
+            "heading_size": "h2"
+          }
+        },
+        "1658158400c6b53f14-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Descobra a nossa área de alianças. Temos mais de 100 modelos diferentes para si, das mais clássicas às mais arrojadas.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "1658158400c6b53f14-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Ver Mais",
+            "button_link": "shopify:\/\/collections\/aliancas-de-casamento"
+          }
+        }
+      },
+      "block_order": [
+        "1658158400c6b53f14-0",
+        "1658158400c6b53f14-1",
+        "1658158400c6b53f14-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/aliancas_1.png",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "color_scheme": "accent-1",
+        "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -262,6 +307,7 @@
     "16523666019c61e216",
     "16523648951c633595",
     "1658135868811a6065",
-    "16581432475b54f8d1"
+    "16581432475b54f8d1",
+    "16581584000346920f"
   ]
 }
