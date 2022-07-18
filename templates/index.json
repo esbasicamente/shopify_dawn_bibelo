@@ -209,43 +209,42 @@
         "padding_bottom": 36
       }
     },
-    "16581432475b54f8d1": {
+    "1658159649977cb515": {
       "type": "collection-list",
-      "disabled": true,
       "blocks": {
-        "1658143247e95038cb-0": {
+        "16581596498439a6f4-0": {
           "type": "featured_collection",
           "settings": {
-            "collection": "relogios-de-homem"
+            "collection": ""
           }
         },
-        "1658143247e95038cb-1": {
+        "16581596498439a6f4-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": "relogios-de-mulher"
+            "collection": ""
           }
         },
-        "1658143247e95038cb-2": {
+        "16581596498439a6f4-2": {
           "type": "featured_collection",
           "settings": {
-            "collection": "aliancas-de-casamento"
+            "collection": ""
           }
         },
-        "7c0ddea4-9079-4958-9a67-0f2d0c0918a7": {
+        "ba02041d-2c44-4a89-8ae6-91c3d182408b": {
           "type": "featured_collection",
           "settings": {
-            "collection": "promocoes"
+            "collection": ""
           }
         }
       },
       "block_order": [
-        "1658143247e95038cb-0",
-        "1658143247e95038cb-1",
-        "1658143247e95038cb-2",
-        "7c0ddea4-9079-4958-9a67-0f2d0c0918a7"
+        "16581596498439a6f4-0",
+        "16581596498439a6f4-1",
+        "16581596498439a6f4-2",
+        "ba02041d-2c44-4a89-8ae6-91c3d182408b"
       ],
       "settings": {
-        "title": "",
+        "title": "SUGESTÕES",
         "heading_size": "h2",
         "image_ratio": "portrait",
         "columns_desktop": 4,
@@ -316,7 +315,7 @@
     "16523666019c61e216",
     "16523648951c633595",
     "1658135868811a6065",
-    "16581432475b54f8d1",
+    "1658159649977cb515",
     "16581584000346920f"
   ]
 }
