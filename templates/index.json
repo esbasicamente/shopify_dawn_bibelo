@@ -270,8 +270,16 @@
         "1658158400c6b53f14-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Descobra a nossa área de alianças. Temos mais de 100 modelos diferentes para si, das mais clássicas às mais arrojadas.<\/p>",
+            "text": "<p>Descobra a nossa área de alianças. Temos mais de 100 modelos diferentes para si, das mais clássicas às mais arrojadas. <\/p><p>*Na compra de um par de alianças de valor igual ou superior a 500€ oferecemos 1 noite de núpcias. <\/p>",
             "text_style": "body"
+          }
+        },
+        "767de37a-0fe4-442c-99dd-49bb9d87b232": {
+          "type": "caption",
+          "settings": {
+            "caption": "*Camapnha válida apenas em loja",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "small"
           }
         },
         "1658158400c6b53f14-2": {
@@ -285,6 +293,7 @@
       "block_order": [
         "1658158400c6b53f14-0",
         "1658158400c6b53f14-1",
+        "767de37a-0fe4-442c-99dd-49bb9d87b232",
         "1658158400c6b53f14-2"
       ],
       "settings": {
