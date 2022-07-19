@@ -68,7 +68,7 @@
         "51c926bf-fa1b-4dd1-8218-71cbb092c9cb": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<a style=\"font-size: 1.3rem;border: 0;background-color:#FFF; color:#5A6A65; width: 100%; text-align: center; text-decoration: none;\""
+            "custom_liquid": "{% if product.description != blank %}\n\n<a style=\"font-size: 1.3rem;border: 0;background-color:#FFF; color:#5A6A65; width: 100%; text-align: center; text-decoration: none;\"\n\ntarget=\"_blank\"\n>\n\n<span><b><br>Descrição:<\/b><br><div style=\"margin-top:5px;\">\n{{product.description }}\n<\/a>\n\n{% endif %}"
           }
         }
       },
