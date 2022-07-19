@@ -15,18 +15,17 @@
           "settings": {
           }
         },
+        "d653e745-5df1-48b1-abb9-f2f6a694bb47": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<small>REF: {{ product.selected_or_first_available_variant.sku }}<\/small>"
+          }
+        },
         "caption": {
           "type": "text",
           "settings": {
             "text": "{{ product.metafields.descriptors.subtitle.value }}",
             "text_style": "subtitle"
-          }
-        },
-        "d3911b45-fa1b-4fc7-a992-612b236b7682": {
-          "type": "text",
-          "settings": {
-            "text": "Ref: {{ product.vendor }}",
-            "text_style": "uppercase"
           }
         },
         "price": {
@@ -66,8 +65,8 @@
       "block_order": [
         "vendor",
         "title",
+        "d653e745-5df1-48b1-abb9-f2f6a694bb47",
         "caption",
-        "d3911b45-fa1b-4fc7-a992-612b236b7682",
         "price",
         "variant_picker",
         "quantity_selector",
