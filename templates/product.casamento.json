@@ -56,7 +56,7 @@
         "51c926bf-fa1b-4dd1-8218-71cbb092c9cb": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% if product.description != blank %}\n\n<a style=\"font-size: 1.3rem;border: 0;background-color:#FFF; color:#5A6A65; width: 100%; text-align: center; text-decoration: none;\"\n\ntarget=\"_blank\"\n>\n\n<span><b><br>Descrição:<\/b><br><div style=\"margin-top:5px;\">\n{{product.description }}\n<\/a>\n<br>\n\n{% endif %}"
+            "custom_liquid": "{% if product.description != blank %}\n\n<a style=\"font-size: 1.3rem;border: 0;background-color:#FFF; color:#5A6A65; width: 100%; text-align: center; text-decoration: none;\"\n\ntarget=\"_blank\"\n>\n\n<span><b><br>Descrição:<\/b><br><div style=\"margin-top:0px;\">\n{{product.description }}\n<\/a>\n<br>\n\n{% endif %}"
           }
         },
         "7caea0b9-de0c-455e-8365-e80eb3021517": {
