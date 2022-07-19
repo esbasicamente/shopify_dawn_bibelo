@@ -58,6 +58,12 @@
           "disabled": true,
           "settings": {
           }
+        },
+        "7caea0b9-de0c-455e-8365-e80eb3021517": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% if product.description %}\n\n<div style=\"margin-top: 25px;\">\n<h3 style=\"margin-bottom: 5px;\">Descrição:<\/h3>\n{{ product.description }}\n<\/div>\n\n{% endif %}"
+          }
         }
       },
       "block_order": [
@@ -69,7 +75,8 @@
         "quantity_selector",
         "buy_buttons",
         "6a1a918c-3ed3-4935-912a-bf1bd61a60f9",
-        "description"
+        "description",
+        "7caea0b9-de0c-455e-8365-e80eb3021517"
       ],
       "settings": {
         "enable_sticky_info": true,
