@@ -47,10 +47,16 @@
             "show_dynamic_checkout": false
           }
         },
+        "6a1a918c-3ed3-4935-912a-bf1bd61a60f9": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<a style=\"font-size: 1.3rem;border: 0;background-color:#FFF; color:#5A6A65; width: 100%; text-align: center; text-decoration: none;\"\n\nhref=\"https:\/\/wa.me\/+351910000000\"\n\ntarget=\"_blank\"\n>\n\n\n\n<span><b>Precisa de ajuda com Alianças de Casamento?<\/b><br>\nWhatsapp: +351 910 000 000<\/span>\n<img style=\"margin-left: 10px;vertical-align: middle;\" src=\"{{ 'whatsapp.webp' | asset_url }}\" width=\"20px\">\n<\/a>"
+          }
+        },
         "51c926bf-fa1b-4dd1-8218-71cbb092c9cb": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% if product.description != blank %}\n\n<a style=\"font-size: 1.3rem;border: 0;background-color:#FFF; color:#5A6A65; width: 100%; text-align: center; text-decoration: none;\"\n\ntarget=\"_blank\"\n>\n\n<span><b><br>Descrição:<\/b><br><div style=\"margin-top:0px;\">\n{{product.description }}\n<\/a>\n<br>\n\n{% endif %}"
+            "custom_liquid": "{% if product.description != blank %}\n\n<a style=\"font-size: 1.3rem;border: 0;background-color:#FFF; color:#5A6A65; width: 100%; text-align: center; text-decoration: none;\"\n\ntarget=\"_blank\"\n>\n\n<span><b><br>Descrição:<\/b><br><div style=\"margin-top:5px;\">\n{{product.description }}\n<\/a>\n<br>\n\n{% endif %}"
           }
         },
         "7caea0b9-de0c-455e-8365-e80eb3021517": {
@@ -58,12 +64,6 @@
           "disabled": true,
           "settings": {
             "custom_liquid": "{% if product.description != blank %}\n\n<div style=\"margin-top: 25px;\">\n<h4 style=\"margin-bottom: 5px;\">Descrição:<\/h4>\n{{ product.description }}\n<\/div>\n\n{% endif %}"
-          }
-        },
-        "6a1a918c-3ed3-4935-912a-bf1bd61a60f9": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<a style=\"font-size: 1.3rem;border: 0;background-color:#FFF; color:#5A6A65; width: 100%; text-align: center; text-decoration: none;\"\n\nhref=\"https:\/\/wa.me\/+351910000000\"\n\ntarget=\"_blank\"\n>\n\n\n\n<span><b>Precisa de ajuda com Alianças de Casamento?<\/b><br>\nWhatsapp: +351 910 000 000<\/span>\n<img style=\"margin-left: 10px;vertical-align: middle;\" src=\"{{ 'whatsapp.webp' | asset_url }}\" width=\"20px\">\n<\/a>"
           }
         },
         "description": {
@@ -81,9 +81,9 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "6a1a918c-3ed3-4935-912a-bf1bd61a60f9",
         "51c926bf-fa1b-4dd1-8218-71cbb092c9cb",
         "7caea0b9-de0c-455e-8365-e80eb3021517",
-        "6a1a918c-3ed3-4935-912a-bf1bd61a60f9",
         "description"
       ],
       "settings": {
