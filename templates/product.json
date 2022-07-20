@@ -39,6 +39,12 @@
             "picker_type": "dropdown"
           }
         },
+        "4bd6753f-c340-4408-94b5-8f84404ec98f": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"product.description\"> {{product.description}} <\/div>"
+          }
+        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {
@@ -47,19 +53,13 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": true
+            "show_dynamic_checkout": false
           }
         },
         "6a1a918c-3ed3-4935-912a-bf1bd61a60f9": {
           "type": "custom_liquid",
           "settings": {
             "custom_liquid": "<a style=\"font-size: 1.3rem;border: 0;background-color:#FFF; color:#5A6A65; width: 100%; text-align: center; text-decoration: none;\"\n\nhref=\"https:\/\/wa.me\/+351932559851\"\n\ntarget=\"_blank\"\n>\n\n<img style=\"margin-left: 10px;vertical-align: middle;\" src=\"{{ 'whatsapp.webp' | asset_url }}\" width=\"20px\">\n\n<span><b>Precisa de ajuda?<\/b> Whatsapp: +351 932 559 851<\/span>\n\n<\/a>"
-          }
-        },
-        "4bd6753f-c340-4408-94b5-8f84404ec98f": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<div class=\"product.description\"> {{product.description}} <\/div>"
           }
         },
         "description": {
@@ -76,10 +76,10 @@
         "caption",
         "price",
         "variant_picker",
+        "4bd6753f-c340-4408-94b5-8f84404ec98f",
         "quantity_selector",
         "buy_buttons",
         "6a1a918c-3ed3-4935-912a-bf1bd61a60f9",
-        "4bd6753f-c340-4408-94b5-8f84404ec98f",
         "description"
       ],
       "settings": {
