@@ -58,13 +58,13 @@
         },
         "4bd6753f-c340-4408-94b5-8f84404ec98f": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "<div class=\"product.description\"> {{product.description}} <\/div>"
           }
         },
         "description": {
           "type": "description",
-          "disabled": true,
           "settings": {
           }
         }
