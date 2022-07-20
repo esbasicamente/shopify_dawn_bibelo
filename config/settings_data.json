@@ -145,6 +145,42 @@
       },
       "footer": {
         "type": "footer",
+        "blocks": {
+          "726c598a-17d4-4211-8588-22dd05cf306b": {
+            "type": "newsletter",
+            "settings": {
+              "newsletter_enable": true,
+              "newsletter_heading": "Subscribe to our emails"
+            }
+          },
+          "82e9493c-1b7b-46a7-9455-bdceb957f126": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Quick links",
+              "menu": "footer"
+            }
+          },
+          "584b96cc-b6fb-4feb-bdbb-14929ab0f1b9": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Quick links",
+              "menu": "footer"
+            }
+          },
+          "2966b293-68ed-4be8-9962-bf4ff1a4b785": {
+            "type": "text",
+            "settings": {
+              "heading": "Heading",
+              "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "726c598a-17d4-4211-8588-22dd05cf306b",
+          "82e9493c-1b7b-46a7-9455-bdceb957f126",
+          "584b96cc-b6fb-4feb-bdbb-14929ab0f1b9",
+          "2966b293-68ed-4be8-9962-bf4ff1a4b785"
+        ],
         "settings": {
           "color_scheme": "accent-1",
           "margin_top": 36,

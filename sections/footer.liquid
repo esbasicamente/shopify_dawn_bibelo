@@ -124,21 +124,7 @@ padding-bottom: {{ section.settings.padding_bottom }}px;
           </div>
           {%- endif -%}
 
-        </div>
-
-        {%- when 'image' -%}
-        <div class="footer-block__details-content footer-block-image {{ block.settings.alignment }}">
-          {%- if block.settings.image != blank -%}
-          {%- assign image_size_2x = block.settings.image_width | times: 2 | at_most: 5760 -%}
-          <img
-            srcset="{{ block.settings.image | image_url: width: block.settings.image_width }}, {{ block.settings.image | image_url: width: image_size_2x }} 2x"
-            src="{{ block.settings.image | image_url: width: 400 }}" alt="{{ block.settings.image.alt | escape }}"
-            loading="lazy" width="{{ block.settings.image.width }}" height="{{ block.settings.image.height }}"
-            style="max-width: min(100%, {{ block.settings.image_width }}px);">
-          {%- else -%}
-          {{ 'image' | placeholder_svg_tag: 'placeholder-svg placeholder' }}
-          {%- endif -%}
-          {%- if block.settings.show_social -%}
+           {%- if block.settings.show_social -%}
           <ul class="footer__list-social list-unstyled list-social" role="list">
             {%- if settings.social_twitter_link != blank -%}
             <li class="list-social__item">
@@ -214,6 +200,22 @@ padding-bottom: {{ section.settings.padding_bottom }}px;
             {%- endif -%}
           </ul>
           {%- endif -%}
+          
+        </div>
+
+        {%- when 'image' -%}
+        <div class="footer-block__details-content footer-block-image {{ block.settings.alignment }}">
+          {%- if block.settings.image != blank -%}
+          {%- assign image_size_2x = block.settings.image_width | times: 2 | at_most: 5760 -%}
+          <img
+            srcset="{{ block.settings.image | image_url: width: block.settings.image_width }}, {{ block.settings.image | image_url: width: image_size_2x }} 2x"
+            src="{{ block.settings.image | image_url: width: 400 }}" alt="{{ block.settings.image.alt | escape }}"
+            loading="lazy" width="{{ block.settings.image.width }}" height="{{ block.settings.image.height }}"
+            style="max-width: min(100%, {{ block.settings.image_width }}px);">
+          {%- else -%}
+          {{ 'image' | placeholder_svg_tag: 'placeholder-svg placeholder' }}
+          {%- endif -%}
+         
         </div>
         {%- endcase -%}
       </div>
