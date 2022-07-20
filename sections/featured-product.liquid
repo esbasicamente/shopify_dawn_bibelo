@@ -17,12 +17,6 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
-
-  @media screen and (max-width: 767px) {
-    .mobile-title-center {
-      text-align: center;
-    }
-  }
 {%- endstyle -%}
 
 <link rel="stylesheet" href="{{ 'component-deferred-media.css' | asset_url }}" media="print" onload="this.media='all'">
@@ -94,7 +88,7 @@
                 {{- block.settings.text -}}
               </p>
             {%- when 'title' -%}
-              <h2 class="mobile-title-center product__title {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
+              <h2 class="product__title {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
                 {%- if product.title != blank -%}
                   {{ product.title | escape }}
                 {%- else -%}
