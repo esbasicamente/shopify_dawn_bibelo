@@ -150,27 +150,27 @@
             "type": "newsletter",
             "settings": {
               "newsletter_enable": true,
-              "newsletter_heading": "Subscribe to our emails"
+              "newsletter_heading": "NEWSLETTER"
             }
           },
           "82e9493c-1b7b-46a7-9455-bdceb957f126": {
             "type": "link_list",
             "settings": {
-              "heading": "Quick links",
+              "heading": "BIBELÔ",
               "menu": "footer"
             }
           },
           "584b96cc-b6fb-4feb-bdbb-14929ab0f1b9": {
             "type": "link_list",
             "settings": {
-              "heading": "Quick links",
+              "heading": "INFORMAÇÕES",
               "menu": "footer"
             }
           },
           "2966b293-68ed-4be8-9962-bf4ff1a4b785": {
             "type": "text",
             "settings": {
-              "heading": "Heading",
+              "heading": "APOIO AO CLIENTE",
               "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
             }
           }
