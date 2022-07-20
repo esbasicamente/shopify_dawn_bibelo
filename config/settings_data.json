@@ -145,42 +145,6 @@
       },
       "footer": {
         "type": "footer",
-        "blocks": {
-          "6d006145-257b-46a1-9bb1-54b8034645ca": {
-            "type": "newsletter",
-            "settings": {
-              "heading_newsletter": "NEWSLETTER",
-              "subtext_newsletter": ""
-            }
-          },
-          "d4f2c5db-d647-4789-82f9-cc005482a8b8": {
-            "type": "link_list",
-            "settings": {
-              "heading": "BIBELÔ",
-              "menu": "footer"
-            }
-          },
-          "672186fa-aa73-4fa2-ae61-a386a95234bb": {
-            "type": "link_list",
-            "settings": {
-              "heading": "INFORMAÇÕES",
-              "menu": "footer"
-            }
-          },
-          "7f9cc75b-efd1-4751-9346-f317c71d7750": {
-            "type": "text",
-            "settings": {
-              "heading": "APOIO AO CLIENTE",
-              "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
-            }
-          }
-        },
-        "block_order": [
-          "6d006145-257b-46a1-9bb1-54b8034645ca",
-          "d4f2c5db-d647-4789-82f9-cc005482a8b8",
-          "672186fa-aa73-4fa2-ae61-a386a95234bb",
-          "7f9cc75b-efd1-4751-9346-f317c71d7750"
-        ],
         "settings": {
           "color_scheme": "accent-1",
           "newsletter_enable": true,
