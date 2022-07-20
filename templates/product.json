@@ -50,16 +50,16 @@
           "settings": {
           }
         },
-        "6a1a918c-3ed3-4935-912a-bf1bd61a60f9": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<a style=\"font-size: 1.3rem;border: 0;background-color:#FFF; color:#5A6A65; width: 100%; text-align: center; text-decoration: none;\"\n\nhref=\"https:\/\/wa.me\/+351932559851\"\n\ntarget=\"_blank\"\n>\n\n<img style=\"margin-left: 10px;vertical-align: middle;\" src=\"{{ 'whatsapp.webp' | asset_url }}\" width=\"20px\">\n\n<span><b>Precisa de ajuda?<\/b> Whatsapp: +351 932 559 851<\/span>\n\n<\/a>"
-          }
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
             "show_dynamic_checkout": true
+          }
+        },
+        "6a1a918c-3ed3-4935-912a-bf1bd61a60f9": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<a style=\"font-size: 1.3rem;border: 0;background-color:#FFF; color:#5A6A65; width: 100%; text-align: center; text-decoration: none;\"\n\nhref=\"https:\/\/wa.me\/+351932559851\"\n\ntarget=\"_blank\"\n>\n\n<img style=\"margin-left: 10px;vertical-align: middle;\" src=\"{{ 'whatsapp.webp' | asset_url }}\" width=\"20px\">\n\n<span><b>Precisa de ajuda?<\/b> Whatsapp: +351 932 559 851<\/span>\n\n<\/a>"
           }
         },
         "description": {
@@ -78,8 +78,8 @@
         "895316df-c2ee-4e43-8c6a-3d810a9b0d66",
         "variant_picker",
         "quantity_selector",
-        "6a1a918c-3ed3-4935-912a-bf1bd61a60f9",
         "buy_buttons",
+        "6a1a918c-3ed3-4935-912a-bf1bd61a60f9",
         "description"
       ],
       "settings": {
