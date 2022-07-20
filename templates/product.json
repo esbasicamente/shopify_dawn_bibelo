@@ -67,6 +67,12 @@
           "disabled": true,
           "settings": {
           }
+        },
+        "44104d9f-53d6-4a53-8571-734ff6748f69": {
+          "type": "share",
+          "settings": {
+            "share_label": "Partilhar"
+          }
         }
       },
       "block_order": [
@@ -80,7 +86,8 @@
         "quantity_selector",
         "6a1a918c-3ed3-4935-912a-bf1bd61a60f9",
         "buy_buttons",
-        "description"
+        "description",
+        "44104d9f-53d6-4a53-8571-734ff6748f69"
       ],
       "settings": {
         "enable_sticky_info": true,
