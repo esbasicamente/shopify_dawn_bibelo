@@ -155,6 +155,13 @@
               "show_social": true
             }
           },
+          "4b85a2bb-ab6d-42b9-a351-297ff3a1a702": {
+            "type": "link_list",
+            "settings": {
+              "heading": "OURIVESARIA BIBELÔ",
+              "menu": "footer"
+            }
+          },
           "b515340d-39a6-4362-8c08-657fbaf89d71": {
             "type": "link_list",
             "settings": {
@@ -168,20 +175,13 @@
               "heading": "APOIO AO CLIENTE",
               "subtext": "<p>geral@ourivesaria-bibelo.com<\/p><p>whatsapp: +315 910 000 000<\/p><p>contacto: 265 000 000<\/p>"
             }
-          },
-          "de7d0f78-3a89-4350-b05f-36cebfc6f281": {
-            "type": "newsletter",
-            "settings": {
-              "newsletter_enable": true,
-              "newsletter_heading": "NEWSLETTER"
-            }
           }
         },
         "block_order": [
           "0bce1b6a-4d60-43bc-bf32-24d6fe7f124b",
+          "4b85a2bb-ab6d-42b9-a351-297ff3a1a702",
           "b515340d-39a6-4362-8c08-657fbaf89d71",
-          "cd377e67-9798-483c-90f7-82c31601b302",
-          "de7d0f78-3a89-4350-b05f-36cebfc6f281"
+          "cd377e67-9798-483c-90f7-82c31601b302"
         ],
         "settings": {
           "color_scheme": "accent-1",
