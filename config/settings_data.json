@@ -171,7 +171,7 @@
             "type": "text",
             "settings": {
               "heading": "APOIO AO CLIENTE",
-              "subtext": "<p>Whatsapp +351 910 000 000<\/p><p>Email: geral@teste.com<\/p>"
+              "subtext": "<p><a href=\"https:\/\/api.whatsapp.com\/send\/?phone=%2B351932559851&text&type=phone_number&app_absent=0\" title=\"Whatsapp Ourivesaria Bibelô\">Whatsapp<\/a><\/p><p><a href=\"https:\/\/ http:\/\/m.me\/ourivesariabibelo\" title=\"Messenger Ourivesaria Bibelô\">Messenger<\/a><\/p><p>Email: ourivesariabibelo@gmail.com<\/p>"
             }
           }
         },
