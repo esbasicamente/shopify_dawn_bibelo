@@ -200,6 +200,20 @@
         "settings": {
           "color_scheme": "background-1"
         }
+      },
+      "eg-wishlist-drawer": {
+        "type": "eg-wishlist-drawer",
+        "settings": {
+          "drawer_width": "400",
+          "header_title": "WISHLIST",
+          "display_btn_pdp": true,
+          "display_btn_lists": true,
+          "product_img_orientation": "square",
+          "text_wishlist": "WISHLIST",
+          "text_add": "Adicionar à wishlist",
+          "text_remove": "Remover da wishlist",
+          "text_empty": "A sua wishlist não tem produtos"
+        }
       }
     },
     "content_for_index": [
