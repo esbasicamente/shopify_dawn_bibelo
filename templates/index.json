@@ -240,10 +240,10 @@
             "collection": "gumus"
           }
         },
-        "16581596498439a6f4-1": {
+        "ba02041d-2c44-4a89-8ae6-91c3d182408b": {
           "type": "featured_collection",
           "settings": {
-            "collection": "saudade-jewels"
+            "collection": "gant"
           }
         },
         "16581596498439a6f4-2": {
@@ -252,18 +252,18 @@
             "collection": "lotus-silveer"
           }
         },
-        "ba02041d-2c44-4a89-8ae6-91c3d182408b": {
+        "16581596498439a6f4-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": "gant"
+            "collection": "saudade-jewels"
           }
         }
       },
       "block_order": [
         "16581596498439a6f4-0",
-        "16581596498439a6f4-1",
+        "ba02041d-2c44-4a89-8ae6-91c3d182408b",
         "16581596498439a6f4-2",
-        "ba02041d-2c44-4a89-8ae6-91c3d182408b"
+        "16581596498439a6f4-1"
       ],
       "settings": {
         "title": "SUGESTÕES",
