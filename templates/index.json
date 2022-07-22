@@ -6,16 +6,16 @@
         "1652286929f9c6ceff-0": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/seiko_banner_ea1232ca-e20a-46e3-bb4b-bc95bdf946d7.jpg",
+            "image": "shopify:\/\/shop_images\/seiko_banner.jpg",
             "heading": "",
             "heading_size": "h2",
             "subheading": "",
-            "button_label": "Ver Mais",
+            "button_label": "",
             "link": "shopify:\/\/collections\/seiko-astron",
-            "button_style_secondary": true,
-            "box_align": "bottom-center",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
             "show_text_box": false,
-            "text_alignment": "center",
+            "text_alignment": "left",
             "image_overlay_opacity": 0,
             "color_scheme": "background-1",
             "text_alignment_mobile": "center"
