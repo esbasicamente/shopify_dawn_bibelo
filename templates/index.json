@@ -65,7 +65,7 @@
       ],
       "settings": {
         "layout": "full_bleed",
-        "slide_height": "adapt_image",
+        "slide_height": "small",
         "slider_visual": "dots",
         "auto_rotate": true,
         "change_slides_speed": 5,
@@ -215,7 +215,7 @@
         "1658164322f365cae5-2": {
           "type": "button",
           "settings": {
-            "button_label": "Ver Mais",
+            "button_label": "Ver tudo",
             "button_link": "shopify:\/\/collections\/joalharia",
             "button_style_secondary": false
           }
@@ -306,7 +306,7 @@
         "1658158400c6b53f14-2": {
           "type": "button",
           "settings": {
-            "button_label": "Ver Mais",
+            "button_label": "Ver tudo",
             "button_link": "shopify:\/\/collections\/aliancas-de-casamento"
           }
         }
