@@ -146,13 +146,6 @@
       "footer": {
         "type": "footer",
         "blocks": {
-          "55a8804a-1bfa-4f02-b809-3f6ad013d092": {
-            "type": "newsletter",
-            "settings": {
-              "newsletter_enable": true,
-              "newsletter_heading": "NEWSLETTER"
-            }
-          },
           "fbb82f84-232d-4db3-8008-3a352f8839a9": {
             "type": "link_list",
             "settings": {
@@ -173,13 +166,20 @@
               "heading": "APOIO AO CLIENTE",
               "subtext": "<p><a href=\"https:\/\/api.whatsapp.com\/send\/?phone=%2B351932559851&text&type=phone_number&app_absent=0\" title=\"Whatsapp Ourivesaria Bibelô\">Whatsapp<\/a><\/p><p><a href=\"https:\/\/www.messenger.com\/t\/ourivesariabibelo\/\" title=\"Messenger Ourivesaria Bibelô\">Messenger<\/a><\/p><p>Email: ourivesariabibelo@gmail.com<\/p>"
             }
+          },
+          "55a8804a-1bfa-4f02-b809-3f6ad013d092": {
+            "type": "newsletter",
+            "settings": {
+              "newsletter_enable": true,
+              "newsletter_heading": "NEWSLETTER"
+            }
           }
         },
         "block_order": [
-          "55a8804a-1bfa-4f02-b809-3f6ad013d092",
           "fbb82f84-232d-4db3-8008-3a352f8839a9",
           "ed199461-6417-4352-9cc1-32ba716ba821",
-          "24434afb-e173-4d7b-8e3b-c578be8564a2"
+          "24434afb-e173-4d7b-8e3b-c578be8564a2",
+          "55a8804a-1bfa-4f02-b809-3f6ad013d092"
         ],
         "settings": {
           "color_scheme": "accent-1",
