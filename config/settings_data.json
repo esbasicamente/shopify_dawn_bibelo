@@ -66,7 +66,7 @@
     "media_shadow_vertical_offset": 4,
     "media_shadow_blur": 5,
     "popup_border_thickness": 1,
-    "popup_border_opacity": 10,
+    "popup_border_opacity": 50,
     "popup_corner_radius": 0,
     "popup_shadow_opacity": 0,
     "popup_shadow_horizontal_offset": 0,
@@ -164,7 +164,7 @@
             "type": "text",
             "settings": {
               "heading": "APOIO AO CLIENTE",
-              "subtext": "<p>(+351) <strong>229 280 099<\/strong> <\/p><p>(+351) <strong>932 559 851<\/strong><\/p><p>Disponível das 9:15 às 19:15 de 2ª a Sábado.<\/p><p><\/p><p><a href=\"https:\/\/api.whatsapp.com\/send\/?phone=%2B351932559851&text&type=phone_number&app_absent=0\" title=\"Whatsapp Ourivesaria Bibelô\">Whatsapp<\/a><\/p><p><a href=\"https:\/\/www.messenger.com\/t\/ourivesariabibelo\/\" title=\"Messenger Ourivesaria Bibelô\">Messenger<\/a><\/p><p><\/p>"
+              "subtext": "<p>(+351) 229 280 099 <\/p><p>(+351) 932 559 851<\/p><p>Disponível das 9:15 às 19:15 de 2ª a Sábado.<\/p><p><\/p><p><a href=\"https:\/\/api.whatsapp.com\/send\/?phone=%2B351932559851&text&type=phone_number&app_absent=0\" title=\"Whatsapp Ourivesaria Bibelô\">Whatsapp<\/a><\/p><p><a href=\"https:\/\/www.messenger.com\/t\/ourivesariabibelo\/\" title=\"Messenger Ourivesaria Bibelô\">Messenger<\/a><\/p><p><\/p>"
             }
           },
           "55a8804a-1bfa-4f02-b809-3f6ad013d092": {
