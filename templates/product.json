@@ -36,7 +36,7 @@
         "895316df-c2ee-4e43-8c6a-3d810a9b0d66": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<a \nstyle=\"font-size: 1.3rem;border: 0;background-color:#FFF; color:#5A6A65; width: 100%; text-align: left; text-decoration: none;\" \n<\/a>\n\n<div \nstyle=\"margin-bottom:0px;\"> \n<\/div>\n\n<div class=\"product.metafields.my_fields.detalhes\"> {{product.metafields.my_fields.detalhes}}\n<\/div>\n\n<div \nstyle=\"margin-top:20px;\"> \n<\/div>"
+            "custom_liquid": "{% if product.metafields.my_fields.detalhes != blank %}\n\n<div style=\"margin-top: 10px;\">\n<div style=\"margin-bottom: -20px;\">\n{{ product.metafields.my_fields.detalhes }}\n<\/div>\n\n{% endif %}"
           }
         },
         "variant_picker": {
