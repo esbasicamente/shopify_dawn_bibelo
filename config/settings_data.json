@@ -125,11 +125,11 @@
         "settings": {
           "color_scheme": "accent-1",
           "logo_width": 160,
-          "logo_position": "top-center",
+          "logo_position": "middle-left",
           "menu": "main-menu",
           "menu_type_desktop": "dropdown",
           "show_line_separator": false,
-          "enable_sticky_header": true,
+          "enable_sticky_header": false,
           "margin_bottom": 0
         }
       },
