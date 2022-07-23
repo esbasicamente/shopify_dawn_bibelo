@@ -62,7 +62,6 @@
         },
         "7caea0b9-de0c-455e-8365-e80eb3021517": {
           "type": "custom_liquid",
-          "disabled": true,
           "settings": {
             "custom_liquid": "{% if product.description != blank %}\n\n<div style=\"margin-top: 25px;\">\n<h4 style=\"margin-bottom: 5px;\">Descrição:<\/h4>\n{{ product.description }}\n<\/div>\n\n{% endif %}"
           }
@@ -114,6 +113,7 @@
         "column-0": {
           "type": "column",
           "settings": {
+            "image_link": "",
             "fa-icon": "<i class=\"fas fa-comment\"><\/i>",
             "title": "Ajustes Grátis",
             "text": "<p>Entrega das alianças em 1-2 semanas<\/p>",
@@ -124,6 +124,7 @@
         "column-1": {
           "type": "column",
           "settings": {
+            "image_link": "",
             "fa-icon": "<i class=\"fas fa-shield-alt\"><\/i>",
             "title": "Pague em 3x sem juros",
             "text": "<p>Escolha agora e pague em várias vezes sem juros<\/p>",
@@ -134,6 +135,7 @@
         "e0c61dbf-31dd-41f5-a8bf-208d1b6b323e": {
           "type": "column",
           "settings": {
+            "image_link": "",
             "fa-icon": "<i class=\"fas fa-eye\"><\/i>",
             "title": "Garantia até 5 anos",
             "text": "<p>As alianças têm até 5 anos de garantia em caso estragos naturais<\/p>",
@@ -144,6 +146,7 @@
         "b7dd8081-b22b-4ae5-a89c-11753e9ebaf6": {
           "type": "column",
           "settings": {
+            "image_link": "",
             "fa-icon": "<i class=\"fas fa-store-alt\"><\/i>",
             "title": "Levantamento em Loja",
             "text": "<p>Faz a tua encomenda e levanta em loja<\/p>",
