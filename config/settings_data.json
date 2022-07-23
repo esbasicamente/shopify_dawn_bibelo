@@ -208,7 +208,7 @@
           "header_title": "FAVORITOS",
           "display_btn_pdp": true,
           "display_btn_lists": true,
-          "product_img_orientation": "potrait",
+          "product_img_orientation": "square",
           "text_wishlist": "FAVORITOS",
           "text_add": "Adicionar a Favoritos",
           "text_remove": "Remover de Favoritos",
