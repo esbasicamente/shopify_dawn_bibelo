@@ -94,6 +94,7 @@
         "1652366601ca94d03c-0": {
           "type": "column",
           "settings": {
+            "image_link": "",
             "fa-icon": "<i class=\"fas fa-truck\"><\/i>",
             "title": "Entregas Rápidas",
             "text": "<p>Desde 1 a 2 dias Portugal Continental<\/p>",
@@ -104,6 +105,7 @@
         "1652366601ca94d03c-2": {
           "type": "column",
           "settings": {
+            "image_link": "",
             "fa-icon": "<i class=\"fas fa-shield-alt\"><\/i>",
             "title": "Pagamentos Seguros",
             "text": "<p>Escolhe o teu método favorito de pagamento<\/p>",
@@ -114,6 +116,7 @@
         "1652366601ca94d03c-1": {
           "type": "column",
           "settings": {
+            "image_link": "",
             "fa-icon": "<i class=\"fas fa-box\"><\/i>",
             "title": "Portes Grátis",
             "text": "<p>Portes Grátis em encomendas superiores a 50€<\/p>",
@@ -124,6 +127,7 @@
         "f05bdc98-5100-49f3-8a03-8f344b9e60ea": {
           "type": "column",
           "settings": {
+            "image_link": "",
             "fa-icon": "<i class=\"fas fa-store-alt\"><\/i>",
             "title": "Levantamento em Loja",
             "text": "<p>Faz a tua encomenda e levanta em loja<\/p>",
@@ -352,6 +356,7 @@
         "165856735619b79bda-0": {
           "type": "column",
           "settings": {
+            "image_link": "shopify:\/\/collections\/gant",
             "image": "shopify:\/\/shop_images\/promo1_1280x_45b02b6c-dfc6-499b-b196-205648607b4f.png",
             "fa-icon": "",
             "title": "",
@@ -363,6 +368,7 @@
         "165856735619b79bda-1": {
           "type": "column",
           "settings": {
+            "image_link": "",
             "image": "shopify:\/\/shop_images\/promo1_1280x_45b02b6c-dfc6-499b-b196-205648607b4f.png",
             "fa-icon": "",
             "title": "",
@@ -374,6 +380,7 @@
         "165856735619b79bda-2": {
           "type": "column",
           "settings": {
+            "image_link": "",
             "image": "shopify:\/\/shop_images\/promo1_1280x_45b02b6c-dfc6-499b-b196-205648607b4f.png",
             "fa-icon": "",
             "title": "",
@@ -385,6 +392,7 @@
         "f3c6adf3-a3fd-430e-9965-402a43fdff39": {
           "type": "column",
           "settings": {
+            "image_link": "",
             "image": "shopify:\/\/shop_images\/promo1_1280x_45b02b6c-dfc6-499b-b196-205648607b4f.png",
             "fa-icon": "",
             "title": "",
