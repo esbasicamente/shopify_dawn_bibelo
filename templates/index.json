@@ -376,11 +376,37 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "166e3501-f7c9-4a1c-883a-0d3493dea6d2": {
+          "type": "column",
+          "settings": {
+            "image_link": "#",
+            "image": "shopify:\/\/shop_images\/crianca_8607ce88-67cf-4bc8-8b4d-2e4c21a3f3f1.jpg",
+            "fa-icon": "",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "b7f8dce1-95eb-4b27-a12e-15c89a9df636": {
+          "type": "column",
+          "settings": {
+            "image_link": "#",
+            "image": "shopify:\/\/shop_images\/fim_de_curso_95c75ab9-abb8-43ce-b58c-9e1497db4732.png",
+            "fa-icon": "",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "165856735619b79bda-0",
-        "165856735619b79bda-1"
+        "165856735619b79bda-1",
+        "166e3501-f7c9-4a1c-883a-0d3493dea6d2",
+        "b7f8dce1-95eb-4b27-a12e-15c89a9df636"
       ],
       "settings": {
         "title": "",
@@ -401,6 +427,7 @@
     },
     "16585935197458b453": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "8c01ae10-95b7-4d54-9ec9-78eb30188ce3": {
           "type": "column",
