@@ -376,39 +376,11 @@
             "link_label": "",
             "link": ""
           }
-        },
-        "165856735619b79bda-2": {
-          "type": "column",
-          "disabled": true,
-          "settings": {
-            "image_link": "#",
-            "image": "shopify:\/\/shop_images\/crianca.jpg",
-            "fa-icon": "",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "f3c6adf3-a3fd-430e-9965-402a43fdff39": {
-          "type": "column",
-          "disabled": true,
-          "settings": {
-            "image_link": "#",
-            "image": "shopify:\/\/shop_images\/fim_de_curso.png",
-            "fa-icon": "",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
         }
       },
       "block_order": [
         "165856735619b79bda-0",
-        "165856735619b79bda-1",
-        "165856735619b79bda-2",
-        "f3c6adf3-a3fd-430e-9965-402a43fdff39"
+        "165856735619b79bda-1"
       ],
       "settings": {
         "title": "",
