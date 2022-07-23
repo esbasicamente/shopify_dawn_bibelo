@@ -36,7 +36,7 @@
         "895316df-c2ee-4e43-8c6a-3d810a9b0d66": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<a \nstyle=\"font-size: 1.3rem;border: 0;background-color:#FFF; color:#5A6A65; width: 100%; text-align: left; text-decoration: none;\" \n<\/a>\n\n<div \nstyle=\"margin-bottom:0px;\"> <\/div>\n\n<div class=\"product.metafields.my_fields.detalhes\"> {{product.metafields.my_fields.detalhes}}\n<\/div>\n\n<div \nstyle=\"margin-top:20px;\"> \n<\/div>"
+            "custom_liquid": "<a \nstyle=\"font-size: 1.3rem;border: 0;background-color:#FFF; color:#5A6A65; width: 100%; text-align: left; text-decoration: none;\" \nhref=\"\/\"\ntarget=\"_blank\"\n<\/a>\n\n<div \nstyle=\"margin-bottom:0px;\"> \n<\/div>\n\n<div class=\"product.metafields.my_fields.detalhes\"> {{product.metafields.my_fields.detalhes}}\n<\/div>\n\n<div \nstyle=\"margin-top:20px;\"> \n<\/div>"
           }
         },
         "variant_picker": {
@@ -99,6 +99,7 @@
         "column-0": {
           "type": "column",
           "settings": {
+            "image_link": "",
             "fa-icon": "<i class=\"fas fa-truck\"><\/i>",
             "title": "Entregas rápidas",
             "text": "<p>Desde 1 a 2 dias Portugal Continental<\/p>",
@@ -109,6 +110,7 @@
         "column-1": {
           "type": "column",
           "settings": {
+            "image_link": "",
             "fa-icon": "<i class=\"fas fa-shield-alt\"><\/i>",
             "title": "Pagamentos Seguros",
             "text": "<p>Escolhe o teu método favorito de pagamento<\/p>",
@@ -119,6 +121,7 @@
         "e0c61dbf-31dd-41f5-a8bf-208d1b6b323e": {
           "type": "column",
           "settings": {
+            "image_link": "",
             "fa-icon": "<i class=\"fas fa-box\"><\/i>",
             "title": "Portes Grátis",
             "text": "<p>Portes Grátis em encomendas superiores a 50€<\/p>",
@@ -129,6 +132,7 @@
         "b7dd8081-b22b-4ae5-a89c-11753e9ebaf6": {
           "type": "column",
           "settings": {
+            "image_link": "",
             "fa-icon": "<i class=\"fas fa-store-alt\"><\/i>",
             "title": "Levantamento em Loja",
             "text": "<p>Faz a tua encomenda e levanta em loja<\/p>",
