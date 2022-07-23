@@ -62,6 +62,7 @@
         },
         "7caea0b9-de0c-455e-8365-e80eb3021517": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "{% if product.description != blank %}\n\n<div style=\"margin-top: 25px;\">\n<h4 style=\"margin-bottom: 5px;\">Descrição:<\/h4>\n{{ product.description }}\n<\/div>\n\n{% endif %}"
           }
