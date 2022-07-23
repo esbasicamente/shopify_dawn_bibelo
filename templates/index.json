@@ -74,15 +74,42 @@
         "accessibility_info": "Slideshow Bibelô"
       }
     },
-    "1658590073105675de": {
-      "type": "video",
+    "1658590901fdcb0fd1": {
+      "type": "collage",
+      "blocks": {
+        "16585909013debb26c-0": {
+          "type": "video",
+          "settings": {
+            "cover_image": "shopify:\/\/shop_images\/seiko.png",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=571Kt-2yzP8",
+            "description": "Describe the video",
+            "image_padding": false
+          }
+        },
+        "16585909013debb26c-1": {
+          "type": "product",
+          "settings": {
+            "product": "copia-de-relogio-seiko-astron-5x-dual-time-gps-solar",
+            "second_image": false
+          }
+        },
+        "16585909013debb26c-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "seiko-astron"
+          }
+        }
+      },
+      "block_order": [
+        "16585909013debb26c-0",
+        "16585909013debb26c-1",
+        "16585909013debb26c-2"
+      ],
       "settings": {
         "heading": "",
         "heading_size": "h1",
-        "cover_image": "shopify:\/\/shop_images\/seiko.png",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=571Kt-2yzP8",
-        "description": "",
-        "full_width": true,
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
         "color_scheme": "background-1",
         "padding_top": 0,
         "padding_bottom": 0
@@ -428,7 +455,7 @@
   },
   "order": [
     "16522869307591a941",
-    "1658590073105675de",
+    "1658590901fdcb0fd1",
     "16523666019c61e216",
     "16523648951c633595",
     "1658135868811a6065",
