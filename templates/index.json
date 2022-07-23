@@ -1,56 +1,7 @@
 {
   "sections": {
-    "16585117973c5d7dda": {
-      "type": "image-banner",
-      "blocks": {
-        "16585117979902d5c2-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "SEIKO ASTRON",
-            "heading_size": "h2"
-          }
-        },
-        "4d4e8a23-f577-405b-a018-0f1cbddfe76d": {
-          "type": "text",
-          "settings": {
-            "text": "O Relógio mais avançado do mundo.",
-            "text_style": "body"
-          }
-        },
-        "16585117979902d5c2-2": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Ver tudo",
-            "button_link_1": "shopify:\/\/collections\/seiko-astron",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "16585117979902d5c2-0",
-        "4d4e8a23-f577-405b-a018-0f1cbddfe76d",
-        "16585117979902d5c2-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/seiko_banner_ea1232ca-e20a-46e3-bb4b-bc95bdf946d7.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "middle-left",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
     "16522869307591a941": {
       "type": "slideshow",
-      "disabled": true,
       "blocks": {
         "1652286929f9c6ceff-0": {
           "type": "slide",
@@ -382,7 +333,6 @@
     }
   },
   "order": [
-    "16585117973c5d7dda",
     "16522869307591a941",
     "16523666019c61e216",
     "16523648951c633595",
