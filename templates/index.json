@@ -341,7 +341,7 @@
         "165856735619b79bda-0": {
           "type": "column",
           "settings": {
-            "image_link": "shopify:\/\/collections\/gant",
+            "image_link": "#",
             "image": "shopify:\/\/shop_images\/bodas_5c43b893-f9a7-458a-a8a2-740318477ab5.png",
             "fa-icon": "",
             "title": "",
@@ -353,7 +353,7 @@
         "165856735619b79bda-1": {
           "type": "column",
           "settings": {
-            "image_link": "",
+            "image_link": "#",
             "image": "shopify:\/\/shop_images\/acessorios.png",
             "fa-icon": "",
             "title": "",
@@ -365,7 +365,7 @@
         "165856735619b79bda-2": {
           "type": "column",
           "settings": {
-            "image_link": "",
+            "image_link": "#",
             "image": "shopify:\/\/shop_images\/crianca.jpg",
             "fa-icon": "",
             "title": "",
@@ -377,7 +377,7 @@
         "f3c6adf3-a3fd-430e-9965-402a43fdff39": {
           "type": "column",
           "settings": {
-            "image_link": "",
+            "image_link": "#",
             "image": "shopify:\/\/shop_images\/fim_de_curso.png",
             "fa-icon": "",
             "title": "",
@@ -398,7 +398,7 @@
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 4,
+        "columns_desktop": 2,
         "column_alignment": "center",
         "background_style": "none",
         "button_label": "",
