@@ -205,14 +205,14 @@
         "type": "eg-wishlist-drawer",
         "settings": {
           "drawer_width": "400",
-          "header_title": "WISHLIST",
+          "header_title": "FAVORITOS",
           "display_btn_pdp": true,
           "display_btn_lists": true,
           "product_img_orientation": "square",
-          "text_wishlist": "WISHLIST",
-          "text_add": "Adicionar à wishlist",
-          "text_remove": "Remover da wishlist",
-          "text_empty": "A sua wishlist não tem produtos"
+          "text_wishlist": "FAVORITOS",
+          "text_add": "Adicionar a Favoritos",
+          "text_remove": "Remover de Favoritos",
+          "text_empty": "Não tem produtos adicionados a Favoritos"
         }
       }
     },
