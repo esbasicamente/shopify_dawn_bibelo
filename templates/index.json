@@ -433,7 +433,7 @@
         "8c01ae10-95b7-4d54-9ec9-78eb30188ce3": {
           "type": "column",
           "settings": {
-            "image_link": "",
+            "image_link": "#",
             "image": "shopify:\/\/shop_images\/crianca.jpg",
             "fa-icon": "",
             "title": "",
@@ -445,7 +445,7 @@
         "c9e69118-f14e-4a77-86ec-5ef38a156424": {
           "type": "column",
           "settings": {
-            "image_link": "",
+            "image_link": "#",
             "image": "shopify:\/\/shop_images\/fim_de_curso.png",
             "fa-icon": "",
             "title": "",
