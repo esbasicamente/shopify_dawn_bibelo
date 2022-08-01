@@ -112,7 +112,7 @@
           "type": "column",
           "settings": {
             "image_link": "",
-            "fa-icon": "",
+            "fa-icon": "<i fa-user><\/i>",
             "title": "Orçamentos Grátis",
             "text": "<p>Entre em contacto e esclareça todas as suas dúvidas<\/p>",
             "link_label": "",
