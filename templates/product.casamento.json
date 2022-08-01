@@ -50,7 +50,7 @@
         "8f43391a-55d3-49ec-9b63-1dd34ec70933": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<a  href=\"mailto:ourivesariabibelo@gmail.com?Subject=Encomenda aliança Ourivesaria Bibelo site&Body=Nome:%0D%0ATelemóvel(opcional):%0D%0AMarca:  {{ product.vendor | handleize }}%0D%0AProduto: {{ product.title }}%0D%0ALink do Produto: {{ shop.url }}{{ product.url }}%0D%0ADetalhe do Produto(descreva Acabamento, Ouro e Tamanho):%0D%0A\" class=\"product-form__submit button button--full-width\">\nEncomendar agora<\/a>"
+            "custom_liquid": "<div \nstyle=\"margin-top:30px;\"> \n<\/div>\n<a  href=\"mailto:ourivesariabibelo@gmail.com?Subject=Encomenda aliança Ourivesaria Bibelo site&Body=Nome:%0D%0ATelemóvel(opcional):%0D%0AMarca:  {{ product.vendor | handleize }}%0D%0AProduto: {{ product.title }}%0D%0ALink do Produto: {{ shop.url }}{{ product.url }}%0D%0ADetalhe do Produto(descreva Acabamento, Ouro e Tamanho):%0D%0A\" class=\"product-form__submit button button--full-width\">\nEncomendar agora<\/a>"
           }
         },
         "6a1a918c-3ed3-4935-912a-bf1bd61a60f9": {
