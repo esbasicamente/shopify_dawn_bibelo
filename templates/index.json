@@ -2,7 +2,6 @@
   "sections": {
     "16522869307591a941": {
       "type": "slideshow",
-      "disabled": true,
       "blocks": {
         "1652286929f9c6ceff-0": {
           "type": "slide",
@@ -76,6 +75,7 @@
     },
     "1658591369d276208a": {
       "type": "video",
+      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h1",
