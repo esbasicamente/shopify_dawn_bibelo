@@ -83,7 +83,7 @@
         "description"
       ],
       "settings": {
-        "enable_sticky_info": false,
+        "enable_sticky_info": true,
         "gallery_layout": "stacked",
         "media_size": "small",
         "mobile_thumbnails": "hide",
