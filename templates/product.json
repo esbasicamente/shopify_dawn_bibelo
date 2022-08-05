@@ -61,12 +61,6 @@
           "settings": {
             "show_dynamic_checkout": true
           }
-        },
-        "description": {
-          "type": "description",
-          "disabled": true,
-          "settings": {
-          }
         }
       },
       "block_order": [
@@ -79,8 +73,7 @@
         "quantity_selector",
         "variant_picker",
         "6a1a918c-3ed3-4935-912a-bf1bd61a60f9",
-        "buy_buttons",
-        "description"
+        "buy_buttons"
       ],
       "settings": {
         "enable_sticky_info": true,

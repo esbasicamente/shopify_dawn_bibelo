@@ -15,6 +15,12 @@
           "settings": {
           }
         },
+        "4230e0d8-b56c-4f05-8759-018e8cecd245": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div \nstyle=\"margin-bottom:-10px;\"> <\/div>\n\n<small>REF: {{ product.selected_or_first_available_variant.sku }}<\/small>"
+          }
+        },
         "price": {
           "type": "price",
           "settings": {
@@ -48,6 +54,7 @@
       "block_order": [
         "vendor",
         "title",
+        "4230e0d8-b56c-4f05-8759-018e8cecd245",
         "price",
         "f479ec16-1c04-4890-8c49-6e059255e4c4",
         "variant_picker",
