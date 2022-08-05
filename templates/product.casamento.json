@@ -15,14 +15,6 @@
           "settings": {
           }
         },
-        "caption": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "ref: {{ product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
         "price": {
           "type": "price",
           "settings": {
@@ -34,23 +26,16 @@
             "picker_type": "dropdown"
           }
         },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "disabled": true,
-          "settings": {
-          }
-        },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "disabled": true,
-          "settings": {
-            "show_dynamic_checkout": false
-          }
-        },
         "8f43391a-55d3-49ec-9b63-1dd34ec70933": {
           "type": "custom_liquid",
           "settings": {
             "custom_liquid": "<div \nstyle=\"margin-top:30px;\"> \n<\/div>\n<a  href=\"mailto:ourivesariabibelo@gmail.com?Subject=Encomenda aliança Ourivesaria Bibelo site&Body=Nome:%0D%0ATelemóvel(opcional):%0D%0AMarca:  {{ product.vendor | handleize }}%0D%0AProduto: {{ product.title }}%0D%0ALink do Produto: {{ shop.url }}{{ product.url }}%0D%0ADetalhe do Produto(descreva Acabamento, Ouro e Tamanho):%0D%0A\" class=\"product-form__submit button button--full-width\">\nEncomendar agora<\/a>"
+          }
+        },
+        "f479ec16-1c04-4890-8c49-6e059255e4c4": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% if product.metafields.my_fields.detalhes != blank %}\n\n<div style=\"margin-top: \n0px;\">\n<div style=\"margin-bottom: -25px;\">\n{{ product.metafields.my_fields.detalhes }}\n<\/div>\n\n{% endif %}"
           }
         },
         "6a1a918c-3ed3-4935-912a-bf1bd61a60f9": {
@@ -58,40 +43,16 @@
           "settings": {
             "custom_liquid": "<div \nstyle=\"margin-top:20px;\"> \n<\/div>\n\n<a style=\"font-size: 1.3rem;border: 0;background-color:#FFF; color:#5A6A65; width: 100%; text-align: center; text-decoration: none;\"\n\nhref=\"https:\/\/wa.me\/+351932559851\"\n\ntarget=\"_blank\"\n>\n\n\n\n<span><b>Precisa de ajuda com Alianças de Casamento?<\/b><br>\nWhatsapp: +351 932 559 851<\/span>\n<img style=\"margin-left: 10px;vertical-align: middle;\" src=\"{{ 'whatsapp.webp' | asset_url }}\" width=\"20px\">\n<\/a>"
           }
-        },
-        "7caea0b9-de0c-455e-8365-e80eb3021517": {
-          "type": "custom_liquid",
-          "disabled": true,
-          "settings": {
-            "custom_liquid": "{% if product.description != blank %}\n\n<div style=\"margin-top: 25px;\">\n<h4 style=\"margin-bottom: 5px;\">Descrição:<\/h4>\n{{ product.description }}\n<\/div>\n\n{% endif %}"
-          }
-        },
-        "description": {
-          "type": "description",
-          "disabled": true,
-          "settings": {
-          }
-        },
-        "8b24128b-07b0-449e-a560-0504fa6dcf87": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "{% if product.description != blank %}\n\n<div style=\"margin-top: 25px;\">\n<h4 style=\"margin-bottom: 5px;\">Descrição:<\/h4>\n{{ product.description }}\n<\/div>\n\n{% endif %}"
-          }
         }
       },
       "block_order": [
         "vendor",
         "title",
-        "caption",
         "price",
         "variant_picker",
-        "quantity_selector",
-        "buy_buttons",
         "8f43391a-55d3-49ec-9b63-1dd34ec70933",
-        "6a1a918c-3ed3-4935-912a-bf1bd61a60f9",
-        "7caea0b9-de0c-455e-8365-e80eb3021517",
-        "description",
-        "8b24128b-07b0-449e-a560-0504fa6dcf87"
+        "f479ec16-1c04-4890-8c49-6e059255e4c4",
+        "6a1a918c-3ed3-4935-912a-bf1bd61a60f9"
       ],
       "settings": {
         "enable_sticky_info": true,
