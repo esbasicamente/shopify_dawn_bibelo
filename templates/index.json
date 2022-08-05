@@ -2,7 +2,6 @@
   "sections": {
     "16522869307591a941": {
       "type": "slideshow",
-      "disabled": true,
       "blocks": {
         "1652286929f9c6ceff-0": {
           "type": "slide",
@@ -72,20 +71,6 @@
         "change_slides_speed": 5,
         "show_text_below": false,
         "accessibility_info": "Slideshow Bibelô"
-      }
-    },
-    "1658591369d276208a": {
-      "type": "video",
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "cover_image": "shopify:\/\/shop_images\/seiko2.png",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=571Kt-2yzP8",
-        "description": "",
-        "full_width": true,
-        "color_scheme": "background-1",
-        "padding_top": 0,
-        "padding_bottom": 0
       }
     },
     "16523666019c61e216": {
@@ -428,7 +413,6 @@
   },
   "order": [
     "16522869307591a941",
-    "1658591369d276208a",
     "16523666019c61e216",
     "16523648951c633595",
     "1658135868811a6065",
