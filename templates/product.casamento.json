@@ -23,7 +23,7 @@
         "f479ec16-1c04-4890-8c49-6e059255e4c4": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% if product.metafields.my_fields.detalhes != blank %}\n\n<div style=\"margin-top: \n0px;\">\n<div style=\"margin-bottom: 0px;\">\n<p><b>Descrição:<\/b> {{ product.metafields.my_fields.detalhes }} <\/p>\n<\/div>\n\n{% endif %}"
+            "custom_liquid": "{% if product.metafields.my_fields.detalhes != blank %}\n\n<div style=\"margin-top: \n0px;\">\n<div style=\"margin-bottom: 0px;\">\n<p><b><b> {{ product.metafields.my_fields.detalhes }}<\/b> <\/p>\n<\/div>\n\n{% endif %}"
           }
         },
         "variant_picker": {
