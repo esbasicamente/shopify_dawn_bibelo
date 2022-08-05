@@ -3,10 +3,10 @@
     "16595452055b240ef8": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<style type=\"text\/css\">\n.header-text {\ntext-align: center;\nfont-size: 30px;\nfont-weight: bolder;\nline-height: center;\n}\n<\/style>\n\n<h1 class=\"header-text\">{{ collection.title }}<\/h1>",
+        "custom_liquid": "<style type=\"text\/css\">\n.header-text {\ntext-align: center;\nfont-size: 28px;\nfont-weight: bolder;\nline-height: center;\n}\n<\/style>\n\n<h1 class=\"header-text\">{{ collection.title }}<\/h1>",
         "color_scheme": "background-1",
-        "padding_top": 24,
-        "padding_bottom": 24
+        "padding_top": 20,
+        "padding_bottom": 20
       }
     },
     "banner": {
