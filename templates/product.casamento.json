@@ -18,7 +18,7 @@
         "4230e0d8-b56c-4f05-8759-018e8cecd245": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div \nstyle=\"margin-bottom:-10px;\"> <\/div>\n\n<small>REF: {{ product.selected_or_first_available_variant.sku }}<\/small>"
+            "custom_liquid": "{% if product.metafields.my_fields.detalhes != blank %}\n\n<div \nstyle=\"margin-bottom:-10px;\"> <\/div>\n\n<small>REF: {{ product.selected_or_first_available_variant.sku }}<\/small>\n\n{% endif %}"
           }
         },
         "price": {
