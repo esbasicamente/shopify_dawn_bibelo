@@ -20,6 +20,12 @@
           "settings": {
           }
         },
+        "f479ec16-1c04-4890-8c49-6e059255e4c4": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% if product.metafields.my_fields.detalhes != blank %}\n\n<div style=\"margin-top: \n0px;\">\n<div style=\"margin-bottom: 0px;\">\n<p><b>Descrição:<\/b> {{ product.metafields.my_fields.detalhes }} <\/p>\n<\/div>\n\n{% endif %}"
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -30,12 +36,6 @@
           "type": "custom_liquid",
           "settings": {
             "custom_liquid": "<div \nstyle=\"margin-top:30px;\"> \n<\/div>\n<a  href=\"mailto:ourivesariabibelo@gmail.com?Subject=Encomenda aliança Ourivesaria Bibelo site&Body=Nome:%0D%0ATelemóvel(opcional):%0D%0AMarca:  {{ product.vendor | handleize }}%0D%0AProduto: {{ product.title }}%0D%0ALink do Produto: {{ shop.url }}{{ product.url }}%0D%0ADetalhe do Produto(descreva Acabamento, Ouro e Tamanho):%0D%0A\" class=\"product-form__submit button button--full-width\">\nEncomendar agora<\/a>"
-          }
-        },
-        "f479ec16-1c04-4890-8c49-6e059255e4c4": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "{% if product.metafields.my_fields.detalhes != blank %}\n\n<div style=\"margin-top: \n0px;\">\n<div style=\"margin-bottom: -25px;\">\n{{ product.metafields.my_fields.detalhes }}\n<\/div>\n\n{% endif %}"
           }
         },
         "6a1a918c-3ed3-4935-912a-bf1bd61a60f9": {
@@ -49,9 +49,9 @@
         "vendor",
         "title",
         "price",
+        "f479ec16-1c04-4890-8c49-6e059255e4c4",
         "variant_picker",
         "8f43391a-55d3-49ec-9b63-1dd34ec70933",
-        "f479ec16-1c04-4890-8c49-6e059255e4c4",
         "6a1a918c-3ed3-4935-912a-bf1bd61a60f9"
       ],
       "settings": {
