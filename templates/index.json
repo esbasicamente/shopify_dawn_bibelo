@@ -2,6 +2,7 @@
   "sections": {
     "16522869307591a941": {
       "type": "slideshow",
+      "disabled": true,
       "blocks": {
         "1652286929f9c6ceff-0": {
           "type": "slide",
@@ -75,7 +76,6 @@
     },
     "1658591369d276208a": {
       "type": "video",
-      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h1",
@@ -162,7 +162,7 @@
     "16523648951c633595": {
       "type": "featured-collection",
       "settings": {
-        "title": "NOVIDADES",
+        "title": "Novidades",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
@@ -219,7 +219,7 @@
         "74d0fb8b-6e47-4836-8877-87918c2e86c7"
       ],
       "settings": {
-        "heading": "ANÉIS DE NOIVADO",
+        "heading": "Anéis de Noivado",
         "heading_size": "h2",
         "desktop_layout": "left",
         "mobile_layout": "collage",
@@ -285,7 +285,7 @@
         "16581596498439a6f4-1"
       ],
       "settings": {
-        "title": "SUGESTÕES",
+        "title": "Sugestões",
         "heading_size": "h2",
         "image_ratio": "portrait",
         "columns_desktop": 4,
@@ -303,7 +303,7 @@
         "1658158400c6b53f14-0": {
           "type": "heading",
           "settings": {
-            "heading": "ALIANÇAS DE CASAMENTO",
+            "heading": "Alianças de Casamento",
             "heading_size": "h2"
           }
         },

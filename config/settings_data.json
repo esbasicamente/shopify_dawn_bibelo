@@ -139,21 +139,21 @@
           "fbb82f84-232d-4db3-8008-3a352f8839a9": {
             "type": "link_list",
             "settings": {
-              "heading": "OURIVEARIA BIBELÔ",
+              "heading": "Ourivesaria Bibelô",
               "menu": "footer"
             }
           },
           "ed199461-6417-4352-9cc1-32ba716ba821": {
             "type": "link_list",
             "settings": {
-              "heading": "INFORMAÇÕES",
+              "heading": "Informações",
               "menu": "info-menu"
             }
           },
           "24434afb-e173-4d7b-8e3b-c578be8564a2": {
             "type": "text",
             "settings": {
-              "heading": "APOIO AO CLIENTE",
+              "heading": "Apoio ao Cliente",
               "subtext": "<p>(+351) 229 280 099 <\/p><p>(+351) 932 559 851<\/p><p>Disponível das 9:15 às 19:15 de 2ª a Sábado.<\/p><p><\/p><p><a href=\"https:\/\/api.whatsapp.com\/send\/?phone=%2B351932559851&text&type=phone_number&app_absent=0\" title=\"Whatsapp Ourivesaria Bibelô\">Whatsapp<\/a><\/p><p><a href=\"https:\/\/www.messenger.com\/t\/ourivesariabibelo\/\" title=\"Messenger Ourivesaria Bibelô\">Messenger<\/a><\/p><p><\/p>"
             }
           },
@@ -161,7 +161,7 @@
             "type": "newsletter",
             "settings": {
               "newsletter_enable": true,
-              "newsletter_heading": "NEWSLETTER"
+              "newsletter_heading": "Newsletter"
             }
           }
         },
