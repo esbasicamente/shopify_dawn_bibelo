@@ -335,6 +335,33 @@
         "padding_bottom": 36
       }
     },
+    "1659978105bd6ba2de": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Seiko Astron",
+        "heading_size": "h2",
+        "description": "<p>O Relógio mais avançado do mundo<\/p>",
+        "show_description": false,
+        "description_style": "uppercase",
+        "collection": "seiko-astron",
+        "products_to_show": 12,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "portrait",
+        "show_secondary_image": false,
+        "show_vendor": true,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "1658567357ade2d471": {
       "type": "multicolumn",
       "blocks": {
@@ -406,7 +433,7 @@
         "color_scheme": "background-1",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 36,
+        "padding_top": 0,
         "padding_bottom": 36
       }
     }
@@ -419,6 +446,7 @@
     "1658164322ec0e5634",
     "1658159649977cb515",
     "16581584000346920f",
+    "1659978105bd6ba2de",
     "1658567357ade2d471"
   ]
 }
