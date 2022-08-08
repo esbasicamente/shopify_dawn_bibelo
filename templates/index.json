@@ -156,8 +156,8 @@
         "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
+        "show_view_all": false,
+        "view_all_style": "link",
         "enable_desktop_slider": false,
         "color_scheme": "background-1",
         "image_ratio": "portrait",
@@ -190,18 +190,17 @@
             "second_image": false
           }
         },
-        "74d0fb8b-6e47-4836-8877-87918c2e86c7": {
-          "type": "product",
+        "ca2d78d8-bff2-4783-9349-394243f74b96": {
+          "type": "collection",
           "settings": {
-            "product": "anel-romantis-endless-story-1",
-            "second_image": false
+            "collection": "joalharia"
           }
         }
       },
       "block_order": [
         "883f5d36-425d-4450-988a-2d4cfd28ecee",
         "dc1c2c57-847b-42bc-85f7-1fb3453e11f0",
-        "74d0fb8b-6e47-4836-8877-87918c2e86c7"
+        "ca2d78d8-bff2-4783-9349-394243f74b96"
       ],
       "settings": {
         "heading": "Anéis de Noivado",
@@ -215,6 +214,7 @@
     },
     "1658164322ec0e5634": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "1658164322f365cae5-2": {
           "type": "button",
