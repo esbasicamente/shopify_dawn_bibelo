@@ -279,7 +279,29 @@
         "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 24
+      }
+    },
+    "1660068116cc2cd6cd": {
+      "type": "rich-text",
+      "blocks": {
+        "1660068116103cb662-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Ver tudo",
+            "button_link": "shopify:\/\/collections",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1660068116103cb662-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "16581584000346920f": {
@@ -445,6 +467,7 @@
     "1658135868811a6065",
     "1658164322ec0e5634",
     "1658159649977cb515",
+    "1660068116cc2cd6cd",
     "16581584000346920f",
     "1659978105bd6ba2de",
     "1658567357ade2d471"
