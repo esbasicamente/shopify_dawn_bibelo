@@ -90,7 +90,7 @@
           "type": "column",
           "settings": {
             "image_link": "",
-            "fa-icon": "<i class=\"fas fa-shield-halved\"><\/i>",
+            "fa-icon": "<i class=\"fas fa-shield-alt\"><\/i>",
             "title": "Pagamentos Seguros",
             "text": "<p>Escolhe o teu método favorito de pagamento<\/p>",
             "link_label": "",
