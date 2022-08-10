@@ -29,7 +29,7 @@
         "f479ec16-1c04-4890-8c49-6e059255e4c4": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% if product.metafields.my_fields.detalhes != blank %}\n\n<div style=\"margin-top: \n20px;\">\n<div style=\"margin-bottom: 20px;\">\n<p> {{ product.metafields.my_fields.detalhes }}\n<\/p>\n<\/div>\n\n{% endif %}"
+            "custom_liquid": "{% if product.metafields.my_fields.detalhes != blank %}\n\n<div style=\"margin-top: \n20px;\">\n<div style=\"margin-bottom: 30px;\">\n<p> {{ product.metafields.my_fields.detalhes }}\n<\/p>\n<\/div>\n\n{% endif %}"
           }
         },
         "variant_picker": {
@@ -41,7 +41,7 @@
         "6a1a918c-3ed3-4935-912a-bf1bd61a60f9": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div \nstyle=\"margin-top:40px;\"> \n<\/div>\n\n<a style=\"font-size: 1.3rem;border: 0;background-color:#FFF; color:#5A6A65; width: 100%; text-align: center; text-decoration: none;\"\n\nhref=\"https:\/\/wa.me\/+351932559851\"\n\ntarget=\"_blank\"\n>\n\n\n\n<span><b>Precisa de ajuda com Alianças de Casamento?<\/b><br>\nWhatsapp: +351 932 559 851<\/span>\n<img style=\"margin-left: 10px;vertical-align: middle;\" src=\"{{ 'whatsapp.webp' | asset_url }}\" width=\"20px\">\n<\/a>\n\n<div \nstyle=\"margin-bottom: -10px;\"> \n<\/div>"
+            "custom_liquid": "<div \nstyle=\"margin-top:30px;\"> \n<\/div>\n\n<a style=\"font-size: 1.3rem;border: 0;background-color:#FFF; color:#5A6A65; width: 100%; text-align: center; text-decoration: none;\"\n\nhref=\"https:\/\/wa.me\/+351932559851\"\n\ntarget=\"_blank\"\n>\n\n\n\n<span><b>Precisa de ajuda com Alianças de Casamento?<\/b><br>\nWhatsapp: +351 932 559 851<\/span>\n<img style=\"margin-left: 10px;vertical-align: middle;\" src=\"{{ 'whatsapp.webp' | asset_url }}\" width=\"20px\">\n<\/a>\n\n<div \nstyle=\"margin-bottom: -10px;\"> \n<\/div>"
           }
         },
         "8f43391a-55d3-49ec-9b63-1dd34ec70933": {
