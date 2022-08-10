@@ -8,6 +8,15 @@
         "padding_bottom": 28
       }
     },
+    "166012058342d2de74": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style type=\"text\/css\">\n.header-text {\ntext-align: center;\nfont-size: calc(var(--font-heading-scale) * 2.2rem);\nfont-family: var(--font-heading-family);\nfont-style: var(--font-heading-style);\nfont-weight: var(--font-heading-weight);\nletter-spacing: 0;\ncolor: rgb(var(--color-foreground));\nline-height: 100%;\nword-break: break-word;\npadding: 26px;\nmargin: auto;\nbackground-color: #F7F7F7;\n}\n<\/style>\n\n<h1 class=\"header-text\">Sobre Nós<\/h1>",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 4
+      }
+    },
     "1652452037c84f3ba6": {
       "type": "image-banner",
       "settings": {
@@ -30,8 +39,9 @@
         "1652452135af206318-0": {
           "type": "column",
           "settings": {
+            "image_link": "",
             "fa-icon": "",
-            "title": "SOBRE NÓS",
+            "title": "",
             "text": "<p>Ourivesaria Bibelô - Desde 1990. Somos uma empresa de cariz familiar, que ao longo do tempo foi adquirindo a experiência necessária para lhe proporcionar um serviço de qualidade e excelência.<\/p><p>Temos como princípios os valores da seriedade e rigor profissional, que se refletem na qualidade dos nossos serviços.<\/p><p>Na Ourivesaria Bibelô encontra ao seu dispor um atendimento personalizado que lhe oferece toda a atenção e simpatia, priveligiando a simplicidade e o bom gosto.<\/p><p>Através do empenho e dedicação dos nossos colaboradores tentamos conquistar a sua confiança.<\/p><p><\/p><p>Encontrará ao seu dispor peças com um design arrojado e variado, desde a peça clássica à mais moderna, que acompanham e completam cada momento da sua vida.<\/p><p><\/p><p>Ficamos à espera da sua visita!<\/p>",
             "link_label": "Conheça a nossa Loja",
             "link": "shopify:\/\/pages\/lojas"
@@ -61,6 +71,7 @@
   },
   "order": [
     "main",
+    "166012058342d2de74",
     "1652452037c84f3ba6",
     "1652452135fefd7a3d"
   ]
