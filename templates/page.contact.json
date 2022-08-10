@@ -2,9 +2,19 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 36,
         "padding_bottom": 0
+      }
+    },
+    "16601209549c890bdf": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style type=\"text\/css\">\n.header-text {\ntext-align: center;\nfont-size: calc(var(--font-heading-scale) * 2.2rem);\nfont-family: var(--font-heading-family);\nfont-style: var(--font-heading-style);\nfont-weight: var(--font-heading-weight);\nletter-spacing: 0;\ncolor: rgb(var(--color-foreground));\nline-height: 100%;\nword-break: break-word;\npadding: 26px;\nmargin: auto;\nbackground-color: #F7F7F7;\n}\n<\/style>\n\n<h1 class=\"header-text\">{{ page.title }}<\/h1>",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 36
       }
     },
     "1652776817812e028a": {
@@ -13,6 +23,7 @@
         "165277681714e3b05c-0": {
           "type": "column",
           "settings": {
+            "image_link": "",
             "fa-icon": "<i class=\"fas fa-phone\"><\/i>",
             "title": "229 280 099",
             "text": "",
@@ -23,6 +34,7 @@
         "165277681714e3b05c-2": {
           "type": "column",
           "settings": {
+            "image_link": "",
             "fa-icon": "<i class=\"fas fa-envelope\"><\/i>",
             "title": "ouriveariabibelo@gmail.com",
             "text": "",
@@ -33,6 +45,7 @@
         "165277681714e3b05c-1": {
           "type": "column",
           "settings": {
+            "image_link": "",
             "fa-icon": "<i class=\"fas fa-phone\"><\/i>",
             "title": "932 559 851",
             "text": "",
@@ -76,6 +89,7 @@
   },
   "order": [
     "main",
+    "16601209549c890bdf",
     "1652776817812e028a",
     "form"
   ]
