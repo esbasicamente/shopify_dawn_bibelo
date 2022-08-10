@@ -362,7 +362,7 @@
       "settings": {
         "title": "Seiko Astron",
         "heading_size": "h2",
-        "description": "<p>O primeiro relógio GPS solar do mundo. Ao ligar-se à rede de satélites GPS, Astron ajusta-se com o toque de um botão ao seu fuso horário e, ao ser alimentado apenas por energia luminosa, nunca é preciso substituir a bateria.<\/p>",
+        "description": "<p>O primeiro relógio GPS solar do mundo.<\/p>",
         "show_description": false,
         "description_style": "body",
         "collection": "seiko-astron",
