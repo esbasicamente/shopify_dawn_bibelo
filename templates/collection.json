@@ -3,7 +3,7 @@
     "16595452055b240ef8": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<style type=\"text\/css\">\n.header-text {\ntext-align: center;\nfont-size: calc(var(--font-heading-scale) * 2.2rem);\nfont-family: var(--font-heading-family);\nfont-style: var(--font-heading-style);\nfont-weight: var(--font-heading-weight);\nletter-spacing: 0;\ncolor: rgb(var(--color-foreground));\nline-height: 100%;\nword-break: break-word;\npadding: 26px;\nmargin: auto;\n}\n<\/style>\n\n<h1 class=\"header-text\">{{ collection.title }}<\/h1>",
+        "custom_liquid": "<style type=\"text\/css\">\n.header-text {\ntext-align: center;\nfont-size: calc(var(--font-heading-scale) * 2.2rem);\nfont-family: var(--font-heading-family);\nfont-style: var(--font-heading-style);\nfont-weight: var(--font-heading-weight);\nletter-spacing: 0px;\ncolor: rgb(var(--color-foreground));\nline-height: 100%;\nword-break: break-word;\npadding: 26px;\nmargin: auto;\nbackground-color: #F7F7F7;\n}\n<\/style>\n\n<h1 class=\"header-text\">{{ collection.title }}<\/h1>",
         "color_scheme": "background-1",
         "padding_top": 0,
         "padding_bottom": 0
