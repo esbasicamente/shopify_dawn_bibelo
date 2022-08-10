@@ -79,7 +79,7 @@
           "type": "column",
           "settings": {
             "image_link": "",
-            "fa-icon": "<i class=\"fa-user><\/i>",
+            "fa-icon": "<i class=\"fa-solid fa-user\"><\/i>",
             "title": "Orçamentos Grátis",
             "text": "<p>Entre em contacto e esclareça todas as suas dúvidas<\/p>",
             "link_label": "",
@@ -90,7 +90,7 @@
           "type": "column",
           "settings": {
             "image_link": "",
-            "fa-icon": "<i class=\"fa-shield-halved><\/i>",
+            "fa-icon": "<i class=\"fa-solid fa-shield-halved\"><\/i>",
             "title": "Pagamentos Seguros",
             "text": "<p>Escolhe o teu método favorito de pagamento<\/p>",
             "link_label": "",
@@ -101,7 +101,7 @@
           "type": "column",
           "settings": {
             "image_link": "",
-            "fa-icon": "<i class=\"fa-eye><\/i>",
+            "fa-icon": "<i class=\"fa-solid fa-eye\"><\/i>",
             "title": "Garantia Vitalícia",
             "text": "<p>As alianças tem garantia vitalícia contra defeitos de fabrico<\/p>",
             "link_label": "",
