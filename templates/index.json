@@ -56,7 +56,7 @@
         "1652286929f9c6ceff-0": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/SBXC021_image_1150.png",
+            "image": "shopify:\/\/shop_images\/SBXC021_image_1150_05a9f3c3-15bf-4a2a-8db6-c434daa1726f.png",
             "heading": "",
             "heading_size": "h2",
             "subheading": "",
@@ -115,7 +115,7 @@
       ],
       "settings": {
         "layout": "full_bleed",
-        "slide_height": "medium",
+        "slide_height": "adapt_image",
         "slider_visual": "dots",
         "auto_rotate": true,
         "change_slides_speed": 5,
