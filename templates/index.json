@@ -1,7 +1,57 @@
 {
   "sections": {
+    "1660644547cb787718": {
+      "type": "image-banner",
+      "blocks": {
+        "64df796f-0bcc-496c-83e5-c9f25343a044": {
+          "type": "heading",
+          "settings": {
+            "heading": "Seiko Astron",
+            "heading_size": "h2"
+          }
+        },
+        "37f9870b-3b61-4f55-ab51-65663786c17e": {
+          "type": "text",
+          "settings": {
+            "text": "O primeiro relógio GPS solar do mundo.",
+            "text_style": "body"
+          }
+        },
+        "9286bb90-79af-488c-b4db-5c7dd8fe5024": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Ver tudo",
+            "button_link_1": "shopify:\/\/collections\/seiko-astron",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "64df796f-0bcc-496c-83e5-c9f25343a044",
+        "37f9870b-3b61-4f55-ab51-65663786c17e",
+        "9286bb90-79af-488c-b4db-5c7dd8fe5024"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/SBXC021_image_1150.png",
+        "image_2": "shopify:\/\/shop_images\/majorica_banner.png",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
     "16522869307591a941": {
       "type": "slideshow",
+      "disabled": true,
       "blocks": {
         "1652286929f9c6ceff-0": {
           "type": "slide",
@@ -461,6 +511,7 @@
     }
   },
   "order": [
+    "1660644547cb787718",
     "16522869307591a941",
     "16523666019c61e216",
     "16523648951c633595",
