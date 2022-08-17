@@ -121,9 +121,7 @@
 {% assign section_letter = '' %}
 
 
-<div class="page-width">
-  
-<header class="header-text">
+<div class="header-text"
   <style type="text/css">
 .header-text {
 text-align: center;
@@ -142,7 +140,23 @@ background-color: #F7F7F7;
 </style>
 
 <h1 class="header-text">{{ collection.title }}</h1>
-</header>
+</div>
+
+<div class="page-width">
+  
+  <div class="grid">
+      <div class="tab">
+        <button class="tablinks active" onclick="openCity(event, 'all')">TODAS AS MARCAS</button>   
+        {% for product_vendor in shop.vendors %}
+        {% capture product_letter %}{{ product_vendor | truncate: 1, '' | upcase }}{% endcapture %}
+        {% if numbers contains product_letter %}{% assign product_letter = '0-9' %}{% endif %}
+        {% if product_letter != section_letter %}
+        {% assign section_letter = product_letter %}
+        <button class="tablinks" onclick="openCity(event, '{{ section_letter }}')">{{ section_letter }}</button>
+        {% endif %}
+        {% endfor %}
+      </div>
+  </div>
   
   <div class="grid">
       <div class="tab">
