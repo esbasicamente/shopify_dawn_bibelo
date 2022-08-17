@@ -125,7 +125,24 @@
   
   <div class="grid">
     <div class="space-text grid__item medium-up--five-sixths medium-up--push-one-twelfth center">
-      <h2>{{ page.title }}</h2>
+      <style type="text/css">
+.header-text {
+text-align: center;
+font-size: calc(var(--font-heading-scale) * 2.2rem);
+font-family: var(--font-heading-family);
+font-style: var(--font-heading-style);
+font-weight: var(--font-heading-weight);
+letter-spacing: 0;
+color: rgb(var(--color-foreground));
+line-height: 100%;
+word-break: break-word;
+padding: 26px;
+margin: auto;
+background-color: #F7F7F7;
+}
+</style>
+
+<h1 class="header-text">{{ page.title }}</h1>
     </div>
   </div>
   
