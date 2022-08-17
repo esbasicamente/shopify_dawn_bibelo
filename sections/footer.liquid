@@ -82,7 +82,9 @@ width: 15%;
               class="link link--text list-menu__item list-menu__item--link{% if link.active %} list-menu__item--active{% endif %}">
               {{ link.title }}
             </a>
-            <ul class="footer__list-social list-unstyled list-social" role="list">
+          </li>
+          {%- endfor -%}
+          <ul class="footer__list-social list-unstyled list-social" role="list">
  {%- if settings.social_facebook_link != blank -%}
             <li class="list-social__item">
               <a href="{{ settings.social_facebook_link }}" class="link list-social__link">
@@ -100,8 +102,6 @@ width: 15%;
             </li>
             {%- endif -%}
 </ul>
-          </li>
-          {%- endfor -%}
         </ul>
         {%- endif -%}
 
