@@ -85,6 +85,8 @@ width: 15%;
           </li>
           {%- endfor -%}
         </ul>
+        {%- endif -%}
+         
           <ul class="footer__list-social list-unstyled list-social" role="list">
  {%- if settings.social_facebook_link != blank -%}
             <li class="list-social__item">
@@ -103,7 +105,6 @@ width: 15%;
             </li>
             {%- endif -%}
 </ul>
-        {%- endif -%}
 
         {%- when 'newsletter' -%}
         <div class="footer-block--newsletter">
