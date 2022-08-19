@@ -88,7 +88,27 @@ width: 15%;
         {%- endif -%}
 
           <div class="teste">
-          <p class="teste">Redes Sociais </p>
+          <p class="teste.teste">Redes Sociais </p>
+          
+          <ul class="footer__list-social list-unstyled list-social" role="list">
+ {%- if settings.social_facebook_link != blank -%}
+            <li class="list-social__item">
+              <a href="{{ settings.social_facebook_link }}" class="link list-social__link">
+                {%- render 'icon-facebook' -%}
+                <span class="visually-hidden">{{ 'general.social.links.facebook' | t }}</span>
+              </a>
+            </li>
+{%- endif -%}
+{%- if settings.social_instagram_link != blank -%}
+            <li class="list-social__item">
+              <a href="{{ settings.social_instagram_link }}" class="link list-social__link">
+                {%- render 'icon-instagram' -%}
+                <span class="visually-hidden">{{ 'general.social.links.instagram' | t }}</span>
+              </a>
+            </li>
+            {%- endif -%}
+</ul>
+
           </div>
           
         {%- when 'newsletter' -%}
