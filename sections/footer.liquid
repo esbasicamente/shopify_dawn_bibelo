@@ -87,10 +87,9 @@ width: 15%;
         </ul>
         {%- endif -%}
 
-          {%- when 'newsletter' -%}
-        <div class="footer-block--newsletter">
-
-          <div class="teste">
+          <div class="grid-container">
+          
+          <div class="grid-item">1
           <p class="teste.teste">Redes Sociais </p>
           
           <ul class="footer__list-social list-unstyled list-social" role="list">
@@ -111,8 +110,12 @@ width: 15%;
             </li>
             {%- endif -%}
 </ul>
-
           </div>
+
+          <div class="grid-item">2
+          
+          {%- when 'newsletter' -%}
+        <div class="footer-block--newsletter">
           
           {%- if block.settings.newsletter_enable -%}
           <div class="footer-block__newsletter">
@@ -152,6 +155,7 @@ width: 15%;
           </div>
           {%- endif -%}
     </div>
+          </div>
 
         {%- when 'image' -%}
         <div class="footer-block__details-content footer-block-image {{ block.settings.alignment }}">
