@@ -87,7 +87,53 @@ width: 15%;
         </ul>
         {%- endif -%}
 
-        {%- when 'newsletter' -%}
+        <div class="footer-block grid__item">
+<h2 class="footer-block_heading">Redes Sociais </h2>
+
+@media screen and (min-width: 990px)
+.footer-block_heading {
+font-size: 13px;
+line-height: 22px;
+text-transform: uppercase;
+}
+
+.footer-block_heading {
+margin-bottom: 1rem;
+margin-top: 0;
+font-size: calc(var(font heading scale) * 1.6rem);
+
+.h2 {
+font-family: var(--font-heading-family);
+font-style: var(--font-heading-style);
+font-weight: var(--font-heading-weight);
+letter-spacing: 0px;
+color: rgb(var(--color-forceground));
+word-break: break-word;
+}
+
+<li class="list-social__item">
+ <ul class="footer__list-social list-unstyled list-social" role="list">
+ {%- if settings.social_facebook_link != blank -%}
+            <li class="list-social__item">
+              <a href="{{ settings.social_facebook_link }}" class="link list-social__link">
+                {%- render 'icon-facebook' -%}
+                <span class="visually-hidden">{{ 'general.social.links.facebook' | t }}</span>
+              </a>
+            </li>
+			{%- endif -%}
+
+{%- if settings.social_instagram_link != blank -%}
+            <li class="list-social__item">
+              <a href="{{ settings.social_instagram_link }}" class="link list-social__link">
+                {%- render 'icon-instagram' -%}
+                <span class="visually-hidden">{{ 'general.social.links.instagram' | t }}</span>
+              </a>
+            </li>
+            {%- endif -%}
+</ul> 
+</div>
+          
+          {%- when 'newsletter' -%}
         <div class="footer-block--newsletter">
           {%- if block.settings.newsletter_enable -%}
           <div class="footer-block__newsletter">
@@ -127,25 +173,6 @@ width: 15%;
           </div>
           {%- endif -%}
     </div>
-
-         <ul class="footer__list-social list-unstyled list-social" role="list">
- {%- if settings.social_facebook_link != blank -%}
-            <li class="list-social__item">
-              <a href="{{ settings.social_facebook_link }}" class="link list-social__link">
-                {%- render 'icon-facebook' -%}
-                <span class="visually-hidden">{{ 'general.social.links.facebook' | t }}</span>
-              </a>
-            </li>
-{%- endif -%}
-{%- if settings.social_instagram_link != blank -%}
-            <li class="list-social__item">
-              <a href="{{ settings.social_instagram_link }}" class="link list-social__link">
-                {%- render 'icon-instagram' -%}
-                <span class="visually-hidden">{{ 'general.social.links.instagram' | t }}</span>
-              </a>
-            </li>
-            {%- endif -%}
-</ul> 
 
         {%- when 'image' -%}
         <div class="footer-block__details-content footer-block-image {{ block.settings.alignment }}">
