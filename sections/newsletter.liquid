@@ -15,28 +15,6 @@
   }
 {%- endstyle -%}
 
-<li class="list-social__item">
- <ul class="footer__list-social list-unstyled list-social" role="list">
- {%- if settings.social_facebook_link != blank -%}
-            <li class="list-social__item">
-              <a href="{{ settings.social_facebook_link }}" class="link list-social__link">
-                {%- render 'icon-facebook' -%}
-                <span class="visually-hidden">{{ 'general.social.links.facebook' | t }}</span>
-              </a>
-            </li>
-			{%- endif -%}
-
-{%- if settings.social_instagram_link != blank -%}
-            <li class="list-social__item">
-              <a href="{{ settings.social_instagram_link }}" class="link list-social__link">
-                {%- render 'icon-instagram' -%}
-                <span class="visually-hidden">{{ 'general.social.links.instagram' | t }}</span>
-              </a>
-            </li>
-            {%- endif -%}
-</ul>
-</li>
-
 <div class="newsletter center {% if section.settings.full_width == false %}newsletter--narrow page-width{% endif %}">
   <div class="newsletter__wrapper color-{{ section.settings.color_scheme }} gradient content-container isolate{% if section.settings.full_width %} content-container--full-width{% endif %} section-{{ section.id }}-padding">
     {%- for block in section.blocks -%}
@@ -93,6 +71,28 @@
     {%- endfor -%}
   </div>
 </div>
+
+<li class="list-social__item">
+ <ul class="footer__list-social list-unstyled list-social" role="list">
+ {%- if settings.social_facebook_link != blank -%}
+            <li class="list-social__item">
+              <a href="{{ settings.social_facebook_link }}" class="link list-social__link">
+                {%- render 'icon-facebook' -%}
+                <span class="visually-hidden">{{ 'general.social.links.facebook' | t }}</span>
+              </a>
+            </li>
+			{%- endif -%}
+
+{%- if settings.social_instagram_link != blank -%}
+            <li class="list-social__item">
+              <a href="{{ settings.social_instagram_link }}" class="link list-social__link">
+                {%- render 'icon-instagram' -%}
+                <span class="visually-hidden">{{ 'general.social.links.instagram' | t }}</span>
+              </a>
+            </li>
+            {%- endif -%}
+</ul>
+</li>
 
 {% schema %}
 {
