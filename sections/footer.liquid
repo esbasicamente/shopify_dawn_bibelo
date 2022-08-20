@@ -87,6 +87,8 @@ width: 15%;
         </ul>
         {%- endif -%}
        
+          <div grid-item="all">
+          
           {%- when 'newsletter' -%}
         <div class="footer-block--newsletter">          
           {%- if block.settings.newsletter_enable -%}
@@ -163,7 +165,7 @@ width: 15%;
             {%- endif -%}
 </ul>
          </div>
-
+          </div>
           
           {%- when 'image' -%}
         <div class="footer-block__details-content footer-block-image {{ block.settings.alignment }}">
