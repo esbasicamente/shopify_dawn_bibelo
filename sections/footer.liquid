@@ -64,7 +64,7 @@ width: 15%;
         class="footer-block grid__item{% if block.type == 'link_list' and block.settings.heading != blank %} footer-block--menu{% endif %}"
         {{ block.shopify_attributes }}>
         {%- if block.settings.heading != blank -%}
-        <h2 class="footer-block__heading">Redes Sociais</h2>
+        <h2 class="footer-block__heading">{{- block.settings.heading | escape -}}</h2>
         {%- endif -%}
 
         {%- case block.type -%}
