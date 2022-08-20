@@ -226,3 +226,10 @@
     display: list-item;
   }
 }
+
+@media screen and (min-width: 750px){
+#shopify-section-template--15298090008815__1635154722a243cb8f .grid--2-col-tablet .multicolumn-list__item {
+    margin-top: 1rem;
+    max-width: 33.33% !important;
+}
+}
