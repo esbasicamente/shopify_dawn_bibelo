@@ -163,22 +163,13 @@
               "newsletter_enable": true,
               "newsletter_heading": "Newsletter"
             }
-          },
-          "fef860d9-ee12-4fc5-8b4e-1f7a0dd75e18": {
-            "type": "image",
-            "settings": {
-              "image_width": 65,
-              "alignment": "center",
-              "show_social": true
-            }
           }
         },
         "block_order": [
           "fbb82f84-232d-4db3-8008-3a352f8839a9",
           "ed199461-6417-4352-9cc1-32ba716ba821",
           "24434afb-e173-4d7b-8e3b-c578be8564a2",
-          "55a8804a-1bfa-4f02-b809-3f6ad013d092",
-          "fef860d9-ee12-4fc5-8b4e-1f7a0dd75e18"
+          "55a8804a-1bfa-4f02-b809-3f6ad013d092"
         ],
         "settings": {
           "color_scheme": "accent-1",
