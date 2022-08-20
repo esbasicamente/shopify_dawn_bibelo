@@ -129,6 +129,20 @@ width: 15%;
     </div>
          
          <div class="socials">
+          <style type="text/css">.redes_sociais {         
+          font-size: calc(var(--font-heading-scale) * 1.8rem);
+          font-family: var(--font-heading-family);   
+          font-style: var(--font-heading-style);   
+          font-weight: var(--font-heading-weight);   
+          letter-spacing: 0;   
+          color: rgb(var(--color-foreground));
+          line-height: calc(1 + .3/max(1,var(--font-heading-scale)));
+          word-break: break-word;
+}
+          </style>
+
+          <h1 class="redes_sociais">Redes Sociais </h1>
+          
           <ul class="footer__list-social list-unstyled list-social" role="list">
  {%- if settings.social_facebook_link != blank -%}
             <li class="list-social__item">
