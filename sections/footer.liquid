@@ -128,7 +128,6 @@ width: 15%;
           {%- endif -%}
     </div>
          
-        {%- if block.settings.show_social -%}
           <ul class="footer__list-social list-unstyled list-social" role="list">
             {%- if settings.social_twitter_link != blank -%}
             <li class="list-social__item">
@@ -203,7 +202,7 @@ width: 15%;
             </li>
             {%- endif -%}
           </ul>
-            {%- endif -%}
+  
           
           {%- when 'image' -%}
         <div class="footer-block__details-content footer-block-image {{ block.settings.alignment }}">
