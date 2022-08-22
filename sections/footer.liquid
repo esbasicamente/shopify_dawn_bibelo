@@ -128,7 +128,13 @@ width: 15%;
           {%- endif -%}
     
     
-<ul class="footer__list-social list-unstyled list-social" role="list">
+<div class="socials">
+          <style type="text/css">.socials-text {
+          margin-top: 0px;
+          }
+          <h1 class="socials-text">Redes Sociais</h1>
+          
+          <ul class="footer__list-social list-unstyled list-social" role="list">
  {%- if settings.social_facebook_link != blank -%}
             <li class="list-social__item">
               <a href="{{ settings.social_facebook_link }}" class="link list-social__link">
