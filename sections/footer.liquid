@@ -87,7 +87,6 @@ width: 15%;
         </ul>
         {%- endif -%}
 
-        <div>
           {%- when 'newsletter' -%}
         <div class="footer-block--newsletter">
           {%- if block.settings.newsletter_enable -%}
@@ -135,6 +134,7 @@ width: 15%;
           }
           
           <h1 class="socials-text">Redes Sociais</h1>
+          </div>
           
           <ul class="footer__list-social list-unstyled list-social" role="list">
  {%- if settings.social_facebook_link != blank -%}
@@ -154,8 +154,6 @@ width: 15%;
             </li>
             {%- endif -%}
 </ul> 
-          </div>
-          </div>
 
         {%- when 'image' -%}
         <div class="footer-block__details-content footer-block-image {{ block.settings.alignment }}">
