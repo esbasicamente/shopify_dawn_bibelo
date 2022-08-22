@@ -64,13 +64,7 @@ width: 15%;
         class="footer-block grid__item{% if block.type == 'link_list' and block.settings.heading != blank %} footer-block--menu{% endif %}"
         {{ block.shopify_attributes }}>
         {%- if block.settings.heading != blank -%}
-        <h2 class="footer-block__heading">{{- block.settings.heading | escape -}}</h2>
-          
-          
-        
-          <a href="tel:229 280 099" alt="229 280 099" title="229 280 099">229 280 099</a>
-          
-          
+        <h2 class="footer-block__heading">{{- block.settings.heading | escape -}}</h2>                                   
         {%- endif -%}
 
         {%- case block.type -%}
