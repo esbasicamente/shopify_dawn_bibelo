@@ -120,46 +120,14 @@
 {% assign numbers = '01234567890&' %}
 {% assign section_letter = '' %}
 
-<section id="header" class"header">
-<style data-shopify>
-.section-template--15600525934783__166012058342d2de74-padding {
-  padding-top: calc(0px * 0.75);
-  padding-bottom: calc(0px  * 0.75);
-}
-
-@media screen and (min-width: 750px) {
-  .section-template--15600525934783__166012058342d2de74-padding {
-    padding-top: 0px;
-    padding-bottom: 0px;
-  }
-}
-</style>
-<div class="header-header">
-<div class="header">
-<style type="text/css">
-.header-text {
-display: block;
-text-align: center;
-font-size: calc(var(--font-heading-scale) * 2.2rem);
-font-family: var(--font-heading-family);
-font-style: var(--font-heading-style);
-font-weight: var(--font-heading-weight);
-letter-spacing: 0;
-color: rgb(var(--color-foreground));
-line-height: 100%;
-word-break: break-word;
-padding: 26px;
-margin: auto;
-}
-</style>
-<h1 class="header-text">{{page.title}}</h1>
-</div>
-</div>
-</section>
-
-
 
 <div class="page-width">
+  
+  <div class="grid">
+    <div class="space-text grid__item medium-up--five-sixths medium-up--push-one-twelfth center">
+      <h2>{{ page.title }}</h2>
+    </div>
+  </div>
   
   <div class="grid">
       <div class="tab">
