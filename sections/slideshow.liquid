@@ -137,11 +137,12 @@
         </div>
       </div>
     {%- endfor -%}
-</div>
 
-  {%- if block.settings.link and block.settings.button_label == blank -%}
+   {%- if block.settings.link and block.settings.button_label == blank -%}
 </a>
 {%- endif -%}
+  
+</div>
 
   {%- if section.blocks.size > 1 and section.settings.auto_rotate == false -%}
     <div class="slideshow__controls slider-buttons no-js-hidden{% if section.settings.show_text_below %} slideshow__controls--border-radius-mobile{% endif %}">
