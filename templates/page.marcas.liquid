@@ -120,28 +120,14 @@
 {% assign numbers = '01234567890&' %}
 {% assign section_letter = '' %}
 
+
 <div class="page-width">
   
-  <div class="header">
-<div class="header-text">
-      <style type="text/css">
-.header-text {
-text-align: center;
-font-size: calc(var(--font-heading-scale) * 2.4rem);
-font-family: var(--font-heading-family);
-font-style: var(--font-heading-style);
-font-weight: var(--font-heading-weight);
-letter-spacing: 0;
-color: rgb(var(--color-foreground));
-line-height: auto;
-word-break: break-word;
-padding: 10px;
-}
-</style>
-
-  <h2 class="header-text">{{ page.title }}</h2>
+  <div class="grid">
+    <div class="space-text grid__item medium-up--five-sixths medium-up--push-one-twelfth center">
+      <h2>{{ page.title }}</h2>
     </div>
-	</div>
+  </div>
   
   <div class="grid">
       <div class="tab">
