@@ -167,7 +167,7 @@
 }
 
 .footer__list-social.list-social:only-child {
-  justify-content: left;
+  justify-content: center;
 }
 
 .newsletter-form__field-wrapper {
