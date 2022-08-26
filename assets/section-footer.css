@@ -98,7 +98,7 @@
   .footer__column--info {
     padding-left: 0;
     padding-right: 0;
-    align-items: center;
+    align-items: flex-end;
   }
 }
 
@@ -380,7 +380,7 @@ noscript .localization-selector.link {
 }
 
 .payments {
-  width: 80%;
+  width: 30%;
 }
 
 @media only screen and (max-width: 600px) {
