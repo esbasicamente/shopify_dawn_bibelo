@@ -70,7 +70,7 @@
 }
 
 .footer__localization:empty+.footer__column--info {
-  align-items: center;
+  align-items: start;
   ;
 }
 
