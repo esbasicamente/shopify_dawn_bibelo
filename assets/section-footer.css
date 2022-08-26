@@ -82,14 +82,14 @@
 
 .footer__column {
   width: 100%;
-  align-items: left;
+  align-items: flex-end;
 }
 
 .footer__column--info {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: start;
+  align-items: center;
   padding-left: 2rem;
   padding-right: 2rem;
 }
