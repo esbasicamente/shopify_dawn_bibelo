@@ -16,9 +16,14 @@
   }
 
   .multicolumn .page-width {
-    padding-left: 0;
-    padding-right: 0;
+    padding: 0 5rem;
   }
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
 }
 
 .multicolumn-card__image-wrapper--third-width {
