@@ -77,7 +77,6 @@
 @media screen and (max-width: 749px) {
   .footer__localization:empty+.footer__column {
     padding-top: 1.5rem;
-    align-items: center;
   }
 }
 
