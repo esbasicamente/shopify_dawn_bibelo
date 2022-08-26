@@ -82,7 +82,7 @@
 
 .footer__column {
   width: 100%;
-  align-items: flex-end;
+  align-items: left;
 }
 
 .footer__column--info {
