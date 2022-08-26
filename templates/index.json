@@ -382,6 +382,7 @@
     },
     "1658567357ade2d471": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "165856735619b79bda-0": {
           "type": "column",
@@ -453,7 +454,6 @@
     },
     "1661513180500894df": {
       "type": "custom-liquid",
-      "disabled": true,
       "settings": {
         "custom_liquid": "<div id=\"custom multicolumn\" class=\"shopify-section\"><style>\n  \n  @media only screen and (max-width: 767px) {\n    .wrapper {\n    display: block!important;\n     \n  }\n}\n\n  .wrapper {\n    display: grid;\n    grid-template-columns: 1fr 1fr;\n    gap: 15px;\n  }\n\n  .texty {\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%);\n  }\n\n  .contain-bsp {\n    position: relative;\n    text-align: center;\n  }\n  \n  .contain-bsp:hover {\n\tfilter: brightness(75%);\n  }\n  \n  .format {\n    font-size: 2rem;\n    color: #FFF;\n    text-transform: uppercase;\n  }\n  \n  .img-set {\n  \tfilter: brightness(85%);\n    width: 100%;\n    height: 100%;\n  }\n\n<\/style>\n\n<div class=\"wrapper page-width\">\n  <div class=\"contain-bsp\">\n    <a href=\"\/collections\/relogios\"><img class=\"img-set\" src=\"\/\/cdn.shopify.com\/s\/files\/1\/0628\/6963\/5318\/files\/promo1_1280x.png?v=1644855357\"><div class=\"texty\"><h3 class=\"format\"><\/h3><\/div><\/a>\n  <\/div>\n\n  <div class=\"contain-bsp\">\n    <a href=\"\/collections\/smartwatches\"><img class=\"img-set\" src=\"\/\/cdn.shopify.com\/s\/files\/1\/0628\/6963\/5318\/files\/promo4_1280x.png?v=1644855382\"><div class=\"texty\"><h3 class=\"format\"><\/h3><\/div><\/a>\n  <\/div>\n\n  <div class=\"contain-bsp\">\n    <a href=\"\/collections\/aneis-de-noivado\"><img class=\"img-set\" src=\"\/\/cdn.shopify.com\/s\/files\/1\/0628\/6963\/5318\/files\/promo2_1280x.png?v=1644855412\"><div class=\"texty\"><h3 class=\"format\"><\/h3><\/div><\/a>\n  <\/div>\n\n  <div class=\"contain-bsp\">\n    <a href=\"https:\/\/simulador.joalharianana.com\/pt\"><img class=\"img-set\" src=\"\/\/cdn.shopify.com\/s\/files\/1\/0628\/6963\/5318\/files\/promo3_1280x.png?v=1644855437\"><div class=\"texty\"><h3 class=\"format\"><\/h3><\/div><\/a>\n  <\/div>\n\n<\/div>\n\n<\/div>",
         "color_scheme": "background-1",
