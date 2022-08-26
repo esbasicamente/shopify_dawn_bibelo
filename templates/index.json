@@ -79,7 +79,6 @@
         "1652366601ca94d03c-0": {
           "type": "column",
           "settings": {
-            "image_link": "",
             "fa-icon": "<i class=\"fas fa-truck\"><\/i>",
             "title": "Entregas Rápidas",
             "text": "<p>Desde 1 a 2 dias Portugal Continental<\/p>",
@@ -90,7 +89,6 @@
         "1652366601ca94d03c-2": {
           "type": "column",
           "settings": {
-            "image_link": "",
             "fa-icon": "<i class=\"fas fa-shield-alt\"><\/i>",
             "title": "Pagamentos Seguros",
             "text": "<p>Escolhe o teu método favorito de pagamento<\/p>",
@@ -101,7 +99,6 @@
         "1652366601ca94d03c-1": {
           "type": "column",
           "settings": {
-            "image_link": "",
             "fa-icon": "<i class=\"fas fa-box\"><\/i>",
             "title": "Portes Grátis",
             "text": "<p>Portes Grátis em encomendas superiores a 50€<\/p>",
@@ -112,7 +109,6 @@
         "f05bdc98-5100-49f3-8a03-8f344b9e60ea": {
           "type": "column",
           "settings": {
-            "image_link": "",
             "fa-icon": "<i class=\"fas fa-store-alt\"><\/i>",
             "title": "Levantamento em Loja",
             "text": "<p>Faz a tua encomenda e levanta em loja<\/p>",
@@ -386,11 +382,11 @@
     },
     "1658567357ade2d471": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "165856735619b79bda-0": {
           "type": "column",
           "settings": {
-            "image_link": "#",
             "image": "shopify:\/\/shop_images\/bodas_c0b30727-120b-44f2-85df-ec96f50bb40f.png",
             "fa-icon": "",
             "title": "",
@@ -402,7 +398,6 @@
         "165856735619b79bda-1": {
           "type": "column",
           "settings": {
-            "image_link": "#",
             "image": "shopify:\/\/shop_images\/acessorios_b0b609e9-a268-4a8f-85ec-75b20bd79d39.png",
             "fa-icon": "",
             "title": "",
@@ -414,7 +409,6 @@
         "166e3501-f7c9-4a1c-883a-0d3493dea6d2": {
           "type": "column",
           "settings": {
-            "image_link": "#",
             "image": "shopify:\/\/shop_images\/crianca_8607ce88-67cf-4bc8-8b4d-2e4c21a3f3f1.jpg",
             "fa-icon": "",
             "title": "",
@@ -426,7 +420,6 @@
         "b7f8dce1-95eb-4b27-a12e-15c89a9df636": {
           "type": "column",
           "settings": {
-            "image_link": "#",
             "image": "shopify:\/\/shop_images\/fim_de_curso_95c75ab9-abb8-43ce-b58c-9e1497db4732.png",
             "fa-icon": "",
             "title": "",
@@ -458,6 +451,15 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "1661513180500894df": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"wrapper page-width\">\n  <div class=\"contain-bsp\">\n    <a href=\"\/collections\/relogios\"><img class=\"img-set\" src=\"\/\/cdn.shopify.com\/s\/files\/1\/0628\/6963\/5318\/files\/promo1_1280x.png?v=1644855357\"><div class=\"texty\"><h3 class=\"format\"><\/h3><\/div><\/a>\n  <\/div>\n\n  <div class=\"contain-bsp\">\n    <a href=\"\/collections\/smartwatches\"><img class=\"img-set\" src=\"\/\/cdn.shopify.com\/s\/files\/1\/0628\/6963\/5318\/files\/promo4_1280x.png?v=1644855382\"><div class=\"texty\"><h3 class=\"format\"><\/h3><\/div><\/a>\n  <\/div>\n\n  <div class=\"contain-bsp\">\n    <a href=\"\/collections\/aneis-de-noivado\"><img class=\"img-set\" src=\"\/\/cdn.shopify.com\/s\/files\/1\/0628\/6963\/5318\/files\/promo2_1280x.png?v=1644855412\"><div class=\"texty\"><h3 class=\"format\"><\/h3><\/div><\/a>\n  <\/div>\n\n  <div class=\"contain-bsp\">\n    <a href=\"https:\/\/simulador.joalharianana.com\/pt\"><img class=\"img-set\" src=\"\/\/cdn.shopify.com\/s\/files\/1\/0628\/6963\/5318\/files\/promo3_1280x.png?v=1644855437\"><div class=\"texty\"><h3 class=\"format\"><\/h3><\/div><\/a>\n  <\/div>\n\n<\/div>",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -470,6 +472,7 @@
     "1660068116cc2cd6cd",
     "16581584000346920f",
     "1659978105bd6ba2de",
-    "1658567357ade2d471"
+    "1658567357ade2d471",
+    "1661513180500894df"
   ]
 }
