@@ -136,18 +136,18 @@
       "footer": {
         "type": "footer",
         "blocks": {
-          "55a8804a-1bfa-4f02-b809-3f6ad013d092": {
-            "type": "newsletter",
-            "settings": {
-              "newsletter_enable": true,
-              "newsletter_heading": "Newsletter"
-            }
-          },
           "fbb82f84-232d-4db3-8008-3a352f8839a9": {
             "type": "link_list",
             "settings": {
               "heading": "Ourivesaria Bibelô",
               "menu": "footer"
+            }
+          },
+          "ed199461-6417-4352-9cc1-32ba716ba821": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Informações",
+              "menu": "info-menu"
             }
           },
           "24434afb-e173-4d7b-8e3b-c578be8564a2": {
@@ -157,19 +157,19 @@
               "subtext": "<p><\/p><p><\/p><p><\/p>"
             }
           },
-          "ed199461-6417-4352-9cc1-32ba716ba821": {
-            "type": "link_list",
+          "55a8804a-1bfa-4f02-b809-3f6ad013d092": {
+            "type": "newsletter",
             "settings": {
-              "heading": "Informações",
-              "menu": "info-menu"
+              "newsletter_enable": true,
+              "newsletter_heading": "Newsletter"
             }
           }
         },
         "block_order": [
-          "55a8804a-1bfa-4f02-b809-3f6ad013d092",
           "fbb82f84-232d-4db3-8008-3a352f8839a9",
+          "ed199461-6417-4352-9cc1-32ba716ba821",
           "24434afb-e173-4d7b-8e3b-c578be8564a2",
-          "ed199461-6417-4352-9cc1-32ba716ba821"
+          "55a8804a-1bfa-4f02-b809-3f6ad013d092"
         ],
         "settings": {
           "color_scheme": "accent-1",
