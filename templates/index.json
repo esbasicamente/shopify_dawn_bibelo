@@ -386,6 +386,7 @@
     },
     "1658567357ade2d471": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "165856735619b79bda-0": {
           "type": "column",
@@ -458,6 +459,81 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "166151111140f39e11": {
+      "type": "multicolumn2",
+      "blocks": {
+        "1661511111f56e8251-0": {
+          "type": "column",
+          "settings": {
+            "image_link": "",
+            "image": "shopify:\/\/shop_images\/fim_de_curso_95c75ab9-abb8-43ce-b58c-9e1497db4732.png",
+            "fa-icon": "",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1661511111f56e8251-1": {
+          "type": "column",
+          "settings": {
+            "image_link": "",
+            "image": "shopify:\/\/shop_images\/fim_de_curso_95c75ab9-abb8-43ce-b58c-9e1497db4732.png",
+            "fa-icon": "",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1661511111f56e8251-2": {
+          "type": "column",
+          "settings": {
+            "image_link": "",
+            "image": "shopify:\/\/shop_images\/fim_de_curso_95c75ab9-abb8-43ce-b58c-9e1497db4732.png",
+            "fa-icon": "",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "f3e31a35-6e3b-4000-8d6a-97d00c24f084": {
+          "type": "column",
+          "settings": {
+            "image_link": "",
+            "image": "shopify:\/\/shop_images\/fim_de_curso_95c75ab9-abb8-43ce-b58c-9e1497db4732.png",
+            "fa-icon": "",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1661511111f56e8251-0",
+        "1661511111f56e8251-1",
+        "1661511111f56e8251-2",
+        "f3e31a35-6e3b-4000-8d6a-97d00c24f084"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -470,6 +546,7 @@
     "1660068116cc2cd6cd",
     "16581584000346920f",
     "1659978105bd6ba2de",
-    "1658567357ade2d471"
+    "1658567357ade2d471",
+    "166151111140f39e11"
   ]
 }
