@@ -20,12 +20,6 @@
   }
 }
 
-.wrapper {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 15px;
-}
-
 .multicolumn-card__image-wrapper--third-width {
   width: 33%;
 }
@@ -37,8 +31,9 @@
 .multicolumn-list__item.center
   .multicolumn-card__image-wrapper:not(.multicolumn-card__image-wrapper--full-width),
 .multicolumn-list__item:only-child {
-  margin-left: auto;
-  margin-right: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
 }
 
 .multicolumn .button {
