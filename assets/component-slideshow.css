@@ -107,7 +107,7 @@ slideshow-component .slideshow.banner {
 
 .slideshow__controls {
     position: absolute!important;
-    bottom: 5px;
+    bottom: 15px;
     right: 0;
     left: 0;
     z-index: 2;
@@ -152,7 +152,7 @@ slideshow-component:not(.page-width) .slider-buttons {
   justify-content: center;
   align-items: center;
   position: absolute!important;
-  bottom: 5px;
+  bottom: 15px;
   right: 0;
   left: 0;
   z-index: 2;
