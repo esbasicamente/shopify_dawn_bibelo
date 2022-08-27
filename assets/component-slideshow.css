@@ -111,6 +111,7 @@ slideshow-component .slideshow.banner {
   min-with: 4.4rem;
   background-color: #00ceff;
   border-radius: 5px;
+  bottom: 15px;
 }
 
 .slideshow__controls--top {
