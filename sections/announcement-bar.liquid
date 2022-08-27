@@ -1,92 +1,18 @@
-<div id="shopify-section-announcement-bar" class="shopify-section"><style>
-.shopping-bar{
-		 width:100%;
-		 display: flex;
-	}
-
-.column{
-     -webkit-box-flex: 1;      /* OLD - iOS 6-, Safari 3.1-6 */
-    -moz-box-flex: 1;         /* OLD - Firefox 19- */
-    -webkit-flex: 1;          /* Chrome */
-    -ms-flex: 1;              /* IE 10 */
-    flex: 1;                  /* NEW, Spec - Opera 12.1, Firefox 20+ */
-    text-align: center;
-}
-
-.shopping-bar span{
-	font-size: 12px;
-	line-height: 20px;
-	color: #fff;
-  text-transform: uppercase;
-	}
-    @media screen and (max-width: 767px) {
-    .sliding-mobile{
-    display: block!important;
-    }
-      
-    .sliding-desktop{
-     display: none!important;
-    }
-      
-    }
-    
-    .sliding-mobile{
-     display: none;
-    }
-    
-    .sliding-mobile a{
-     color: #fff; 
-    }
-</style><div class="shopping-bar sliding-desktop announcement-bar color-accent-1 gradient" role="region" aria-label="Comunicado">
-  
-  			<div class="column">     
-            <p class="announcement-bar__message h5"><i class="fa-solid fa-truck"></i> Portes Grátis a partir de 50€</p>
-              </div>
-  
-  			<div class="column">
-            <p class="announcement-bar__message h5"><i class="fa-solid fa-rotate-left"></i> Devoluções Grátis</p>
- 			</div>
-  
-  			<div class="column">
-            <p class="announcement-bar__message h5"><i class="fa-solid fa-shield"></i> Pagamentos Seguros</p>
-  			</div>
-
-</div>
-
-<div class="shopping-bar sliding-mobile announcement-bar color-accent-1 gradient slick-initialized slick-slider" role="region" aria-label="Comunicado" style="">
-  
-  			<div class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 0px; transform: translate3d(0px, 0px, 0px); transition: transform 500ms ease 0s;"><div class="slick-slide slick-cloned" data-slick-index="-1" id="" aria-hidden="true" style="width: 0px;" tabindex="-1">
-            <p class="announcement-bar__message h5"><i class="fa-solid fa-shield"></i> Pagamentos Seguros</p>
-  			</div><div class="slick-slide" data-slick-index="0" aria-hidden="true" style="width: 0px;" tabindex="-1">     
-            <p class="announcement-bar__message h5"><i class="fa-solid fa-truck"></i> Portes Grátis a partir de 50€</p>
-              </div><div class="slick-slide" data-slick-index="1" aria-hidden="true" style="width: 0px;" tabindex="0">
-            <p class="announcement-bar__message h5"><i class="fa-solid fa-rotate-left"></i> Devoluções Grátis</p>
- 			</div><div class="slick-slide slick-current slick-active" data-slick-index="2" aria-hidden="false" style="width: 0px;" tabindex="-1">
-            <p class="announcement-bar__message h5"><i class="fa-solid fa-shield"></i> Pagamentos Seguros</p>
-  			</div><div class="slick-slide slick-cloned" data-slick-index="3" id="" aria-hidden="true" style="width: 0px;" tabindex="-1">     
-            <p class="announcement-bar__message h5"><i class="fa-solid fa-truck"></i> Portes Grátis a partir de 50€</p>
-              </div><div class="slick-slide slick-cloned" data-slick-index="4" id="" aria-hidden="true" style="width: 0px;" tabindex="-1">
-            <p class="announcement-bar__message h5"><i class="fa-solid fa-rotate-left"></i> Devoluções Grátis</p>
- 			</div><div class="slick-slide slick-cloned" data-slick-index="5" id="" aria-hidden="true" style="width: 0px;" tabindex="-1">
-            <p class="announcement-bar__message h5"><i class="fa-solid fa-shield"></i> Pagamentos Seguros</p>
-  			</div></div></div>
-  
-  			
-  
-  			
-
-</div>
-
-	<script>
-		$('.sliding-mobile').slick({
-         	arrows: false,
-			infinite: true,
-			slidesToShow: 1,
-			slidesToScroll: 1,
-          	autoplay: true
-		});
-	</script>
-</div>
+{%- for block in section.blocks -%}
+  {%- case block.type -%}
+    {%- when 'announcement' -%}
+      <div class="announcement-bar color-{{ block.settings.color_scheme }} gradient" role="region" aria-label="{{ 'sections.header.announcement' | t }}" {{ block.shopify_attributes }}>
+        {%- if block.settings.text != blank -%}
+              <p class="color-title announcement-bar__message h5">
+                {{ block.settings.text | escape }}
+              </p>
+          {%- if block.settings.link != blank -%}
+            </a>
+          {%- endif -%}
+        {%- endif -%}
+      </div>
+  {%- endcase -%}
+{%- endfor -%}
 
 {% schema %}
 {
