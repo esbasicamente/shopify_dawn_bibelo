@@ -106,17 +106,7 @@ slideshow-component .slideshow.banner {
 }
 
 .slideshow__controls {
-    position: absolute!important;
-    bottom: 5px;
-    right: 0;
-    left: 45%;
-    z-index: 2;
-    border: none!important;
-    background-color: #fff9;
-    border-radius: 5px;
-    max-width: 180px;   
-    max-height: 40px;
-    
+  border: 0.1rem solid rgba(var(--color-foreground), 0.08);
 }
 
 .slideshow__controls--top {
@@ -151,16 +141,12 @@ slideshow-component:not(.page-width) .slider-buttons {
 }
 
 .slideshow__autoplay {
-    position: absolute!important;
-    bottom: 5px;
-    right: 0;
-    left: 45%;
-    z-index: 2;
-    border: none!important;
-    background-color: #fff9;
-    border-radius: 5px;
-    max-width: 180px;   
-    max-height: 40px;
+  position: absolute;
+  right: 0;
+  border-left: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media screen and (max-width: 749px) {
