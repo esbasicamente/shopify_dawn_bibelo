@@ -139,6 +139,7 @@ slideshow-component:not(.page-width) .slider-buttons {
 
 .slideshow__control-wrapper {
   display: flex;
+  bottom: 15px;
 }
 
 .slideshow__autoplay {
