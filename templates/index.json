@@ -6,7 +6,6 @@
         "1652286929f9c6ceff-0": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/seiko_banner_ea1232ca-e20a-46e3-bb4b-bc95bdf946d7.jpg",
             "heading": "",
             "heading_size": "h2",
             "subheading": "",
@@ -65,7 +64,7 @@
       ],
       "settings": {
         "layout": "full_bleed",
-        "slide_height": "medium",
+        "slide_height": "adapt_image",
         "slider_visual": "dots",
         "auto_rotate": true,
         "change_slides_speed": 5,
