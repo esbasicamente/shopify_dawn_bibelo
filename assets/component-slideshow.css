@@ -109,13 +109,12 @@ slideshow-component .slideshow.banner {
     position: absolute!important;
     bottom: 5px;
     right: 0;
-    left: 0;
+    left: 50%;
     z-index: 2;
     border: none!important;
     background-color: #fff9;
     border-radius: 5px;
-    max-width: 150px;
-    align-items: center;
+    max-width: 150px;   
     
 }
 
