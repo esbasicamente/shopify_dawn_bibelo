@@ -112,6 +112,8 @@ slideshow-component .slideshow.banner {
     left: 0;
     z-index: 2;
     border: none!important;
+    background-color: #fff9;
+    border-radius: 5px;
     
 }
 
