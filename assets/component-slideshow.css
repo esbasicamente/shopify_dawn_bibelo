@@ -108,10 +108,10 @@ slideshow-component .slideshow.banner {
 .slideshow__controls {
   display: flex;
   justify-content: center;
-  max-with: 4.4rem;
+  max-with: 100px;;
   background-color: #00ceff;
   border-radius: 5px;
-  bottom: 15px;
+  bottom: 20px;
 }
 
 .slideshow__controls--top {
