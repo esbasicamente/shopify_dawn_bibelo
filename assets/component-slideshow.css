@@ -2,6 +2,7 @@ slideshow-component {
   position: relative;
   display: flex;
   flex-direction: column;
+  z-index: 0;
 }
 
 @media screen and (max-width: 989px) {
@@ -106,12 +107,7 @@ slideshow-component .slideshow.banner {
 }
 
 .slideshow__controls {
-    position: absolute!important;
-    bottom: 15px;
-    right: 0;
-    left: 0;
-    z-index: 2;
-    border: none!important;
+  border: 0;
 }
 
 .slideshow__controls--top {
@@ -146,13 +142,12 @@ slideshow-component:not(.page-width) .slider-buttons {
 }
 
 .slideshow__autoplay {
-  position: absolute!important;
+  position: absolute;
   right: 0;
   border-left: none;
   display: flex;
   justify-content: center;
   align-items: center;
-  bottom: 15px;
 }
 
 @media screen and (max-width: 749px) {
