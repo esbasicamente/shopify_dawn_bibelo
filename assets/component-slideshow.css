@@ -107,6 +107,7 @@ slideshow-component .slideshow.banner {
 
 .slideshow__controls {
   border: 0.1rem solid rgba(var(--color-foreground), 0.08);
+  bottom: 15px;
 }
 
 .slideshow__controls--top {
@@ -147,6 +148,7 @@ slideshow-component:not(.page-width) .slider-buttons {
   display: flex;
   justify-content: center;
   align-items: center;
+  bottom: 15px;
 }
 
 @media screen and (max-width: 749px) {
