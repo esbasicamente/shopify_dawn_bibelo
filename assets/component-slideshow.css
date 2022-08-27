@@ -114,6 +114,7 @@ slideshow-component .slideshow.banner {
     border: none!important;
     background-color: #fff9;
     border-radius: 5px;
+    max-width: 50px;
     
 }
 
