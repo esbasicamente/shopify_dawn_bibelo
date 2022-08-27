@@ -195,11 +195,11 @@
         "type": "eg-wishlist-drawer",
         "settings": {
           "drawer_width": "400",
-          "header_title": "FAVORITOS",
+          "header_title": "Favoritos",
           "display_btn_pdp": true,
           "display_btn_lists": true,
           "product_img_orientation": "square",
-          "text_wishlist": "FAVORITOS",
+          "text_wishlist": "Favoritos",
           "text_add": "Adicionar a Favoritos",
           "text_remove": "Remover de Favoritos",
           "text_empty": "Não tem produtos adicionados a Favoritos"
