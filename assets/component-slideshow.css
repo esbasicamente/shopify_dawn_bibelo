@@ -108,8 +108,8 @@ slideshow-component .slideshow.banner {
 .slideshow__controls {
     position: absolute!important;
     bottom: 5px;
-    right: 100%;
-    left: 100%;
+    right: 50%;
+    left: 0;
     z-index: 2;
     border: none!important;
     background-color: #fff9;
