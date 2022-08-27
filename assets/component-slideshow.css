@@ -133,9 +133,16 @@ slideshow-component .slideshow.banner {
 }
 
 slideshow-component:not(.page-width) .slider-buttons {
-  border-right: 0;
-  border-left: 0;
-    bottom: 15px;
+    color: rgba(var(--color-foreground),.75);
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
 }
 
 .slideshow__control-wrapper {
