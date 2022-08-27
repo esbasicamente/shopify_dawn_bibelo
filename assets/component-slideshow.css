@@ -106,7 +106,12 @@ slideshow-component .slideshow.banner {
 }
 
 .slideshow__controls {
-  border: 0.1rem solid rgba(var(--color-foreground), 0.08);
+    position: absolute!important;
+    bottom: 15px;
+    right: 0;
+    left: 0;
+    z-index: 2;
+    border: none!important;
 }
 
 .slideshow__controls--top {
