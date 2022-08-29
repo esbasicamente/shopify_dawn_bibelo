@@ -109,6 +109,7 @@
         {%- endfor -%}
       </ul>
 
+      {% comment %}
       {%- if show_mobile_slider -%}
         <div class="slider-buttons no-js-hidden medium-hide">
           <button type="button" class="slider-button slider-button--prev" name="previous" aria-label="{{ 'general.slider.previous_slide' | t }}">{% render 'icon-caret' %}</button>
@@ -129,6 +130,7 @@
         </a>
       {%- endif -%}
     </div>
+    {% endcomment %}
   </div>
 </div>
 
