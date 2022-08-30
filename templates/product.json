@@ -53,7 +53,7 @@
         "6a1a918c-3ed3-4935-912a-bf1bd61a60f9": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div \nstyle=\"margin-top: 40px;\"> <\/div>\n\n<a style=\"font-size: 1.3rem;border: 0;background-color:#FFF; color:#5A6A65; width: 100%; text-align: center; text-decoration: none;\"\n\nhref=\"https:\/\/wa.me\/+351932559851\"\n\ntarget=\"_blank\"\n>\n\n<img style=\"margin-left: 10px;vertical-align: middle;\" src=\"{{ 'whatsapp.webp' | asset_url }}\" width=\"20px\">\n\n<span><b>Precisa de ajuda?<\/b> Whatsapp: +351 932 559 851<\/span>\n\n<\/a>\n\n<div \nstyle=\"margin-bottom: -10px;\"> <\/div>"
+            "custom_liquid": "<div \nstyle=\"margin-top: 40px;\"> <\/div>\n\n<a style=\"font-size: 1.3rem;border: 0;background-color:#FFF; color:#5A6A65; width: 100%; text-align: center; text-decoration: none;\"\n\nhref=\"https:\/\/wa.me\/932559851\"\n\ntarget=\"_blank\"\n>\n\n<img style=\"margin-left: 10px;vertical-align: middle;\" src=\"{{ 'whatsapp.webp' | asset_url }}\" width=\"20px\">\n\n<span><b>Precisa de ajuda?<\/b> Whatsapp: 932 559 851<\/span>\n\n<\/a>\n\n<div \nstyle=\"margin-bottom: -10px;\"> <\/div>"
           }
         },
         "buy_buttons": {
@@ -92,7 +92,6 @@
         "column-0": {
           "type": "column",
           "settings": {
-            "image_link": "",
             "fa-icon": "<i class=\"fas fa-truck\"><\/i>",
             "title": "Entregas rápidas",
             "text": "<p>Desde 1 a 2 dias Portugal Continental<\/p>",
@@ -103,7 +102,6 @@
         "column-1": {
           "type": "column",
           "settings": {
-            "image_link": "",
             "fa-icon": "<i class=\"fas fa-shield-alt\"><\/i>",
             "title": "Pagamentos Seguros",
             "text": "<p>Escolhe o teu método favorito de pagamento<\/p>",
@@ -114,7 +112,6 @@
         "e0c61dbf-31dd-41f5-a8bf-208d1b6b323e": {
           "type": "column",
           "settings": {
-            "image_link": "",
             "fa-icon": "<i class=\"fas fa-box\"><\/i>",
             "title": "Portes Grátis",
             "text": "<p>Portes Grátis em encomendas superiores a 50€<\/p>",
@@ -125,7 +122,6 @@
         "b7dd8081-b22b-4ae5-a89c-11753e9ebaf6": {
           "type": "column",
           "settings": {
-            "image_link": "",
             "fa-icon": "<i class=\"fas fa-store-alt\"><\/i>",
             "title": "Levantamento em Loja",
             "text": "<p>Faz a tua encomenda e levanta em loja<\/p>",
