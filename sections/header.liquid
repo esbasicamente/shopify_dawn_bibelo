@@ -404,8 +404,8 @@ margin-bottom: {{ section.settings.margin_bottom }}px;
                     </summary>
                     <ul id="HeaderMenu-SubMenuList-{{ forloop.index }}" class="header__submenu list-menu motion-reduce">
                       {%- for grandchildlink in childlink.links -%}
-                      {% assign get-handle = grandchildlink.url | remove: "/collections/" %}
-                      {% if collections[get-handle].all_products_count == 0 %} 
+                      {% assign get-handle2 = grandchildlink.url | remove: "/collections/" %}
+                      {% if collections[get-handle2].all_products_count == 0 %} 
                       {% else %}
                       <li>
                         <a href="{{ grandchildlink.url }}"
