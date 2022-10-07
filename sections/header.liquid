@@ -386,17 +386,16 @@ margin-bottom: {{ section.settings.margin_bottom }}px;
                 class="header__submenu list-menu list-menu--disclosure gradient caption-large motion-reduce global-settings-popup"
                 role="list" tabindex="-1">
                 {%- for childlink in link.links -%}
+                {%- if childlink.links == blank -%}
+                {% assign get-handle = childlink.url | remove: "/collections/" %}
+                {% if collections[get-handle].all_products_count == 0 %} 
+                {% else %}
                 <li>
-                  {%- if childlink.links == blank -%}
-                  {% assign get-handle = childlink.url | remove: "/collections/" %}
-                  {% if collections[get-handle].all_products_count == 0 %} 
-                  {% else %}
                   <a href="{{ childlink.url }}"
                     class="header__menu-item list-menu__item link link--text focus-inset caption-large{% if childlink.current %} list-menu__item--active{% endif %}"
                     {% if childlink.current %} aria-current="page" {% endif %}>
                     {{ childlink.title | escape }}
                   </a>
-                  {% endif %}
                   {%- else -%}
                   <details id="Details-HeaderSubMenu-{{ forloop.index }}">
                     <summary class="header__menu-item link link--text list-menu__item focus-inset caption-large">
@@ -421,6 +420,7 @@ margin-bottom: {{ section.settings.margin_bottom }}px;
                   </details>
                   {%- endif -%}
                 </li>
+                {% endif %}
                 {%- endfor -%}
               </ul>
             </details>
