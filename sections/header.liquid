@@ -388,11 +388,15 @@ margin-bottom: {{ section.settings.margin_bottom }}px;
                 {%- for childlink in link.links -%}
                 <li>
                   {%- if childlink.links == blank -%}
+                  {% assign get-handle = childlink.url | remove: "/collections/" %}
+                  {% if collections[get-handle].all_products_count == 0 %} 
+                  {% else %}
                   <a href="{{ childlink.url }}"
                     class="header__menu-item list-menu__item link link--text focus-inset caption-large{% if childlink.current %} list-menu__item--active{% endif %}"
                     {% if childlink.current %} aria-current="page" {% endif %}>
-                    {{ childlink.title | escape }}123
+                    {{ childlink.title | escape }}
                   </a>
+                  {% endif %}
                   {%- else -%}
                   <details id="Details-HeaderSubMenu-{{ forloop.index }}">
                     <summary class="header__menu-item link link--text list-menu__item focus-inset caption-large">
