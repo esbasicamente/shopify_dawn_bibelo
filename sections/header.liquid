@@ -405,13 +405,17 @@ margin-bottom: {{ section.settings.margin_bottom }}px;
                     </summary>
                     <ul id="HeaderMenu-SubMenuList-{{ forloop.index }}" class="header__submenu list-menu motion-reduce">
                       {%- for grandchildlink in childlink.links -%}
+                      {% assign get-handle = grandchildlink.url | remove: "/collections/" %}
+                      {% if collections[get-handle].all_products_count == 0 %} 
+                      {% else %}
                       <li>
                         <a href="{{ grandchildlink.url }}"
                           class="header__menu-item list-menu__item link link--text focus-inset caption-large{% if grandchildlink.current %} list-menu__item--active{% endif %}"
                           {% if grandchildlink.current %} aria-current="page" {% endif %}>
-                          {{ grandchildlink.title | escape }}123
+                          {{ grandchildlink.title | escape }}
                         </a>
                       </li>
+                      {% endif %}
                       {%- endfor -%}
                     </ul>
                   </details>
