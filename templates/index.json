@@ -216,7 +216,7 @@
           "type": "button",
           "settings": {
             "button_label": "Ver tudo",
-            "button_link": "shopify:\/\/collections\/joalharia",
+            "button_link": "shopify:\/\/collections\/aneis-de-noivado",
             "button_style_secondary": false
           }
         }
@@ -280,6 +280,7 @@
     },
     "1660068116cc2cd6cd": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "1660068116103cb662-2": {
           "type": "button",
