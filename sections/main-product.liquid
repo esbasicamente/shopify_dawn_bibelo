@@ -625,6 +625,15 @@
     <script src="{{ 'product-model.js' | asset_url }}" defer></script>
   {%- endif -%}
 
+
+  <script>
+          var fromDate = Date.today().addDays(2);
+          if (fromDate.is().saturday() || fromDate.is().sunday()) {
+            fromDate = fromDate.next().tuesday();
+          }
+          document.getElementById('fromDate').innerHTML = fromDate.toString('dddd dd MMMM');
+  </script>
+                      
   <script>
     document.addEventListener('DOMContentLoaded', function() {
       function isIE() {
@@ -692,7 +701,7 @@
     }
   </script>
     
-    <script>
+<script>
 function openCity(evt, cityName) {
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("tabcontent");
@@ -709,15 +718,7 @@ function openCity(evt, cityName) {
   
   document.getElementById("defaultOpen").click();
       
-      
-          var fromDate = Date.today().addDays(2);
-          if (fromDate.is().saturday() || fromDate.is().sunday()) {
-            fromDate = fromDate.next().tuesday();
-          }
-          document.getElementById('fromDate').innerHTML = fromDate.toString('dddd dd MMMM');
-      
 </script>
-
     
 </section>
 
