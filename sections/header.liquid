@@ -142,6 +142,9 @@ margin-bottom: {{ section.settings.margin_bottom }}px;
                           </button>
                           <ul class="menu-drawer__menu list-menu" role="list" tabindex="-1">
                             {%- for childlink in link.links -%}
+                            {% assign get-handle = childlink.url | remove: "/collections/" %}
+                            {% if collections[get-handle].all_products_count == 0 %} 
+                            {% else %}
                             <li>
                               {%- if childlink.links == blank -%}
                               <a href="{{ childlink.url }}"
@@ -178,6 +181,7 @@ margin-bottom: {{ section.settings.margin_bottom }}px;
                               </details>
                               {%- endif -%}
                             </li>
+                            {% endif %}
                             {%- endfor -%}
                           </ul>
                         </div>
