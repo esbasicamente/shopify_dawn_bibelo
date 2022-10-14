@@ -28,8 +28,15 @@
         },
         "f479ec16-1c04-4890-8c49-6e059255e4c4": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "{% if product.metafields.my_fields.detalhes != blank %}\n\n<div style=\"margin-top: \n20px;\">\n<div style=\"margin-bottom: 20px;\">\n<p> {{ product.metafields.my_fields.detalhes }}\n<\/p>\n<\/div>\n\n{% endif %}"
+          }
+        },
+        "5ced036d-2b8e-4a95-879d-49ba9a193f2e": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% if product.description != blank %}\n\n<div style=\"margin-top: \n0px;\">\n<div style=\"margin-bottom: -25px;\">\n{{ product.description }}\n<\/div>\n\n{% endif %}"
           }
         },
         "variant_picker": {
@@ -57,6 +64,7 @@
         "4230e0d8-b56c-4f05-8759-018e8cecd245",
         "price",
         "f479ec16-1c04-4890-8c49-6e059255e4c4",
+        "5ced036d-2b8e-4a95-879d-49ba9a193f2e",
         "variant_picker",
         "6a1a918c-3ed3-4935-912a-bf1bd61a60f9",
         "5b6ddfcb-eb84-437f-92aa-9c6eb78838ec"
@@ -78,7 +86,6 @@
         "column-0": {
           "type": "column",
           "settings": {
-            "image_link": "",
             "fa-icon": "<i class=\"fas fa-solid fa-user\"><\/i>",
             "title": "Orçamentos Grátis",
             "text": "<p>Entre em contacto e esclareça todas as suas dúvidas<\/p>",
@@ -89,7 +96,6 @@
         "column-1": {
           "type": "column",
           "settings": {
-            "image_link": "",
             "fa-icon": "<i class=\"fas fa-shield-alt\"><\/i>",
             "title": "Pagamentos Seguros",
             "text": "<p>Escolhe o teu método favorito de pagamento<\/p>",
@@ -100,7 +106,6 @@
         "e0c61dbf-31dd-41f5-a8bf-208d1b6b323e": {
           "type": "column",
           "settings": {
-            "image_link": "",
             "fa-icon": "<i class=\"fas fa-solid fa-eye\"><\/i>",
             "title": "Garantia Vitalícia",
             "text": "<p>As alianças tem garantia vitalícia contra defeitos de fabrico<\/p>",
@@ -111,7 +116,6 @@
         "b7dd8081-b22b-4ae5-a89c-11753e9ebaf6": {
           "type": "column",
           "settings": {
-            "image_link": "",
             "fa-icon": "<i class=\"fas fa-store-alt\"><\/i>",
             "title": "Levantamento em Loja",
             "text": "<p>Faz a tua encomenda e levanta em loja<\/p>",
