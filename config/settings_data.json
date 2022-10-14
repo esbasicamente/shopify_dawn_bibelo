@@ -136,18 +136,18 @@
       "footer": {
         "type": "footer",
         "blocks": {
-          "fbb82f84-232d-4db3-8008-3a352f8839a9": {
-            "type": "link_list",
-            "settings": {
-              "heading": "Ourivesaria Bibelô",
-              "menu": "footer"
-            }
-          },
           "ed199461-6417-4352-9cc1-32ba716ba821": {
             "type": "link_list",
             "settings": {
-              "heading": "Informações",
+              "heading": "Ourivesaria Bibelô",
               "menu": "info-menu"
+            }
+          },
+          "fbb82f84-232d-4db3-8008-3a352f8839a9": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Informações",
+              "menu": "footer"
             }
           },
           "24434afb-e173-4d7b-8e3b-c578be8564a2": {
@@ -166,8 +166,8 @@
           }
         },
         "block_order": [
-          "fbb82f84-232d-4db3-8008-3a352f8839a9",
           "ed199461-6417-4352-9cc1-32ba716ba821",
+          "fbb82f84-232d-4db3-8008-3a352f8839a9",
           "24434afb-e173-4d7b-8e3b-c578be8564a2",
           "55a8804a-1bfa-4f02-b809-3f6ad013d092"
         ],
