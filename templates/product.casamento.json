@@ -36,7 +36,7 @@
         "5ced036d-2b8e-4a95-879d-49ba9a193f2e": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% if product.description != blank %}\n\n<div style=\"margin-top: \n0px;\">\n<div style=\"margin-bottom: -25px;\">\n{{ product.description }}\n<\/div>\n\n{% endif %}"
+            "custom_liquid": "{% if product.description != blank %}\n\n<div style=\"margin-top 10px; margin-bottom:10px; text-align:left;\">\n{{ product.description }}\n<\/div>\n\n{% endif %}"
           }
         },
         "variant_picker": {
