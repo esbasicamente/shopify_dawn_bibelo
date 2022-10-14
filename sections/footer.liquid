@@ -163,29 +163,28 @@ Dias úteis: 9:30 - 19:00
             {%- endif -%}
             {%- endform -%}
           
-    <div style="margin-top:2.5rem;">
-    </div>
+    <div style="margin-top:2.5rem;"></div>
+            
           <h2 class="footer-block__heading">Redes Sociais</h2>
             
-            <div style="margin-bottom:-15px;">
-    </div>
+            <div style="margin-bottom:-15px;"></div>
+            
           <ul class="footer__list-social list-unstyled list-social" role="list">
- {%- if settings.social_facebook_link != blank -%}
+            
             <li class="list-social__item">
-              <a href="{{ settings.social_facebook_link }}" class="link list-social__link">
+              <a href="https://www.facebook.com/ourivesariabibelo" class="link list-social__link">
                 {%- render 'icon-facebook' -%}
                 <span class="visually-hidden">{{ 'general.social.links.facebook' | t }}</span>
               </a>
             </li>
-{%- endif -%}
-{%- if settings.social_instagram_link != blank -%}
+            
             <li class="list-social__item">
-              <a href="{{ settings.social_instagram_link }}" class="link list-social__link">
+              <a href="https://www.instagram.com/ourivesariabibelo/" class="link list-social__link">
                 {%- render 'icon-instagram' -%}
                 <span class="visually-hidden">{{ 'general.social.links.instagram' | t }}</span>
               </a>
             </li>
-            {%- endif -%}  
+              
               <li class="list-social__item">
                 <a href="https://www.pinterest.com/ourivesariabibelo/" class="link list-social__link" >
                   {%- render 'icon-pinterest' -%}
