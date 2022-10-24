@@ -5,7 +5,7 @@
       "settings": {
         "show_vendor": true,
         "padding_top": 36,
-        "padding_bottom": 0
+        "padding_bottom": 100
       }
     },
     "cart-footer": {
