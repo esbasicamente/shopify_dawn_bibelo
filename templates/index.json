@@ -1,15 +1,5 @@
 {
   "sections": {
-    "3194019d-3741-4a24-81b5-ed4043a7b97d": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "settings": {
-        "custom_liquid": "<section id=\"shopify-section-template--15595883757759__16522869307591a941\" class=\"shopify-section section\"><link href=\"\/\/cdn.shopify.com\/s\/files\/1\/0619\/5629\/2799\/t\/2\/assets\/section-image-banner.css?v=176487564440668880141652278455\" rel=\"stylesheet\" type=\"text\/css\" media=\"all\">\n<link href=\"\/\/cdn.shopify.com\/s\/files\/1\/0619\/5629\/2799\/t\/2\/assets\/component-slider.css?v=120997663984027196991661607865\" rel=\"stylesheet\" type=\"text\/css\" media=\"all\">\n<link href=\"\/\/cdn.shopify.com\/s\/files\/1\/0619\/5629\/2799\/t\/2\/assets\/component-slideshow.css?v=177033090033677682081661614358\" rel=\"stylesheet\" type=\"text\/css\" media=\"all\">\n<style data-shopify=\"\">@media screen and (max-width: 749px) {\n    #Slider-template--15595883757759__16522869307591a941::before,\n    #Slider-template--15595883757759__16522869307591a941 .media::before,\n    #Slider-template--15595883757759__16522869307591a941:not(.banner--mobile-bottom) .banner__content::before {\n      padding-bottom: 31.25%;\n      content: '';\n      display: block;\n    }\n  }\n\n  @media screen and (min-width: 750px) {\n    #Slider-template--15595883757759__16522869307591a941::before,\n    #Slider-template--15595883757759__16522869307591a941 .media::before {\n      padding-bottom: 31.25%;\n      content: '';\n      display: block;\n    }\n  }\n  <\/style>\n<div class=\"slideshow__controls slider-buttons no-js-hidden\">\n      <button type=\"button\" class=\"slider-button slider-button--prev\" name=\"previous\" aria-label=\"Diapositivo anterior\" aria-controls=\"Slider-template--15698381537526__1644838894765bd159\">\n\t  <svg aria-hidden=\"true\" focusable=\"false\" role=\"presentation\" class=\"icon icon-caret\" viewBox=\"0 0 10 6\">\n  <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z\" fill=\"currentColor\">\n<\/path><\/svg>\n<\/button>\n      <div class=\"slider-counter slider-counter--dots\">\n\t  <div class=\"slideshow__control-wrapper\">\n\t  <button class=\"slider-counter__link slider-counter__link--dots link\" aria-label=\"Carregar slide 1 de 4\" aria-controls=\"Slider-template--15698381537526__1644838894765bd159\">\n\t  <span class=\"dot\">\n\t  <\/span>\n\t  <\/button>\n\t  <button class=\"slider-counter__link slider-counter__link--dots link slider-counter__link--active\" aria-label=\"Carregar slide 2 de 4\" aria-controls=\"Slider-template--15698381537526__1644838894765bd159\" aria-current=\"true\">\n\t  <span class=\"dot\"><\/span>\n\t  <\/button>\n\t  <button class=\"slider-counter__link slider-counter__link--dots link\" aria-label=\"Carregar slide 3 de 4\" aria-controls=\"Slider-template--15698381537526__1644838894765bd159\">\n\t  <span class=\"dot\">\n\t  <\/span>\n\t  <\/button>\n\t  <button class=\"slider-counter__link slider-counter__link--dots link\" aria-label=\"Carregar slide 4 de 4\" aria-controls=\"Slider-template--15698381537526__1644838894765bd159\">\n\t  <span class=\"dot\">\n\t  <\/span>\n\t  <\/button>\n\t  <\/div>\n\t  <\/div>\n      <button type=\"button\" class=\"slider-button slider-button--next\" name=\"next\" aria-label=\"Diapositivo seguinte\" aria-controls=\"Slider-template--15698381537526__1644838894765bd159\">\n\t  <svg aria-hidden=\"true\" focusable=\"false\" role=\"presentation\" class=\"icon icon-caret\" viewBox=\"0 0 10 6\">\n  <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z\" fill=\"currentColor\">\n<\/path>\n<\/svg>\n<\/button>\n\n    <\/div>",
-        "color_scheme": "background-1",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "16522869307591a941": {
       "type": "slideshow",
       "blocks": {
@@ -402,7 +392,6 @@
     }
   },
   "order": [
-    "3194019d-3741-4a24-81b5-ed4043a7b97d",
     "16522869307591a941",
     "16523666019c61e216",
     "16523648951c633595",
