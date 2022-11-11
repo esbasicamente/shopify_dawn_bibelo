@@ -366,7 +366,7 @@ margin-bottom: {{ section.settings.margin_bottom }}px;
       {%- endif -%}
       <a href="{{ routes.root_url }}" class="site-header__logo-image{% if section.settings.align_logo == 'center' %} site-header__logo-image--centered{% endif %}">
         {% capture image_size %}{{ section.settings.logo_max_width | escape }}{% endcapture %}
-        <img src="{{ 'https://cdn.shopify.com/s/files/1/0619/5629/2799/files/logoprincipal.png?v=1668178174' | asset_url }}" alt="{{ shop.name }}" width="{{ section.settings.logo_width }}px">
+        <img src="{{ 'logo-branco.svg' | asset_url }}" alt="{{ shop.name }}" width="{{ section.settings.logo_width }}px">
       </a>
       {%- if request.page_type == 'index' -%}
     </h1>
