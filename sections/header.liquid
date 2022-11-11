@@ -366,7 +366,7 @@ margin-bottom: {{ section.settings.margin_bottom }}px;
       {%- endif -%}
       <a href="{{ routes.root_url }}" class="site-header__logo-image{% if section.settings.align_logo == 'center' %} site-header__logo-image--centered{% endif %}">
         {% capture image_size %}{{ section.settings.logo_max_width | escape }}{% endcapture %}
-        <img src="{{ 'logoprincipal.svg' | asset_url }}" alt="{{ shop.name }}" width="{{ section.settings.logo_width }}px">
+        <img src="{{ 'logoprincipal.png' | asset_url }}" alt="{{ shop.name }}" width="{{ section.settings.logo_width }}px">
       </a>
       {%- if request.page_type == 'index' -%}
     </h1>
