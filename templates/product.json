@@ -43,11 +43,12 @@
         "0fe307eb-88a5-44a3-b770-4d81b08bb7a1": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% if product.description != blank %}\n\n<div style=\"margin-top: \n0px; margin-bottom:-25px; text-align:left;\">\n\n{{ product.description }}\n<\/div>\n\n{% endif %}"
+            "custom_liquid": "{% if product.description != blank %}\n\n<div style=\"margin-top: \n0px; margin-bottom: 0px; text-align:left;\">\n\n{{ product.description }}\n<\/div>\n\n{% endif %}"
           }
         },
         "quantity_selector": {
           "type": "quantity_selector",
+          "disabled": true,
           "settings": {
           }
         },
