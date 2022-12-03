@@ -968,7 +968,7 @@ summary::-webkit-details-marker {
 
 /* component-grid */
 .grid {
-  display: block;
+  display: flex;
   flex-wrap: wrap;
   padding: 0;
   list-style: none;
