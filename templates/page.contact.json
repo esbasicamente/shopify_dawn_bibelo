@@ -23,7 +23,6 @@
         "165277681714e3b05c-0": {
           "type": "column",
           "settings": {
-            "image_link": "",
             "fa-icon": "<i class=\"fas fa-phone\"><\/i>",
             "title": "229 280 099",
             "text": "",
@@ -34,9 +33,8 @@
         "165277681714e3b05c-2": {
           "type": "column",
           "settings": {
-            "image_link": "",
-            "fa-icon": "<i class=\"fas fa-envelope\"><\/i>",
-            "title": "ouriveariabibelo@gmail.com",
+            "fa-icon": "",
+            "title": "ourivesariabibelo@gmail.com",
             "text": "",
             "link_label": "",
             "link": ""
@@ -45,7 +43,6 @@
         "165277681714e3b05c-1": {
           "type": "column",
           "settings": {
-            "image_link": "",
             "fa-icon": "<i class=\"fas fa-phone\"><\/i>",
             "title": "932 559 851",
             "text": "",
