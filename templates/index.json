@@ -231,6 +231,33 @@
         "padding_bottom": 4
       }
     },
+    "63c31064-d374-4d9b-b061-1da2c83d8e29": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Novidades Homem",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "novidades-homem",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "show_secondary_image": false,
+        "show_vendor": true,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 16
+      }
+    },
     "1658159649977cb515": {
       "type": "collection-list",
       "blocks": {
@@ -276,33 +303,6 @@
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 20
-      }
-    },
-    "63c31064-d374-4d9b-b061-1da2c83d8e29": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Novidades Homem",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "novidades-homem",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "square",
-        "show_secondary_image": false,
-        "show_vendor": true,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 16
       }
     },
     "16581584000346920f": {
@@ -401,8 +401,8 @@
     "16523648951c633595",
     "1658135868811a6065",
     "1658164322ec0e5634",
-    "1658159649977cb515",
     "63c31064-d374-4d9b-b061-1da2c83d8e29",
+    "1658159649977cb515",
     "16581584000346920f",
     "1659978105bd6ba2de",
     "1661513180500894df"
