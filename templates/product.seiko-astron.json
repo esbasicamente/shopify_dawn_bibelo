@@ -36,7 +36,7 @@
         "0fe307eb-88a5-44a3-b770-4d81b08bb7a1": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% if product.metafields.custom.detalhes != blank %}\n\n<div style=\"margin-top: \n0px; margin-bottom: 0px; text-align:left;\">\n{{ product.metafields.custom.detalhes }}\n<\/div>\n\n{% endif %}"
+            "custom_liquid": "{% if product.metafields.custom.detalhes != blank %}\n\n<div class=\"product_description\">{{ product.metafields.custom.detalhes }}\n<\/div>\n\n{% endif %}"
           }
         },
         "quantity_selector": {
