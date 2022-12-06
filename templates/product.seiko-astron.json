@@ -39,12 +39,6 @@
             "custom_liquid": "{% if product.metafields.custom.detalhes != blank %}\n\n<div class=\"product_description\">{{ product.metafields.custom.detalhes }}\n<\/div>\n\n{% endif %}"
           }
         },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "disabled": true,
-          "settings": {
-          }
-        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -63,12 +57,6 @@
             "show_dynamic_checkout": true
           }
         },
-        "1222c95c-7982-4805-912a-573632e7b008": {
-          "type": "description",
-          "disabled": true,
-          "settings": {
-          }
-        },
         "bfa31b95-7dea-4cac-93c5-8e0a60b12325": {
           "type": "custom_liquid",
           "settings": {
@@ -83,11 +71,9 @@
         "caption",
         "price",
         "0fe307eb-88a5-44a3-b770-4d81b08bb7a1",
-        "quantity_selector",
         "variant_picker",
         "6a1a918c-3ed3-4935-912a-bf1bd61a60f9",
         "buy_buttons",
-        "1222c95c-7982-4805-912a-573632e7b008",
         "bfa31b95-7dea-4cac-93c5-8e0a60b12325"
       ],
       "settings": {
