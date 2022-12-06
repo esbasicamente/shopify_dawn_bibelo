@@ -107,6 +107,7 @@
         "blocks": {
           "0fed39d6-0fe9-4e9e-bcab-4fb06cf95191": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "Portes grátis a partir de 50€",
               "color_scheme": "background-1",
