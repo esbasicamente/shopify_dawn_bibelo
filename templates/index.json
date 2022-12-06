@@ -86,22 +86,22 @@
             "link": ""
           }
         },
-        "1652366601ca94d03c-2": {
-          "type": "column",
-          "settings": {
-            "fa-icon": "<i class=\"fas fa-shield-alt\"><\/i>",
-            "title": "Pagamentos Seguros",
-            "text": "<p>Escolhe o teu método favorito de pagamento<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
         "1652366601ca94d03c-1": {
           "type": "column",
           "settings": {
             "fa-icon": "<i class=\"fas fa-box\"><\/i>",
             "title": "Portes Grátis",
             "text": "<p>Portes Grátis em encomendas superiores a 50€<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1652366601ca94d03c-2": {
+          "type": "column",
+          "settings": {
+            "fa-icon": "<i class=\"fas fa-shield-alt\"><\/i>",
+            "title": "Pagamentos Seguros",
+            "text": "<p>Escolhe o teu método favorito de pagamento<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -119,8 +119,8 @@
       },
       "block_order": [
         "1652366601ca94d03c-0",
-        "1652366601ca94d03c-2",
         "1652366601ca94d03c-1",
+        "1652366601ca94d03c-2",
         "f05bdc98-5100-49f3-8a03-8f344b9e60ea"
       ],
       "settings": {
