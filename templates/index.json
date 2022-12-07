@@ -145,7 +145,7 @@
       "settings": {
         "title": "Novidades Mulher",
         "heading_size": "h2",
-        "description": "",
+        "description": "<p><\/p>",
         "show_description": false,
         "description_style": "uppercase",
         "collection": "novidades",
@@ -228,7 +228,7 @@
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 0,
-        "padding_bottom": 16
+        "padding_bottom": 24
       }
     },
     "63c31064-d374-4d9b-b061-1da2c83d8e29": {
