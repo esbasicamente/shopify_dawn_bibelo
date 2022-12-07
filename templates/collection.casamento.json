@@ -12,7 +12,7 @@
     "165969158211f7a355": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<style type=\"text\/css\">\n.header-text {\ntext-align: center;\nfont-size: calc(var(--font-heading-scale) * 2.2rem);\nfont-family: var(--font-heading-family);\nfont-style: var(--font-heading-style);\nfont-weight: var(--font-heading-weight);\nletter-spacing: .10rem;\ncolor: rgb(var(--color-foreground));\nline-height: 100%;\nword-break: break-word;\npadding: 32px;\nmargin: auto;\n}\n<\/style>\n\n<h1 class=\"header-text\">{{ collection.title }}<\/h1>",
+        "custom_liquid": "<style type=\"text\/css\">\n.header-text {\ntext-align: center;\nfont-size: calc(var(--font-heading-scale) * 2.3rem);\nfont-family: var(--font-heading-family);\nfont-style: var(--font-heading-style);\nfont-weight: var(--font-heading-weight);\nletter-spacing: .13rem;\ncolor: rgb(var(--color-foreground));\nline-height: 100%;\nword-break: break-word;\npadding: 32px;\nmargin: auto;\n}\n<\/style>\n\n<h1 class=\"header-text\">{{ collection.title }}<\/h1>",
         "color_scheme": "background-1",
         "padding_top": 0,
         "padding_bottom": 0
