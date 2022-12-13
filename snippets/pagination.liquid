@@ -18,7 +18,7 @@
   <div class="pagination-wrapper">
     <nav class="pagination" role="navigation" aria-label="{{ 'general.pagination.label' | t }}">
       <ul class="pagination__list list-unstyled" role="list">
-      {%- if paginate.previous -%}
+      {% comment %}{%- if paginate.previous -%}
         <li>
           <a href="{{ paginate.previous.url }}{{ anchor }}" class="pagination__item pagination__item--next pagination__item-arrow link motion-reduce" aria-label="{{ 'general.pagination.previous' | t }}">
             {% render 'icon-caret' %}
@@ -38,7 +38,7 @@
             {%- endif -%}
           {%- endif -%}
         </li>
-      {%- endfor -%}
+      {%- endfor -%} {% endcomment %}
 
       {%- if paginate.next -%}
         <li class="infinite_next">
