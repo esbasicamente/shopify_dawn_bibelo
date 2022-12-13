@@ -24,15 +24,15 @@
 }
 
 .pagination__item {
-  color: rgb(var(--color-foreground));
+  color: #FFFFFF;
   display: inline-flex;
   justify-content: center;
   align-items: center;
   position: relative;
-  height: 4.4rem;
-  width: 100%;
-  padding: 0;
-  text-decoration: none;
+  padding: 7px 11px;
+  text-decoration: none !important;
+  border: 1px solid #5a6965;
+  background-color: #5a6965;
 }
 
 a.pagination__item:hover::after {
