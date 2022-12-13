@@ -990,7 +990,7 @@ summary::-webkit-details-marker {
 .grid__item {
   width: calc(100% - var(--grid-mobile-horizontal-spacing) * 3 / 4);
   max-width: calc(100% - var(--grid-mobile-horizontal-spacing) / 2);
-  flex-grow: 1;
+  flex-grow: 0;
   flex-shrink: 0;
 }
 
