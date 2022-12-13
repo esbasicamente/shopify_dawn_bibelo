@@ -24,13 +24,15 @@
 }
 
 .pagination__item {
-  color: #FFFFFF;
-  display: inline-block;
+  color: rgb(var(--color-foreground));
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
   position: relative;
-  padding: 7px 11px;
-  text-decoration: none !important;
-  border: 1px solid #5a6965;
-  background-color: #5a6965;
+  height: 4.4rem;
+  width: 100%;
+  padding: 0;
+  text-decoration: none;
 }
 
 a.pagination__item:hover::after {
