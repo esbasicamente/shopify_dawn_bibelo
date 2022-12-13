@@ -43,9 +43,7 @@
 
       {%- if paginate.next -%}
         <li class="infinite_next">
-          <a href="{{ paginate.next.url }}" class="button button--primmary">
-            Ver Mais
-          </a>
+          <a href="{{ paginate.next.url }}" class=""pagination__item pagination__item--prev pagination__item-arrow link motion-reduce" aria-label="Página seguinte">A Carregar</a>
         </li>
       {%- endif -%}
       </ul>
