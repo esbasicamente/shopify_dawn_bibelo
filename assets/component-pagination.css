@@ -25,9 +25,7 @@
 
 .pagination__item {
   color: #FFFFFF;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
+  display: inline-block;
   position: relative;
   padding: 7px 11px;
   text-decoration: none !important;
