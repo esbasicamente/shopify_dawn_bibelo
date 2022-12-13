@@ -14,11 +14,12 @@
 <link rel="stylesheet" href="{{ 'component-pagination.css' | asset_url }}" media="print" onload="this.media='all'">
 <noscript>{{ 'component-pagination.css' | asset_url | stylesheet_tag }}</noscript>
 
-{%- if paginate.parts.size > 0 -%}
+  {%- if paginate.parts.size > 0 -%}
   <div class="pagination-wrapper">
     <nav class="pagination" role="navigation" aria-label="Paginação">
       <ul class="pagination__list list-unstyled" role="list">
-     {%- if paginate.previous -%}
+    {% comment %} 
+    {%- if paginate.previous -%}
         <li>
           <a href="{{ paginate.previous.url }}" class="pagination__item pagination__item--next pagination__item-arrow link motion-reduce" aria-label="{{ 'general.pagination.previous' | t }}">
           </a>
@@ -38,6 +39,7 @@
           {%- endif -%}
         </li>
       {%- endfor -%}
+      {% endcomment %}
 
       {%- if paginate.next -%}
         <li class="infinite_next">
@@ -47,7 +49,6 @@
         </li>
       {%- endif -%}
       </ul>
-      <ul class="pagination__list visibility-hidden list-unstyled" role="list"></ul>
     </nav>
   </div>
 {%- endif -%}
