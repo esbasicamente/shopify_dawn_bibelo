@@ -117,8 +117,7 @@
               <button class="slider-counter__link slider-counter__link--{{ section.settings.slider_visual }} link" aria-label="{{ 'sections.slideshow.load_slide' | t }} {{ forloop.index }} {{ 'general.slider.of' | t }} {{ forloop.length }}" aria-controls="Slider-{{ section.id }}">
                 {%- if section.settings.slider_visual == 'numbers' -%}{{ forloop.index }}{% else %}<span class="dot"></span>{%- endif -%}
               </button>
-            {%- endfor -%}
-          </div>
+            {%- endfor -%}          
         {%- endif -%}
  
       <button type="button" class="slider-button slider-button--next" name="next" aria-label="Diapositivo seguinte" aria-controls="Slider-template--16698039632118__6488a575-f0ae-41ec-8075-88cf128bc0ee"><svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-caret" viewBox="0 0 10 6">
@@ -133,6 +132,7 @@
         </button>
       {%- endif -%}
     </div>
+	</div>
     <noscript>
       <div class="slider-buttons">
         <div class="slider-counter">
