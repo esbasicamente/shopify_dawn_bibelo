@@ -134,6 +134,12 @@ slideshow-component .slideshow.banner {
 slideshow-component:not(.page-width) .slider-buttons {
   border-right: 0;
   border-left: 0;
+  position: absolute!important;
+  bottom: 5px;
+  right: 0;
+  left: 0;
+  z-index: 2;
+  border: none!important;
 }
 
 .slideshow__control-wrapper {
