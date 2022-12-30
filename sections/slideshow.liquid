@@ -92,8 +92,7 @@
         </div>
       </div>
     {%- endfor -%}
-  </div>
-  	  <div class="slideshow__controls slider-buttons no-js-hidden">
+		  <div class="slideshow__controls slider-buttons no-js-hidden">
       <button type="button" class="slider-button slider-button--prev" name="previous" aria-label="Diapositivo anterior" aria-controls="Slider-template--16698039632118__6488a575-f0ae-41ec-8075-88cf128bc0ee">
 	  <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-caret" viewBox="0 0 10 6">
   <path fill-rule="evenodd" clip-rule="evenodd" d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z" fill="currentColor">
@@ -140,6 +139,8 @@
 			</div>
       </div>
     </noscript>
+  </div>
+  
 
   {%- if section.blocks.size > 1 and section.settings.auto_rotate == false -%}
     <div class="slideshow__controls slider-buttons no-js-hidden{% if section.settings.show_text_below %} slideshow__controls--border-radius-mobile{% endif %}">
