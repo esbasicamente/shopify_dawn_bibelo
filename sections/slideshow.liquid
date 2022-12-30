@@ -27,37 +27,7 @@
 {%- endif -%}
 
 <slideshow-component class="slider-mobile-gutter{% if section.settings.layout == 'grid' %} page-width{% endif %}{% if section.settings.show_text_below %} mobile-text-below{% endif %}" role="region" aria-roledescription="{{ 'sections.slideshow.carousel' | t }}" aria-label="{{ section.settings.accessibility_info | escape }}">
-	  <div class="slideshow__controls slider-buttons no-js-hidden">
-      <button type="button" class="slider-button slider-button--prev" name="previous" aria-label="Diapositivo anterior" aria-controls="Slider-template--16698039632118__6488a575-f0ae-41ec-8075-88cf128bc0ee">
-	  <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-caret" viewBox="0 0 10 6">
-  <path fill-rule="evenodd" clip-rule="evenodd" d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z" fill="currentColor">
-</path>
-</svg>
-</button>
-      <div class="slider-counter slider-counter--dots">
-	  <div class="slideshow__control-wrapper">
-	  <button class="slider-counter__link slider-counter__link--dots link slider-counter__link--active" aria-label="Carregar slide 1 de 3" aria-controls="Slider-template--16698039632118__6488a575-f0ae-41ec-8075-88cf128bc0ee" aria-current="true">
-	  <span class="dot">
-	  </span>
-	  </button>
-	  <button class="slider-counter__link slider-counter__link--dots link" aria-label="Carregar slide 2 de 3" aria-controls="Slider-template--16698039632118__6488a575-f0ae-41ec-8075-88cf128bc0ee">
-	  <span class="dot">
-	  </span>
-	  </button>
-	  <button class="slider-counter__link slider-counter__link--dots link" aria-label="Carregar slide 3 de 3" aria-controls="Slider-template--16698039632118__6488a575-f0ae-41ec-8075-88cf128bc0ee">
-	  <span class="dot">
-	  </span>
-	  </button>
-	  </div>
-	  </div>
-      <button type="button" class="slider-button slider-button--next" name="next" aria-label="Diapositivo seguinte" aria-controls="Slider-template--16698039632118__6488a575-f0ae-41ec-8075-88cf128bc0ee">
-	  <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-caret" viewBox="0 0 10 6">
-  <path fill-rule="evenodd" clip-rule="evenodd" d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z" fill="currentColor">
-</path>
-</svg>
-</button>
 
-    </div>
   <div class="slideshow banner banner--{{ section.settings.slide_height }} grid grid--1-col slider slider--everywhere{% if section.settings.show_text_below %} banner--mobile-bottom{% endif %}{% if section.blocks.first.settings.image == blank %} slideshow--placeholder{% endif %}"
     id="Slider-{{ section.id }}"
     aria-live="polite"
@@ -123,6 +93,53 @@
       </div>
     {%- endfor -%}
   </div>
+  	  <div class="slideshow__controls slider-buttons no-js-hidden">
+      <button type="button" class="slider-button slider-button--prev" name="previous" aria-label="Diapositivo anterior" aria-controls="Slider-template--16698039632118__6488a575-f0ae-41ec-8075-88cf128bc0ee">
+	  <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-caret" viewBox="0 0 10 6">
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z" fill="currentColor">
+</path>
+</svg>
+</button>
+      <div class="slider-counter slider-counter--dots">
+	  <div class="slideshow__control-wrapper">
+	  <button class="slider-counter__link slider-counter__link--dots link slider-counter__link--active" aria-label="Carregar slide 1 de 3" aria-controls="Slider-template--16698039632118__6488a575-f0ae-41ec-8075-88cf128bc0ee" aria-current="true">
+	  <span class="dot">
+	  </span>
+	  </button>
+	  <button class="slider-counter__link slider-counter__link--dots link" aria-label="Carregar slide 2 de 3" aria-controls="Slider-template--16698039632118__6488a575-f0ae-41ec-8075-88cf128bc0ee">
+	  <span class="dot">
+	  </span>
+	  </button>
+	  <button class="slider-counter__link slider-counter__link--dots link" aria-label="Carregar slide 3 de 3" aria-controls="Slider-template--16698039632118__6488a575-f0ae-41ec-8075-88cf128bc0ee">
+	  <span class="dot">
+	  </span>
+	  </button>
+	  </div>
+	  </div>
+      <button type="button" class="slider-button slider-button--next" name="next" aria-label="Diapositivo seguinte" aria-controls="Slider-template--16698039632118__6488a575-f0ae-41ec-8075-88cf128bc0ee">
+	  <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-caret" viewBox="0 0 10 6">
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z" fill="currentColor">
+</path>
+</svg>
+</button>
+
+    </div>
+
+    <noscript>
+      <div class="slider-buttons">
+        <div class="slider-counter">
+		<a href="#Slide-template--16698039632118__6488a575-f0ae-41ec-8075-88cf128bc0ee-1" class="slider-counter__link link" aria-label="Carregar slide 1 de 3">
+              1
+            </a>
+			<a href="#Slide-template--16698039632118__6488a575-f0ae-41ec-8075-88cf128bc0ee-2" class="slider-counter__link link" aria-label="Carregar slide 2 de 3">
+              2
+            </a>
+			<a href="#Slide-template--16698039632118__6488a575-f0ae-41ec-8075-88cf128bc0ee-3" class="slider-counter__link link" aria-label="Carregar slide 3 de 3">
+              3
+            </a>
+			</div>
+      </div>
+    </noscript>
 
   {%- if section.blocks.size > 1 and section.settings.auto_rotate == false -%}
     <div class="slideshow__controls slider-buttons no-js-hidden{% if section.settings.show_text_below %} slideshow__controls--border-radius-mobile{% endif %}">
