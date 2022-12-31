@@ -238,7 +238,6 @@ slider-component.slider-component-full-width {
   justify-content: center;
   min-width: 4.4rem;
   border-radius: 1rem;
-  background: rgba(255, 255, 255, 0.3);
 }
 
 @media screen and (min-width: 750px) {
