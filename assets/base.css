@@ -2855,12 +2855,6 @@ details-disclosure > details {
     }
   }
 
-  @media (max-width: 768px) {
-   .slider.slider--everywhere .slider__slide:has(.mobile-only) {
-    min-height: 550px;
-   }
-  }
-
   .product-grid .grid__item {
     padding-bottom: var(--grid-mobile-vertical-spacing);
   }
