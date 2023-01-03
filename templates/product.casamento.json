@@ -33,6 +33,12 @@
           "settings": {
           }
         },
+        "2423a54c-308d-46f3-9edf-c145618d112a": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<small>* Preço apx. Sujeito a variação de peso\/preço final. <\/small>"
+          }
+        },
         "f479ec16-1c04-4890-8c49-6e059255e4c4": {
           "type": "custom_liquid",
           "disabled": true,
@@ -77,6 +83,7 @@
         "d169e02b-071e-4f74-a250-c91c06825f09",
         "4230e0d8-b56c-4f05-8759-018e8cecd245",
         "price",
+        "2423a54c-308d-46f3-9edf-c145618d112a",
         "f479ec16-1c04-4890-8c49-6e059255e4c4",
         "5ced036d-2b8e-4a95-879d-49ba9a193f2e",
         "variant_picker",
