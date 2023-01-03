@@ -393,6 +393,101 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "b0faa719-1bac-47ed-a9b0-6ac01d06dd19": {
+      "type": "multicolumn",
+      "blocks": {
+        "f8e4836a-c427-4156-8ca8-5a346a17ccac": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/tisento-milano.png",
+            "fa-icon": "",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--15595883757759__b0faa719-1bac-47ed-a9b0-6ac01d06dd19-1672769117b413caca-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/seiko_ac3c0e58-1b0a-4046-8580-96604774724c.png",
+            "fa-icon": "",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--15595883757759__b0faa719-1bac-47ed-a9b0-6ac01d06dd19-1672769117b413caca-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sarasousapinto.png",
+            "fa-icon": "",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "ba938d49-1625-49dc-ad19-50218022c77d": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/tommyhilfiger.png",
+            "fa-icon": "",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--15595883757759__b0faa719-1bac-47ed-a9b0-6ac01d06dd19-1672769117b413caca-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/maserati_6f154d93-3c27-4564-860f-4190006b2d1a.png",
+            "fa-icon": "",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "addfd8b0-735d-4dae-ba23-0271f0b4b06e": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/saudadejewels.png",
+            "fa-icon": "",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "f8e4836a-c427-4156-8ca8-5a346a17ccac",
+        "template--15595883757759__b0faa719-1bac-47ed-a9b0-6ac01d06dd19-1672769117b413caca-0",
+        "template--15595883757759__b0faa719-1bac-47ed-a9b0-6ac01d06dd19-1672769117b413caca-2",
+        "ba938d49-1625-49dc-ad19-50218022c77d",
+        "template--15595883757759__b0faa719-1bac-47ed-a9b0-6ac01d06dd19-1672769117b413caca-1",
+        "addfd8b0-735d-4dae-ba23-0271f0b4b06e"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 6,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -405,6 +500,7 @@
     "1658159649977cb515",
     "16581584000346920f",
     "1659978105bd6ba2de",
-    "1661513180500894df"
+    "1661513180500894df",
+    "b0faa719-1bac-47ed-a9b0-6ac01d06dd19"
   ]
 }
