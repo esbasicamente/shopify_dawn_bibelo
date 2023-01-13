@@ -123,16 +123,11 @@
               {%- endfor -%}
             </ul>
     
-            {%- if paginate.pages > 1 -%}           
+                       {%- if paginate.pages > 1 -%}           
               {% render 'pagination', paginate: paginate, anchor: '' %}
             {%- endif -%}
           </div>
         {%- endif -%}
-        <div id="AjaxinatePagination">
-      {% if paginate.next %}
-        <a href="{{ paginate.next.url }}">Loading More</a>
-      {% endif %}
-    </div>
       {%- endpaginate -%}
     </div>
   </div>
