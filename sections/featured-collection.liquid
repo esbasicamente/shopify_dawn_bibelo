@@ -109,6 +109,11 @@ text-align: left;
       </div>
     {%- endif -%}
   </div>
+   <div id="AjaxinatePagination">
+      {% if paginate.next %}
+        <a href="{{ paginate.next.url }}">Loading More</a>
+      {% endif %}
+    </div>
 </div>
 
 {% schema %}
