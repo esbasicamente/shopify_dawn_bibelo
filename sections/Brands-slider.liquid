@@ -18,7 +18,7 @@
 {% endschema %}
 
 {% stylesheet %}
-.brands-slider {
+  .brands-slider {
   overflow: hidden;
   white-space: nowrap;
 }
@@ -32,10 +32,11 @@
 .brands-slide img {
   width: 100%;
 }
+
 {% endstylesheet %}
 
 {% javascript %}
-var slideIndex = 0;
+  var slideIndex = 0;
 showSlides();
 
 function showSlides() {
@@ -45,8 +46,9 @@ function showSlides() {
     slides[i].style.display = "none";
   }
   slideIndex++;
-  if (slideIndex > slides.length) { slideIndex = 1; }
-  slides[slideIndex - 1].style.display = "inline-block";
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "inline-block";
   setTimeout(showSlides, 3000); // Change image every 3 seconds
 }
+
 {% endjavascript %}
