@@ -1,12 +1,56 @@
+<div class="brands-slider">
+  <div class="brands-slide">
+    <img src="brand1.jpg" alt="Brand 1">
+  </div>
+  <div class="brands-slide">
+    <img src="brand2.jpg" alt="Brand 2">
+  </div>
+  <div class="brands-slide">
+    <img src="brand3.jpg" alt="Brand 3">
+  </div>
+</div>
+
 {% schema %}
   {
-    "name": "Section name",
+    "name": "Brands Slider",
     "settings": []
   }
 {% endschema %}
 
 {% stylesheet %}
+  .brands-slider {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.brands-slide {
+  display: inline-block;
+  width: 20%;
+  margin-right: 2%;
+}
+
+.brands-slide img {
+  width: 100%;
+}
+
 {% endstylesheet %}
 
 {% javascript %}
+  var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("brands-slide");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "inline-block";
+  setTimeout(showSlides, 3000); // Change image every 3 seconds
+}
+
 {% endjavascript %}
+
+
