@@ -5,6 +5,7 @@
       "blocks": {
         "1652286929f9c6ceff-0": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/seiko-pc.png",
             "heading": "",
@@ -23,6 +24,7 @@
         },
         "e0d3920b-9d86-4139-9af1-d80f4aba27d0": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/sarasousapinto.png",
             "heading": "",
@@ -41,6 +43,7 @@
         },
         "1652286929f9c6ceff-1": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/tisento-pc.png",
             "heading": "",
@@ -59,6 +62,7 @@
         },
         "e8630f03-e437-4693-9f5f-069b2ad622b9": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/majorica-pc.png",
             "heading": "",
@@ -74,13 +78,32 @@
             "color_scheme": "background-1",
             "text_alignment_mobile": "center"
           }
+        },
+        "15ac496b-d985-4485-92d4-10f70a3d631b": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/aaaaa.png",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
         "1652286929f9c6ceff-0",
         "e0d3920b-9d86-4139-9af1-d80f4aba27d0",
         "1652286929f9c6ceff-1",
-        "e8630f03-e437-4693-9f5f-069b2ad622b9"
+        "e8630f03-e437-4693-9f5f-069b2ad622b9",
+        "15ac496b-d985-4485-92d4-10f70a3d631b"
       ],
       "settings": {
         "layout": "full_bleed",
