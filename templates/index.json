@@ -29,7 +29,7 @@
             "heading_size": "h2",
             "subheading": "",
             "button_label": "",
-            "link": "https:\/\/ourivesariabibelo.com\/collections\/vendors?q=MAJORICA&sort_by=created-descending",
+            "link": "https:\/\/ourivesariabibelo.com\/collections\/vendors?q=SARA%20SOUSA%20PINTO&sort_by=created-descending",
             "button_style_secondary": false,
             "box_align": "middle-left",
             "show_text_box": false,
@@ -47,7 +47,7 @@
             "heading_size": "h1",
             "subheading": "",
             "button_label": "",
-            "link": "https:\/\/ourivesariabibelo.com\/collections\/vendors?q=SARA%20SOUSA%20PINTO&sort_by=created-descending",
+            "link": "shopify:\/\/collections\/aliancas-de-casamento",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": false,
@@ -62,17 +62,17 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/banner5.png",
             "heading": "",
-            "heading_size": "h1",
+            "heading_size": "h2",
             "subheading": "",
             "button_label": "",
-            "link": "",
+            "link": "https:\/\/ourivesariabibelo.com\/collections\/vendors?q=TI%20SENTO%20-%20MILANO&sort_by=created-descending",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": false,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
             "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
+            "text_alignment_mobile": "left"
           }
         },
         "1652286929f9c6ceff-1": {
@@ -83,7 +83,7 @@
             "heading_size": "h2",
             "subheading": "",
             "button_label": "",
-            "link": "https:\/\/ourivesariabibelo.com\/collections\/vendors?q=TI%20SENTO%20-%20MILANO&sort_by=created-descending",
+            "link": "https:\/\/ourivesariabibelo.com\/collections\/vendors?q=OURIVESARIA%20BIBELO&sort_by=created-descending",
             "button_style_secondary": false,
             "box_align": "middle-left",
             "show_text_box": false,
