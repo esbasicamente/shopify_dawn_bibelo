@@ -43,18 +43,18 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/banner1.png",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
+            "heading": "ALIANÇAS DE CASAMENTO",
+            "heading_size": "h2",
+            "subheading": "Temos mais de 100 modelos diferentes para si, das mais clássicas às mais arrojadas",
+            "button_label": "Ver tudo",
             "link": "shopify:\/\/collections\/aliancas-de-casamento",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
+            "button_style_secondary": true,
+            "box_align": "middle-left",
             "show_text_box": false,
-            "text_alignment": "center",
+            "text_alignment": "left",
             "image_overlay_opacity": 0,
             "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
+            "text_alignment_mobile": "left"
           }
         },
         "009b0f54-06aa-45b9-aac3-58f70be489b1": {
