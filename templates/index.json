@@ -78,19 +78,19 @@
         "1652286929f9c6ceff-1": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/banner2.png",
-            "heading": "",
+            "image": "shopify:\/\/shop_images\/banner6.png",
+            "heading": "LOTUS SILVER",
             "heading_size": "h2",
-            "subheading": "",
-            "button_label": "",
-            "link": "https:\/\/ourivesariabibelo.com\/collections\/vendors?q=OURIVESARIA%20BIBELO&sort_by=created-descending",
-            "button_style_secondary": false,
+            "subheading": "Uma linha de joias de prata onde os elementos clássicos se tornam modernos, para mulheres cosmopolitas, com uma alma romântica e com identidade própria",
+            "button_label": "Ver tudo",
+            "link": "shopify:\/\/collections\/lotus-silver",
+            "button_style_secondary": true,
             "box_align": "middle-left",
             "show_text_box": false,
             "text_alignment": "left",
             "image_overlay_opacity": 0,
             "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
+            "text_alignment_mobile": "left"
           }
         }
       },
