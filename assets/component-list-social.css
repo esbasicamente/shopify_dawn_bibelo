@@ -19,7 +19,7 @@
 .list-social__link {
   align-items: center;
   display: flex;
-  padding: 1.2rem;
+  padding: 1rem;
   color: rgb(var(--color-foreground));
   margin: 0 0.5rem;
   border-radius:10px;
