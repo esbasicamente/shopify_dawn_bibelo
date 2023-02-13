@@ -82,13 +82,6 @@
     "c189fdc6-6ad4-4ec4-b52e-9b6cd39499d7": {
       "type": "image-with-text",
       "blocks": {
-        "template--15600525934783__c189fdc6-6ad4-4ec4-b52e-9b6cd39499d7-167630470566021067-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Ourivesaria Bibelô - Desde 1990",
-            "heading_size": "h2"
-          }
-        },
         "template--15600525934783__c189fdc6-6ad4-4ec4-b52e-9b6cd39499d7-167630470566021067-1": {
           "type": "text",
           "settings": {
@@ -98,7 +91,6 @@
         }
       },
       "block_order": [
-        "template--15600525934783__c189fdc6-6ad4-4ec4-b52e-9b6cd39499d7-167630470566021067-0",
         "template--15600525934783__c189fdc6-6ad4-4ec4-b52e-9b6cd39499d7-167630470566021067-1"
       ],
       "settings": {
