@@ -22,8 +22,8 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/277803949_378919224241319_3488524224562211770_n_a43673dd-c830-4428-8038-65386015d2e4.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "adapt_height_first_image": true,
+        "image_height": "small",
+        "adapt_height_first_image": false,
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
