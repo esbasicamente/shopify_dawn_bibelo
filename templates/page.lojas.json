@@ -53,34 +53,34 @@
         "padding_bottom": 36
       }
     },
-    "2f934693-9d91-4420-bc03-02a883aa5cbe": {
+    "2b7b1b18-8071-4ffe-8ae9-0430fc832b9c": {
       "type": "image-with-text",
       "blocks": {
-        "template--15600540385471__2f934693-9d91-4420-bc03-02a883aa5cbe-16763080437c2afebf-0": {
+        "template--15600540385471__2b7b1b18-8071-4ffe-8ae9-0430fc832b9c-16763080437c2afebf-0": {
           "type": "heading",
           "settings": {
-            "heading": "Ourivearia Bibelô",
-            "heading_size": "h2"
+            "heading": "Image with text",
+            "heading_size": "h1"
           }
         },
-        "template--15600540385471__2f934693-9d91-4420-bc03-02a883aa5cbe-16763080437c2afebf-1": {
+        "template--15600540385471__2b7b1b18-8071-4ffe-8ae9-0430fc832b9c-16763080437c2afebf-1": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Telefone: <\/strong>+351 229 280 099<\/p><p><strong>Telemóvel: <\/strong>+351 936 431 632<\/p><p>-<\/p><p>Segunda a Sábado das 09:15h às 12:30h e 14:30h às 19:15h<\/p><p>-<\/p><p>Rua da Estrada Principal 1334,<br\/>4485-176 Gião - Vila do Conde<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "text_style": "body"
           }
         }
       },
       "block_order": [
-        "template--15600540385471__2f934693-9d91-4420-bc03-02a883aa5cbe-16763080437c2afebf-0",
-        "template--15600540385471__2f934693-9d91-4420-bc03-02a883aa5cbe-16763080437c2afebf-1"
+        "template--15600540385471__2b7b1b18-8071-4ffe-8ae9-0430fc832b9c-16763080437c2afebf-0",
+        "template--15600540385471__2b7b1b18-8071-4ffe-8ae9-0430fc832b9c-16763080437c2afebf-1"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/bibelo2.png",
         "height": "adapt",
-        "desktop_image_width": "large",
+        "desktop_image_width": "medium",
         "layout": "image_first",
-        "desktop_content_position": "middle",
+        "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "color_scheme": "background-1",
@@ -94,6 +94,6 @@
     "main",
     "16601208075ae9c37b",
     "16524527676283828e",
-    "2f934693-9d91-4420-bc03-02a883aa5cbe"
+    "2b7b1b18-8071-4ffe-8ae9-0430fc832b9c"
   ]
 }
