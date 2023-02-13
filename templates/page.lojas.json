@@ -59,14 +59,14 @@
         "template--15600540385471__2b7b1b18-8071-4ffe-8ae9-0430fc832b9c-16763080437c2afebf-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
+            "heading": "Ourivesaria Bibelo",
+            "heading_size": "h2"
           }
         },
         "template--15600540385471__2b7b1b18-8071-4ffe-8ae9-0430fc832b9c-16763080437c2afebf-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p><strong>Telefone: <\/strong>+351 229 280 099<\/p><p><strong>Telemóvel: <\/strong>+351 936 431 632<\/p><p>-<\/p><p>Segunda a Sábado das 09:15h às 12:30h e 14:30h às 19:15h<\/p><p>-<\/p><p>Rua da Estrada Principal 1334,<br\/>4485-176 Gião - Vila do Conde<\/p>",
             "text_style": "body"
           }
         }
@@ -85,7 +85,7 @@
         "content_layout": "no-overlap",
         "color_scheme": "background-1",
         "mobile_content_alignment": "left",
-        "padding_top": 36,
+        "padding_top": 0,
         "padding_bottom": 36
       }
     }
