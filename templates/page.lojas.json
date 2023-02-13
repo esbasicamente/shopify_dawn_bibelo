@@ -19,6 +19,7 @@
     },
     "16524527676283828e": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "16524527673209e604-0": {
           "type": "column",
@@ -54,7 +55,6 @@
     },
     "2f934693-9d91-4420-bc03-02a883aa5cbe": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "template--15600540385471__2f934693-9d91-4420-bc03-02a883aa5cbe-16763080437c2afebf-0": {
           "type": "heading",
@@ -77,8 +77,8 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/bibelo2.png",
-        "height": "large",
-        "desktop_image_width": "medium",
+        "height": "adapt",
+        "desktop_image_width": "large",
         "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
