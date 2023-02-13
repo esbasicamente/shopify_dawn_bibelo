@@ -71,7 +71,6 @@
     },
     "c189fdc6-6ad4-4ec4-b52e-9b6cd39499d7": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "template--15600525934783__c189fdc6-6ad4-4ec4-b52e-9b6cd39499d7-167630470566021067-1": {
           "type": "text",
@@ -97,15 +96,6 @@
         "padding_top": 0,
         "padding_bottom": 36
       }
-    },
-    "6e35fa0d-fd0e-43da-a958-32db10b35133": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<div class=\"image-with-text image-with-text--no-overlap page-width isolate section-template--15600525934783__c189fdc6-6ad4-4ec4-b52e-9b6cd39499d7-padding\">\n  <div class=\"image-with-text__grid grid grid--gapless grid--1-col grid--2-col-tablet\">\n    <div class=\"image-with-text__media-item image-with-text__media-item--medium image-with-text__media-item--top grid__item\">\n      <div class=\"image-with-text__media image-with-text__media--adapt gradient color-background-1 global-media-settings media\" style=\"padding-bottom: 55.55555555555556%;\">\n\t  <img srcset=\"\/\/cdn.shopify.com\/s\/files\/1\/0619\/5629\/2799\/files\/bibelo_ebf3b770-33ea-481e-ac44-71f5375721ef.png?v=1676306624&amp;width=165 165w,\/\/cdn.shopify.com\/s\/files\/1\/0619\/5629\/2799\/files\/bibelo_ebf3b770-33ea-481e-ac44-71f5375721ef.png?v=1676306624&amp;width=360 360w,\/\/cdn.shopify.com\/s\/files\/1\/0619\/5629\/2799\/files\/bibelo_ebf3b770-33ea-481e-ac44-71f5375721ef.png?v=1676306624&amp;width=535 535w,\/\/cdn.shopify.com\/s\/files\/1\/0619\/5629\/2799\/files\/bibelo_ebf3b770-33ea-481e-ac44-71f5375721ef.png?v=1676306624&amp;width=750 750w,\/\/cdn.shopify.com\/s\/files\/1\/0619\/5629\/2799\/files\/bibelo_ebf3b770-33ea-481e-ac44-71f5375721ef.png?v=1676306624&amp;width=1070 1070w,\/\/cdn.shopify.com\/s\/files\/1\/0619\/5629\/2799\/files\/bibelo_ebf3b770-33ea-481e-ac44-71f5375721ef.png?v=1676306624&amp;width=1500 1500w,\/\/cdn.shopify.com\/s\/files\/1\/0619\/5629\/2799\/files\/bibelo_ebf3b770-33ea-481e-ac44-71f5375721ef.png?v=1676306624 1800w\" src=\"\/\/cdn.shopify.com\/s\/files\/1\/0619\/5629\/2799\/files\/bibelo_ebf3b770-33ea-481e-ac44-71f5375721ef.png?v=1676306624&amp;width=1500\" sizes=\"(min-width: 1600px) 750px, (min-width: 750px) calc((100vw - 130px) \/ 2), calc((100vw - 50px) \/ 2)\" alt=\"\" loading=\"lazy\" width=\"1800\" height=\"1000\"><\/div>\n    <\/div>\n    <div class=\"image-with-text__text-item grid__item\">\n      <div id=\"ImageWithText--template--15600525934783__c189fdc6-6ad4-4ec4-b52e-9b6cd39499d7\" class=\"image-with-text__content image-with-text__content--top image-with-text__content--desktop-left image-with-text__content--mobile-left image-with-text__content--adapt gradient color-background-1 content-container\"><div class=\"image-with-text__text rte body\">\n\t  <p>Ourivesaria Bibelo - Desde 1990<br><br>\n\t  Somos uma empresa de cariz familiar, que ao longo do tempo foi adquirindo a experiência necessária para lhe proporcionar um serviço de qualidade e excelência.<br>\n\t  Temos como princípios os valores da seriedade e rigor profissional, que se refletem na qualidade dos nossos serviços.<br>\n\t  Na Ourivesaria Bibelô encontra ao seu dispor um atendimento personalizado que lhe oferece toda a atenção e simpatia, priveligiando a simplicidade e o bom gosto.<br>\n\t  Através do empenho e dedicação dos nossos colaboradores tentamos conquistar a sua confiança.<br>\n\t  Encontrará ao seu dispor peças com um design arrojado e variado, desde a peça clássica à mais moderna, que acompanham e completam cada momento da sua vida.<br><br>\n\t  Ficamos à espera da sua visita!<\/p>\n\t  <\/div>\n\t  <\/div>\n    <\/div>\n  <\/div>\n<\/div>",
-        "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
@@ -113,7 +103,6 @@
     "166012058342d2de74",
     "1652452037c84f3ba6",
     "1652452135fefd7a3d",
-    "c189fdc6-6ad4-4ec4-b52e-9b6cd39499d7",
-    "6e35fa0d-fd0e-43da-a958-32db10b35133"
+    "c189fdc6-6ad4-4ec4-b52e-9b6cd39499d7"
   ]
 }
