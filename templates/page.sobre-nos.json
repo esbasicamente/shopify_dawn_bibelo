@@ -36,7 +36,6 @@
     },
     "1652452135fefd7a3d": {
       "type": "multicolumn",
-      "disabled": true,
       "blocks": {
         "1652452135af206318-0": {
           "type": "column",
@@ -81,6 +80,7 @@
     },
     "c189fdc6-6ad4-4ec4-b52e-9b6cd39499d7": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "template--15600525934783__c189fdc6-6ad4-4ec4-b52e-9b6cd39499d7-167630470566021067-1": {
           "type": "text",
