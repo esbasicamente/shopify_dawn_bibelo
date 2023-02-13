@@ -2,11 +2,11 @@
   "sections": {
     "16522869307591a941": {
       "type": "slideshow",
-      "disabled": true,
       "blocks": {
         "1652286929f9c6ceff-0": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/seikoastron.png",
             "heading": "SEIKO ASTRON",
             "heading_size": "h2",
             "subheading": "O primeiro relógio GPS solar do mundo",
@@ -24,6 +24,7 @@
         "e8630f03-e437-4693-9f5f-069b2ad622b9": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/sarasousapinto.png",
             "heading": "SARA SOUSA PINTO",
             "heading_size": "h2",
             "subheading": "Joias de prata, ouro e pedras naturais de design único e moderno",
@@ -41,6 +42,7 @@
         "009b0f54-06aa-45b9-aac3-58f70be489b1": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/tisento.png",
             "heading": "TI SENTO - MILANO",
             "heading_size": "h2",
             "subheading": "Com um estilo sofisticado e único, para todas as mulheres que adoram seguir as últimas tendências de moda",
@@ -58,6 +60,7 @@
         "e0d3920b-9d86-4139-9af1-d80f4aba27d0": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/aliancasbanner.png",
             "heading": "ALIANÇAS DE CASAMENTO",
             "heading_size": "h2",
             "subheading": "Temos mais de 100 modelos diferentes para si, das mais clássicas às mais arrojadas",
@@ -75,6 +78,7 @@
         "1652286929f9c6ceff-1": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/majorica.png",
             "heading": "MAJORICA",
             "heading_size": "h2",
             "subheading": "O design baseado na lendária pérola artesanal, reflete a intensidade da vida mediterrânea e confere sofisticação a um visual feminino",
