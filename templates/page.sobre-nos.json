@@ -72,24 +72,24 @@
     "c189fdc6-6ad4-4ec4-b52e-9b6cd39499d7": {
       "type": "image-with-text",
       "blocks": {
-        "71ff04b1-7678-4ff5-9ca4-8b329d190cfb": {
-          "type": "heading",
-          "settings": {
-            "heading": "Ourivesaria Bibelo",
-            "heading_size": "h2"
-          }
-        },
         "template--15600525934783__c189fdc6-6ad4-4ec4-b52e-9b6cd39499d7-167630470566021067-1": {
           "type": "text",
           "settings": {
             "text": "<p>Ourivesaria Bibelo - Desde 1990<\/p><p>Somos uma empresa de cariz familiar, que ao longo do tempo foi adquirindo a experiência necessária para lhe proporcionar um serviço de qualidade e excelência.<br\/>Temos como princípios os valores da seriedade e rigor profissional, que se refletem na qualidade dos nossos serviços.<br\/>Na Ourivesaria Bibelô encontra ao seu dispor um atendimento personalizado que lhe oferece toda a atenção e simpatia, priveligiando a simplicidade e o bom gosto.<br\/>Através do empenho e dedicação dos nossos colaboradores tentamos conquistar a sua confiança.<br\/>Encontrará ao seu dispor peças com um design arrojado e variado, desde a peça clássica à mais moderna, que acompanham e completam cada momento da sua vida.<br\/>Ficamos à espera da sua visita!<\/p>",
             "text_style": "body"
           }
+        },
+        "06c1dff9-1e0c-48fb-a932-14fd91c0c19f": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
-        "71ff04b1-7678-4ff5-9ca4-8b329d190cfb",
-        "template--15600525934783__c189fdc6-6ad4-4ec4-b52e-9b6cd39499d7-167630470566021067-1"
+        "template--15600525934783__c189fdc6-6ad4-4ec4-b52e-9b6cd39499d7-167630470566021067-1",
+        "06c1dff9-1e0c-48fb-a932-14fd91c0c19f"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/bibelo_ebf3b770-33ea-481e-ac44-71f5375721ef.png",
@@ -98,8 +98,8 @@
         "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
+        "content_layout": "overlap",
+        "color_scheme": "background-2",
         "mobile_content_alignment": "left",
         "padding_top": 0,
         "padding_bottom": 36
