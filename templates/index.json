@@ -101,12 +101,15 @@
         "009b0f54-06aa-45b9-aac3-58f70be489b1",
         "1652286929f9c6ceff-1"
       ],
+      "custom_css": [
+        "span {font-weight: bolder;}"
+      ],
       "settings": {
         "layout": "full_bleed",
         "slide_height": "medium",
         "slider_visual": "dots",
         "auto_rotate": true,
-        "change_slides_speed": 7,
+        "change_slides_speed": 9,
         "show_text_below": false,
         "accessibility_info": "Slideshow Bibelô"
       }
