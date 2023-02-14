@@ -102,8 +102,18 @@
         "padding_bottom": 36
       }
     },
+    "0f8a69fb-9dbb-4a2a-af99-cddfd2f83cf7": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"multicolumn color-background-1 gradient background-primary no-heading\">\n  <div class=\"page-width section-template--15595884314815__multicolumn-padding isolate\"><slider-component class=\"slider-mobile-gutter\">\n      <ul class=\"multicolumn-list contains-content-container grid grid--1-col-tablet-down grid--4-col-desktop slider slider--mobile grid--peek\" id=\"Slider-template--15595884314815__multicolumn\" role=\"list\"><li id=\"Slide-template--15595884314815__multicolumn-1\" class=\"multicolumn-list__item grid__item slider__slide center\">            \n            <div class=\"multicolumn-card content-container\"><div class=\"multicolumn-card__info\"><h3><i class=\"fas fa-truck\"><\/i>\nEntregas rápidas\n                  <\/h3><div class=\"rte\"><p>Desde 1 a 2 dias Portugal Continental<\/p><\/div><\/div>\n            <\/div>\n          <\/li><li id=\"Slide-template--15595884314815__multicolumn-2\" class=\"multicolumn-list__item grid__item slider__slide center\">            \n            <div class=\"multicolumn-card content-container\"><div class=\"multicolumn-card__info\"><h3><i class=\"fas fa-shield-alt\"><\/i>\nPagamentos Seguros\n                  <\/h3><div class=\"rte\"><p>Escolhe o teu método favorito de pagamento<\/p><\/div><\/div>\n            <\/div>\n          <\/li><li id=\"Slide-template--15595884314815__multicolumn-3\" class=\"multicolumn-list__item grid__item slider__slide center\">            \n            <div class=\"multicolumn-card content-container\"><div class=\"multicolumn-card__info\"><h3><i class=\"fas fa-box\"><\/i>\nPortes Grátis\n                  <\/h3><div class=\"rte\"><p>Portes Grátis em encomendas superiores a 50€<\/p><\/div><\/div>\n            <\/div>\n          <\/li><li id=\"Slide-template--15595884314815__multicolumn-4\" class=\"multicolumn-list__item grid__item slider__slide center\">            \n            <div class=\"multicolumn-card content-container\"><div class=\"multicolumn-card__info\"><h3><i class=\"fas fa-store-alt\"><\/i>\nLevantamento em Loja\n                  <\/h3><div class=\"rte\"><p>Faz a tua encomenda e levanta em loja<\/p><\/div><\/div>\n            <\/div>\n          <\/li><\/ul><\/slider-component>\n    <div class=\"center small-hide medium-hide\"><\/div>\n  <\/div>\n<\/div>",
+        "color_scheme": "accent-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "multicolumn": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "column-0": {
           "type": "column",
@@ -189,6 +199,7 @@
   },
   "order": [
     "main",
+    "0f8a69fb-9dbb-4a2a-af99-cddfd2f83cf7",
     "multicolumn",
     "product-recommendations"
   ]
