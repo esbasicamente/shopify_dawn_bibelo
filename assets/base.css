@@ -2886,11 +2886,13 @@ details-disclosure > details {
 .button1 {
             position: absolute;
             right: 0;
+            margin-right: 10px;
           }
 
 
 
 .button2 {
             position: absolute;            
-            left: 0;           
+            left: 0; 
+            margin-left: 10px;
           }
