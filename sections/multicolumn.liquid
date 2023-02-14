@@ -108,7 +108,7 @@
             </div>
           </li>
         {%- endfor -%}
-      </ul>
+      
             {%- if show_mobile_slider -%}
          <div class="slideshow__controls slideshow__controls--top slider-buttons no-js-hidden{% if section.settings.show_text_below %} slideshow__controls--border-radius-mobile{% endif %}">
       <div class="slider-counter slider-counter--{{ section.settings.slider_visual }}{% if section.settings.slider_visual == 'counter' or section.settings.slider_visual == 'numbers' %} caption{% endif %}">
@@ -155,6 +155,7 @@
       </div>
 	  </div>
     </noscript>
+           </ul>
   {%- endif -%}
   </div>
 </div>
