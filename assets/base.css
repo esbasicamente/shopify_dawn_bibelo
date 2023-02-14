@@ -2887,14 +2887,12 @@ details-disclosure > details {
 .button1 {
             position: absolute;
             right: 0;
-            margin-right: 10px;
           }
 }
 
 @media only screen and (min-width: 768px) {
 .button2 {
             position: absolute;            
-            left: 0;
-            margin-left: 10px;
+            left: 0;           
           }
 }
