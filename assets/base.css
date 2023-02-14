@@ -2883,7 +2883,7 @@ details-disclosure > details {
 }
 
 @media (max-width: 768px)
-.slider-button--prev {
+.slider-buttons .slider-button--prev {
     position: absolute;
     left: 0;
 }
@@ -2894,7 +2894,7 @@ details-disclosure > details {
 }
 
 @media (max-width: 768px)
-.slider-button--next {
+.slider-buttons .slider-button--next {
     position: absolute;
     right: 0;
 }
