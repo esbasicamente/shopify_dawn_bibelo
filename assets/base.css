@@ -2878,21 +2878,21 @@ details-disclosure > details {
 .slider-buttons-multicolumn {
             position: absolute;
             top: 20%;
-            left: 0;
-            right: 0;            
+            left: 90;
+            right: 90;            
           }
 }
 
 @media only screen and (max-width: 390px) {
 .button1 {
             position: absolute;
-            right: 0;
+            right: 90;
           }
 }
 
 @media only screen and (max-width: 390px) {
 .button2 {
             position: absolute;            
-            left: 0;
+            left: 90;
           }
 }
