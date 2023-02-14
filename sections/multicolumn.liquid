@@ -14,6 +14,15 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+  .button1 {
+    position: absolute;
+    right: 0;
+  }
+
+  .button2 {
+    position: absolute;
+    left: 0;
+  }
 {%- endstyle -%}
 
 {%- liquid
@@ -112,7 +121,7 @@
       {%- if show_mobile_slider -%}
         <div class="slider-buttons no-js-hidden medium-hide">
           <button
-            type="button"
+            type="button2"
             class="slider-button slider-button--prev"
             name="previous"
             aria-label="{{ 'general.slider.previous_slide' | t }}"
@@ -126,7 +135,7 @@
             <span class="slider-counter--total">{{ section.blocks.size }}</span>
           </div>
           <button
-            type="button"
+            type="button1"
             class="slider-button slider-button--next"
             name="next"
             aria-label="{{ 'general.slider.next_slide' | t }}"
