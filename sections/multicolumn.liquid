@@ -95,6 +95,27 @@
                 </div>
               {%- endif -%}
               <div class="multicolumn-card__info">
+                {%- if show_mobile_slider -%}
+        <div class="slider-buttons no-js-hidden medium-hide">
+          <button
+            type="button"
+            class="slider-button slider-button--prev"
+            name="previous"
+            aria-label="{{ 'general.slider.previous_slide' | t }}"
+          >
+            {% render 'icon-caret' %}
+          </button>
+          
+          <button
+            type="button"
+            class="slider-button slider-button--next"
+            name="next"
+            aria-label="{{ 'general.slider.next_slide' | t }}"
+          >
+            {% render 'icon-caret' %}
+          </button>
+        </div>
+      {%- endif -%}
                 
                 {%- if block.settings.title != blank -%}
                 
