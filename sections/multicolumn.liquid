@@ -16,7 +16,7 @@
   }
 
     @media (max-width: 768px)
-.multicolumn .slider-buttons {
+.multicolumn-slider-buttons {
     position: absolute;
     top: 50%;
     left: 0;
@@ -24,7 +24,7 @@
 }
 
 @media (max-width: 768px)
-.multicolumn .slider-buttons .slider-button--prev {
+.slider-button--prev {
     position: absolute;
     left: 0;
 }
@@ -35,27 +35,11 @@
 }
 
 @media (max-width: 768px)
-.multicolumn .slider-buttons .slider-counter {
-    display: none;
-}
-
-@media (max-width: 768px)
-.multicolumn .slider-buttons .slider-button--next {
+.slider-button--next {
     position: absolute;
     right: 0;
 }
-
-.visually-hidden {
-    position: absolute!important;
-    overflow: hidden;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    padding: 0;
-    border: 0;
-    clip: rect(0 0 0 0);
-    word-wrap: normal!important;
-}
+  
 {%- endstyle -%}
 
 {%- liquid
@@ -151,10 +135,10 @@
         {%- endfor -%}
       </ul>
             {%- if show_mobile_slider -%}
-        <div class="slider-buttons no-js-hidden medium-hide">
+        <div class="multicolumn-slider-buttons no-js-hidden medium-hide">
           <button
             type="button"
-            class="slider-button slider-button--prev"
+            class="slider-button--prev"
             name="previous"
             aria-label="{{ 'general.slider.previous_slide' | t }}"
           >
@@ -163,7 +147,7 @@
           
           <button
             type="button"
-            class="slider-button slider-button--next"
+            class="slider-button--next"
             name="next"
             aria-label="{{ 'general.slider.next_slide' | t }}"
           >
