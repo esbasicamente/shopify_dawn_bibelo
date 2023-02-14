@@ -111,8 +111,15 @@
 
       
       {%- if show_mobile_slider -%}
-        <div class="slider-buttons no-js-hidden medium-hide">
+        <div class="slider-buttons slider-buttons-multicolumn no-js-hidden medium-hide">
         <style> 
+          .slider-buttons-multicolumn {
+            position: absolute;
+            top: 50%;
+            left: 0;
+            right: 0;            
+          }
+          
           .button1 {
             position: absolute;
             right: 0;
