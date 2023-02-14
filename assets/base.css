@@ -2873,3 +2873,28 @@ details-disclosure > details {
 .color-title {
   color: #5A6965;
 }
+
+    @media (max-width: 768px)
+.multicolumn-slider-buttons {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+}
+
+@media (max-width: 768px)
+.slider-button--prev {
+    position: absolute;
+    left: 0;
+}
+
+@media (max-width: 768px)
+.slider-button:disabled {
+    opacity: 0;
+}
+
+@media (max-width: 768px)
+.slider-button--next {
+    position: absolute;
+    right: 0;
+}
