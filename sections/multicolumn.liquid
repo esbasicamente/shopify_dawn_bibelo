@@ -47,7 +47,7 @@
     right: 0;
 }
 
-.visually-hidden {
+.multicolumn .visually-hidden {
     position: absolute!important;
     overflow: hidden;
     width: 1px;
@@ -178,7 +178,7 @@
           <div class="slider-counter caption">
             <span class="slider-counter--current">1</span>
             <span aria-hidden="true"> / </span>
-            <span class="visually-hidden">{{ 'general.slider.of' | t }}</span>
+            <span class="multicolumn visually-hidden">{{ 'general.slider.of' | t }}</span>
             <span class="slider-counter--total">{{ section.blocks.size }}</span>
           </div>
           <button
