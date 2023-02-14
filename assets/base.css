@@ -2881,3 +2881,9 @@ details-disclosure > details {
     left: 0;
     right: 0;
 }
+
+@media (max-width: 768px)
+.multicolumn .slider-buttons .slider-button--prev {
+    position: absolute;
+    left: 0;
+}
