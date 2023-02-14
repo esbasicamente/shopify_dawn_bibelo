@@ -2874,7 +2874,7 @@ details-disclosure > details {
   color: #5A6965;
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (min-width: 749px) {
 .slider-buttons-multicolumn {
             position: absolute;
             top: 20%;
@@ -2883,7 +2883,7 @@ details-disclosure > details {
           }
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (min-width: 749px) {
 .button1 {
             position: absolute;
             right: 0;
@@ -2891,7 +2891,7 @@ details-disclosure > details {
           }
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (min-width: 749px) {
 .button2 {
             position: absolute;            
             left: 0;
