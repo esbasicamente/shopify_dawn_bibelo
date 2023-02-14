@@ -2874,8 +2874,8 @@ details-disclosure > details {
   color: #5A6965;
 }
 
-    @media (max-width: 768px)
-.multicolumn-slider-buttons {
+  @media (max-width: 768px)
+.multicolumn .slider-buttons {
     position: absolute;
     top: 50%;
     left: 0;
@@ -2883,7 +2883,7 @@ details-disclosure > details {
 }
 
 @media (max-width: 768px)
-.slider-button .slider-button--prev {
+.multicolumn .slider-buttons .slider-button--prev {
     position: absolute;
     left: 0;
 }
@@ -2894,7 +2894,24 @@ details-disclosure > details {
 }
 
 @media (max-width: 768px)
-.slider-button .slider-button--next {
+.multicolumn .slider-buttons .slider-counter {
+    display: none;
+}
+
+@media (max-width: 768px)
+.multicolumn .slider-buttons .slider-button--next {
     position: absolute;
     right: 0;
+}
+
+.visually-hidden {
+    position: absolute!important;
+    overflow: hidden;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    clip: rect(0 0 0 0);
+    word-wrap: normal!important;
 }
