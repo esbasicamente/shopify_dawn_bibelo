@@ -2887,3 +2887,19 @@ details-disclosure > details {
     position: absolute;
     left: 0;
 }
+
+@media (max-width: 768px)
+.slider-button:disabled {
+    opacity: 0;
+}
+
+@media (max-width: 768px)
+.multicolumn .slider-buttons .slider-counter {
+    display: none;
+}
+
+@media (max-width: 768px)
+.multicolumn .slider-buttons .slider-button--next {
+    position: absolute;
+    right: 0;
+}
