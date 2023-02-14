@@ -16,48 +16,6 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
-
-  @media (max-width: 768px)
-.multicolumn .slider-buttons {
-    position: absolute;
-    top: 50%;
-    left: 0;
-    right: 0;
-}
-
-@media (max-width: 768px)
-.multicolumn .slider-buttons .slider-button--prev {
-    position: absolute;
-    left: 0;
-}
-
-@media (max-width: 768px)
-.slider-button:disabled {
-    opacity: 0;
-}
-
-@media (max-width: 768px)
-.multicolumn .slider-buttons .slider-counter {
-    display: none;
-}
-
-@media (max-width: 768px)
-.multicolumn .slider-buttons .slider-button--next {
-    position: absolute;
-    right: 0;
-}
-
-.visually-hidden {
-    position: absolute!important;
-    overflow: hidden;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    padding: 0;
-    border: 0;
-    clip: rect(0 0 0 0);
-    word-wrap: normal!important;
-}
 {%- endstyle -%}
 
 {%- liquid
@@ -166,21 +124,29 @@
       </ul>
 
       {%- if show_mobile_slider -%}
-       <div class="slider-buttons no-js-hidden medium-hide">
-          <button type="button" class="multicolumn slider-buttons slider-button--prev" name="previous" aria-label="Deslizar para a esquerda" disabled="disabled"><svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-caret" viewBox="0 0 10 6">
-  <path fill-rule="evenodd" clip-rule="evenodd" d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z" fill="currentColor">
-</path></svg>
-</button>
+        <div class="slider-buttons no-js-hidden medium-hide">
+          <button
+            type="button"
+            class="slider-button slider-button--prev"
+            name="previous"
+            aria-label="{{ 'general.slider.previous_slide' | t }}"
+          >
+            {% render 'icon-caret' %}
+          </button>
           <div class="slider-counter caption">
             <span class="slider-counter--current">1</span>
             <span aria-hidden="true"> / </span>
-            <span class="visually-hidden">de</span>
-            <span class="slider-counter--total">4</span>
+            <span class="visually-hidden">{{ 'general.slider.of' | t }}</span>
+            <span class="slider-counter--total">{{ section.blocks.size }}</span>
           </div>
-          <button type="button" class="multicolumn slider-buttons slider-button--next" name="next" aria-label="Deslizar para a direita"><svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-caret" viewBox="0 0 10 6">
-  <path fill-rule="evenodd" clip-rule="evenodd" d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z" fill="currentColor">
-</path></svg>
-</button>
+          <button
+            type="button"
+            class="slider-button slider-button--next"
+            name="next"
+            aria-label="{{ 'general.slider.next_slide' | t }}"
+          >
+            {% render 'icon-caret' %}
+          </button>
         </div>
       {%- endif -%}
     </slider-component>
