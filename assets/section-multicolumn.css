@@ -37,7 +37,10 @@
 }
 
 .multicolumn .button {
-  margin-top: 1.5rem;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
 }
 
 @media screen and (min-width: 750px) {
