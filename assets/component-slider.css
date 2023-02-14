@@ -370,7 +370,7 @@ slider-component.slider-component-full-width {
 }
 
 @media screen and (min-width: 990px){
-.slider:not(.slider--everywhere)+.slider-buttons {
+.slider:not(.slider--everywhere)+.slider-buttons-multicolumn {
     display: none;
 }
 }
