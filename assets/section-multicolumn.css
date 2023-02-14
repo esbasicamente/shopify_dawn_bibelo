@@ -233,20 +233,3 @@
     max-width: 33.33% !important;
 }
 }
-
-.slider-buttons-multicolumn {
-            position: absolute;
-            top: 20%;
-            left: 0;
-            right: 0;            
-          }
-
-.button1 {
-            position: absolute;
-            right: 0;
-          }
-
-.button2 {
-            position: absolute;            
-            left: 0;
-          }
