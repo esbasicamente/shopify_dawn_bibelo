@@ -36,16 +36,8 @@
   margin-right: auto;
 }
 
-.multicolumn .button1 {
-    position: absolute;
-    top: 50%;
-    right: 0;
-}
-
-.multicolumn .button2 {
-    position: absolute;
-    top: 50%;
-    left: 0;
+.multicolumn .button {
+  margin-top: 1.5rem;
 }
 
 @media screen and (min-width: 750px) {
