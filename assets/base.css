@@ -2874,19 +2874,25 @@ details-disclosure > details {
   color: #5A6965;
 }
 
+@media (max-width: 768px) {
 .slider-buttons-multicolumn {
             position: absolute;
             top: 20%;
             left: 0;
             right: 0;            
           }
+}
 
+@media (max-width: 768px) {
 .button1 {
             position: absolute;
             right: 0;
           }
+}
 
+@media (max-width: 768px) {
 .button2 {
             position: absolute;            
             left: 0;
           }
+}
