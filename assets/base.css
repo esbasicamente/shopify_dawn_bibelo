@@ -2887,6 +2887,7 @@ details-disclosure > details {
 .button1 {
             position: absolute;
             right: 0;
+            margin-right: 10px;
           }
 }
 
