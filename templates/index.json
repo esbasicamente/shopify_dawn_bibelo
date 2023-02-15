@@ -3,7 +3,7 @@
     "16522869307591a941": {
       "type": "slideshow",
       "blocks": {
-        "1652286929f9c6ceff-0": {
+        "51f484bd-5d72-4891-b5a6-2d45d273100a": {
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/seikoastron.png",
@@ -17,7 +17,7 @@
             "show_text_box": false,
             "text_alignment": "left",
             "image_overlay_opacity": 0,
-            "color_scheme": "accent-1",
+            "color_scheme": "background-1",
             "text_alignment_mobile": "left"
           }
         },
@@ -95,7 +95,7 @@
         }
       },
       "block_order": [
-        "1652286929f9c6ceff-0",
+        "51f484bd-5d72-4891-b5a6-2d45d273100a",
         "e8630f03-e437-4693-9f5f-069b2ad622b9",
         "009b0f54-06aa-45b9-aac3-58f70be489b1",
         "e0d3920b-9d86-4139-9af1-d80f4aba27d0",
