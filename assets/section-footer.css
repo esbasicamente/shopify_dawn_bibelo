@@ -135,6 +135,7 @@
 
 .footer-block--newsletter>* {
   flex: 1 1 100%;
+  margin-bottom: 3rem;
 }
 
 @media screen and (max-width: 749px) {
