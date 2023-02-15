@@ -125,7 +125,7 @@
         "type": "header",
         "settings": {
           "color_scheme": "accent-1",
-          "logo_width": 200,
+          "logo_width": 190,
           "logo_position": "middle-left",
           "menu": "main-menu",
           "menu_type_desktop": "dropdown",
