@@ -22,7 +22,7 @@
   padding: 1rem;
   color: rgb(var(--color-foreground));
   margin: 0 0.5rem;
-  border-radius:1rem;
+  border-radius:25px;
   border: 1px solid;
 }
 
