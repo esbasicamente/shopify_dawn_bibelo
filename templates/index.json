@@ -117,22 +117,22 @@
     "16523666019c61e216": {
       "type": "multicolumn",
       "blocks": {
-        "1652366601ca94d03c-0": {
-          "type": "column",
-          "settings": {
-            "fa-icon": "<i class=\"fas fa-truck\"><\/i>",
-            "title": "Entregas Rápidas",
-            "text": "<p>Desde 1 a 2 dias Portugal Continental<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
         "1652366601ca94d03c-1": {
           "type": "column",
           "settings": {
             "fa-icon": "<i class=\"fas fa-box\"><\/i>",
             "title": "Portes Grátis",
             "text": "<p>Portes Grátis em encomendas superiores a 50€<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1652366601ca94d03c-0": {
+          "type": "column",
+          "settings": {
+            "fa-icon": "<i class=\"fas fa-truck\"><\/i>",
+            "title": "Entregas Rápidas",
+            "text": "<p>Desde 1 a 2 dias Portugal Continental<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -159,8 +159,8 @@
         }
       },
       "block_order": [
-        "1652366601ca94d03c-0",
         "1652366601ca94d03c-1",
+        "1652366601ca94d03c-0",
         "1652366601ca94d03c-2",
         "f05bdc98-5100-49f3-8a03-8f344b9e60ea"
       ],
