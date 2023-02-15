@@ -165,42 +165,21 @@ suas questões das 09:15 às 19:15 de 2ª a Sa.
               {% render 'icon-success' %}{{ 'newsletter.success' | t }}</h3>
             {%- endif -%}
             {%- endform -%}
-          
-    <div style="margin-top:3rem;">
-    </div>
-          <h2 class="footer-block__heading">Redes Sociais</h2>
-            
-          <ul class="footer__list-social list-unstyled list-social" role="list">
- {%- if settings.social_facebook_link != blank -%}
-            <li class="list-social__item">
-              <a href="{{ settings.social_facebook_link }}" class="link list-social__link">
-                {%- render 'icon-facebook' -%}
-                <span class="visually-hidden">{{ 'general.social.links.facebook' | t }}</span>
-              </a>
-            </li>
-{%- endif -%}
-{%- if settings.social_instagram_link != blank -%}
-            <li class="list-social__item">
-              <a href="{{ settings.social_instagram_link }}" class="link list-social__link">
-                {%- render 'icon-instagram' -%}
-                <span class="visually-hidden">{{ 'general.social.links.instagram' | t }}</span>
-              </a>
-            </li>
-            {%- endif -%}  
-            
-              {% comment %}<li class="list-social__item">
-                <a href="https://www.pinterest.com/ourivesariabibelo/" class="link list-social__link" >
-                  {%- render 'icon-pinterest' -%}
-                  <span class="visually-hidden">{{ 'general.social.links.pinterest' | t }}</span>
-                </a>
-              </li>{% endcomment %}            
-</ul> 
-
-   {%comment%}<a rel='nofollow' href='https://www.casamentos.pt/ourivesaria/ourivesaria-bibelo--e106232' title='Casamentos.pt'><img alt='Casamentos.pt' src='https://cdn.shopify.com/s/files/1/0619/5629/2799/files/seal_bodas_pt_PT.png?v=1666438373' style='border-width:0px; width:50%; display:block; margin-top:10px;' /></a>{% endcomment %}
-            
           </div>
           {%- endif -%}
         </div>
+
+          <div class="footer-block__details-content rte">
+<h2 class="footer-block__heading">Redes Sociais</h2>
+          <p>
+<i class="fab fa-facebook" style="font-size:18px;margin-top:1rem"></i>
+<a href="https://www.facebook.com/ourivesariabibelo" target="_blank" style="text-decoration:none; padding-left: 1rem; text-align:center;" title="Facebook">Facebook</a>
+</p>
+          <p>
+<i class="fab fa-instagram" style="font-size:18px;margin-top:1rem"></i>
+<a href="https://www.instagram.com/ourivesariabibelo" target="_blank" style="text-decoration:none; padding-left: 1rem; text-align:center;" title="Instagram">Instagram</a>
+</p>
+          </div>		  
 
         {%- when 'image' -%}
         <div class="footer-block__details-content footer-block-image {{ block.settings.alignment }}">
