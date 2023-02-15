@@ -135,7 +135,6 @@
 
 .footer-block--newsletter>* {
   flex: 1 1 100%;
-  margin-bottom: 3rem;
 }
 
 @media screen and (max-width: 749px) {
@@ -148,6 +147,7 @@
   .footer-block--newsletter {
     flex-wrap: nowrap;
     justify-content: space-between;
+    margin-bottom: 3rem;
   }
 }
 
