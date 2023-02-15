@@ -204,7 +204,7 @@ details[open].menu-opening > .menu-drawer__submenu {
   font-family: var(--font-body-family);
   font-style: var(--font-body-style);
   text-align: left;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
 }
 
 .no-js .menu-drawer__close-button {
