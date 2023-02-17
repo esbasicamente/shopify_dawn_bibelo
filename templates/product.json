@@ -102,8 +102,18 @@
         "padding_bottom": 36
       }
     },
+    "837f5f16-43e5-419e-ac3f-c7ef8050407a": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<section id=\"shopify-section-template--15595884314815__multicolumn\" class=\"shopify-section section\"><link href=\"\/\/cdn.shopify.com\/s\/files\/1\/0619\/5629\/2799\/t\/2\/assets\/section-multicolumn.css?v=93451521537918894311676394939\" rel=\"stylesheet\" type=\"text\/css\" media=\"all\">\n<link rel=\"stylesheet\" href=\"\/\/cdn.shopify.com\/s\/files\/1\/0619\/5629\/2799\/t\/2\/assets\/component-slider.css?v=70426434740052282171676396182\" media=\"all\" onload=\"this.media='all'\">\n<noscript><link href=\"\/\/cdn.shopify.com\/s\/files\/1\/0619\/5629\/2799\/t\/2\/assets\/component-slider.css?v=70426434740052282171676396182\" rel=\"stylesheet\" type=\"text\/css\" media=\"all\" \/><\/noscript><style data-shopify=\"\">.section-template--15595884314815__multicolumn-padding {\n    padding-top: 0px;\n    padding-bottom: 0px;\n  }\n\n  @media screen and (min-width: 750px) {\n    .section-template--15595884314815__multicolumn-padding {\n      padding-top: 0px;\n      padding-bottom: 0px;\n    }\n  }<\/style><div class=\"multicolumn color-background-1 gradient background-primary no-heading\">\n  <div class=\"page-width section-template--15595884314815__multicolumn-padding isolate\"><slider-component class=\"slider-mobile-gutter\">\n      <ul class=\"multicolumn-list contains-content-container grid grid--1-col-tablet-down grid--4-col-desktop slider slider--mobile grid--peek\" id=\"Slider-template--15595884314815__multicolumn\" role=\"list\"><li id=\"Slide-template--15595884314815__multicolumn-1\" class=\"multicolumn-list__item grid__item slider__slide center\">            \n            <div class=\"multicolumn-card content-container\"><div class=\"multicolumn-card__info\"><h3><i class=\"fas fa-truck\"><\/i>\nEntregas rápidas\n                  <\/h3><div class=\"rte\"><p>Desde 1 a 2 dias Portugal Continental<\/p><\/div><\/div>\n            <\/div>\n          <\/li><li id=\"Slide-template--15595884314815__multicolumn-2\" class=\"multicolumn-list__item grid__item slider__slide center\">            \n            <div class=\"multicolumn-card content-container\"><div class=\"multicolumn-card__info\"><h3><i class=\"fas fa-shield-alt\"><\/i>\nPagamentos Seguros\n                  <\/h3><div class=\"rte\"><p>Escolhe o teu método favorito de pagamento<\/p><\/div><\/div>\n            <\/div>\n          <\/li><li id=\"Slide-template--15595884314815__multicolumn-3\" class=\"multicolumn-list__item grid__item slider__slide center\">            \n            <div class=\"multicolumn-card content-container\"><div class=\"multicolumn-card__info\"><h3><i class=\"fas fa-box\"><\/i>\nPortes Grátis\n                  <\/h3><div class=\"rte\"><p>Portes Grátis em encomendas superiores a 50€<\/p><\/div><\/div>\n            <\/div>\n          <\/li><li id=\"Slide-template--15595884314815__multicolumn-4\" class=\"multicolumn-list__item grid__item slider__slide center\">            \n            <div class=\"multicolumn-card content-container\"><div class=\"multicolumn-card__info\"><h3><i class=\"fas fa-store-alt\"><\/i>\nLevantamento em Loja\n                  <\/h3><div class=\"rte\"><p>Faz a tua encomenda e levanta em loja<\/p><\/div><\/div>\n            <\/div>\n          <\/li><\/ul><div class=\"slider-buttons-multicolumn visibility-hidden no-js-hidden medium-hide\">\n          <button type=\"button\" class=\"slider-button button2 slider-button--prev\" name=\"previous\" aria-label=\"Deslizar para a esquerda\" disabled=\"disabled\"><svg aria-hidden=\"true\" focusable=\"false\" role=\"presentation\" class=\"icon icon-caret\" viewBox=\"0 0 10 6\">\n  <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z\" fill=\"currentColor\">\n<\/path><\/svg>\n<\/button>\n          <button type=\"button\" class=\"slider-button button1 slider-button--next\" name=\"next\" aria-label=\"Deslizar para a direita\"><svg aria-hidden=\"true\" focusable=\"false\" role=\"presentation\" class=\"icon icon-caret\" viewBox=\"0 0 10 6\">\n  <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z\" fill=\"currentColor\">\n<\/path><\/svg>\n<\/button>\n        <\/div><\/slider-component>\n    <div class=\"center small-hide medium-hide\"><\/div>\n  <\/div>\n<\/div>\n\n\n<\/section>",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "multicolumn": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "column-0": {
           "type": "column",
@@ -189,6 +199,7 @@
   },
   "order": [
     "main",
+    "837f5f16-43e5-419e-ac3f-c7ef8050407a",
     "multicolumn",
     "product-recommendations"
   ]
