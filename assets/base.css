@@ -2894,3 +2894,7 @@ details-disclosure > details {
             position: absolute;            
             left: 0;             
           }
+
+.slider-button:disabled {
+    opacity: 0;
+}
