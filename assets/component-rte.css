@@ -48,7 +48,7 @@
   color: rgba(var(--color-link), var(--alpha-link));
   text-underline-offset: 0.3rem;
   text-decoration-thickness: 0.1rem;
-  transition: text-decoration-thickness var(--duration-short) ease;
+  /*transition: text-decoration-thickness var(--duration-short) ease;*/
 }
 
 .rte a:hover {
