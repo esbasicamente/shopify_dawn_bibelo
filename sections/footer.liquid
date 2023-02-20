@@ -71,9 +71,7 @@
               {%- case block.type -%}
                 {%- when 'text' -%}
                   <div class="footer-block__details-content rte">
-                    {{ block.settings.subtext }}
-
-                    <div class="contacts">
+                    {{ block.settings.subtext }}                    
                       <p>
                         <i class="fa fa-phone" style="font-size:14px " ;></i>
                         <a
@@ -107,7 +105,6 @@
                           >Messenger</a
                         >
                       </p>
-                    </div>
                   </div>
                 {%- when 'link_list' -%}
                   {%- if block.settings.menu != blank and block.settings.heading != blank -%}
