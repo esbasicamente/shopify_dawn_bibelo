@@ -2898,3 +2898,7 @@ details-disclosure > details {
 .slider-button:disabled {
     opacity: 0;
 }
+
+.header {
+   text-align: center;
+}
