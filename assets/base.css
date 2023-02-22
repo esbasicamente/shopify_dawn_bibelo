@@ -2913,6 +2913,7 @@ details-disclosure > details {
  @media only screen and (max-width: 749px) {
     .wrapper {
     display: grid;
+      gap: 5px;
      
   }
 }
