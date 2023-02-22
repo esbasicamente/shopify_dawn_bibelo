@@ -2912,7 +2912,7 @@ details-disclosure > details {
 
  @media only screen and (max-width: 749px) {
     .wrapper {
-    display: block!important;
+    display: grid!important;
      
   }
 }
