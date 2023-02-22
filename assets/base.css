@@ -2901,7 +2901,8 @@ details-disclosure > details {
 
 .header-colection {
    text-align: center;
-@media screen and (min-width: 990px) {
+}
+
+@media screen and (min-width: 990px) .header-colection {
     margin: 3rem 0 3rem;
   }
-}
