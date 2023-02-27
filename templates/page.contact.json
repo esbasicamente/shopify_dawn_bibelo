@@ -14,7 +14,7 @@
         "custom_liquid": "<h2 class=\"mobile-title-center header-collection h2\">{{ page.title }}<\/h2>",
         "color_scheme": "background-1",
         "padding_top": 0,
-        "padding_bottom": 12
+        "padding_bottom": 24
       }
     },
     "6e512fb0-ff44-4e97-bf85-fc767927ba7c": {
