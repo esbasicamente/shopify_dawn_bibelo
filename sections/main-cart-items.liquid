@@ -26,7 +26,19 @@
     <h1 class="title title--primary">{{ 'sections.cart.title' | t }}</h1>
     <a href="{{ routes.all_products_collection_url }}" class="underlined-link">{{ 'general.continue_shopping' | t }}</a>
   </div>
+<span>
+{% assign shipping_value = 5000 %}
+{% assign cart_total = cart.total_price %}
+{% assign shipping_value_left = shipping_value | minus: cart_total %}
+<p class="shipping-savings-message">
+{% if shipping_value_left > 0 %}
+Faltam <strong> {{ shipping_value_left | money }} </strong> para ter portes grátis!<br>
 
+  {% else %}
+  You've got free shipping within the USA!
+  {% endif %}
+</p>
+</span>
   <div class="cart__warnings">
     <h1 class="cart__empty-text">{{ 'sections.cart.empty' | t }}</h1>
     <a href="{{ routes.all_products_collection_url }}" class="button">
