@@ -182,7 +182,7 @@
       "main-password-header": {
         "type": "main-password-header",
         "settings": {
-          "logo_max_width": 160,
+          "logo_max_width": 180,
           "color_scheme": "accent-1"
         }
       },
