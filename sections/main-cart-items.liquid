@@ -23,23 +23,24 @@
 
 <cart-items class="page-width{% if cart == empty %} is-empty{% else %} section-{{ section.id }}-padding{% endif %}">
   <div class="title-wrapper-with-link">
-<h2 class="title title--primary">{{ 'sections.cart.title' | t }}</h2>
-    <a href="{{ routes.all_products_collection_url }}" class="underlined-link">{{ 'general.continue_shopping' | t }}</a>
-<span>
-{% assign shipping_value = 5000 %}
+    <h2 class="title title--primary">{{ 'sections.cart.title' | t }}</h2>
+    <span>
+    {% assign shipping_value = 5000 %}
 {% assign cart_total = cart.total_price %}
 {% assign shipping_value_left = shipping_value | minus: cart_total %}
 </div>
 <p class="shipping-savings-message">
 {% if shipping_value_left > 0 %}
-Faltam <b> {{ shipping_value_left | money }} </b> para ter portes grátis!<br>
+Faltam <strong> {{ shipping_value_left | money }} </strong> para ter portes grátis!<br>
 
   {% else %}
-  Parabéns! Os seus <b>portes são grátis!</b></p>
+  You've got free shipping within the USA!
   {% endif %}
 </p>
-</span>
-    </div>
+    </span>
+    <a href="{{ routes.all_products_collection_url }}" class="underlined-link">{{ 'general.continue_shopping' | t }}</a>
+  </div>
+
   <div class="cart__warnings">
     <h2 class="cart__empty-text">{{ 'sections.cart.empty' | t }}</h2>
     <a href="{{ routes.all_products_collection_url }}" class="button">
