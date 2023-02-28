@@ -912,6 +912,7 @@ summary::-webkit-details-marker {
 
   .title-wrapper-with-link {
     align-items: center;
+    margin-bottom: 7rem;
   }
 
   .title-wrapper-with-link .title {
