@@ -22,8 +22,8 @@
 <script src="{{ 'cart.js' | asset_url }}" defer="defer"></script>
 
 <cart-items class="page-width{% if cart == empty %} is-empty{% else %} section-{{ section.id }}-padding{% endif %}">
+  <h2 class="title title--primary">{{ 'sections.cart.title' | t }}</h2>
   <div class="title-wrapper-with-link">
-    <h2 class="title title--primary">{{ 'sections.cart.title' | t }}</h2>
 <span>
 {% assign shipping_value = 5000 %}
 {% assign cart_total = cart.total_price %}
