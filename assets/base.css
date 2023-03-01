@@ -2932,7 +2932,7 @@ details-disclosure > details {
     height: 100%;
   }
 
-  .row-composition {
+  /*.row-composition {
       display: flex;
       gap: 15px;
   }
@@ -2941,4 +2941,4 @@ details-disclosure > details {
     width: 30%;
     min-width: 150px;
     flex-shrink: 0;
-  }
+  }*/
