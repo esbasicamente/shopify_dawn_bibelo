@@ -2935,7 +2935,6 @@ details-disclosure > details {
   .row-composition {
       display: flex;
       gap: 15px;
-      height: 25px;
   }
 
   .row-composition .composition-title {
