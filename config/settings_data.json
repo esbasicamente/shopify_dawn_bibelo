@@ -109,9 +109,9 @@
             "type": "announcement",
             "disabled": true,
             "settings": {
-              "text": "Portes grátis em compras superiores a 50€",
+              "text": "10% desconto na coleção do Dia do Pai",
               "color_scheme": "background-1",
-              "link": ""
+              "link": "shopify:\/\/collections\/dia-do-pai"
             }
           }
         },
