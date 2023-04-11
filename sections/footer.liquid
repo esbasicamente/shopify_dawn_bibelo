@@ -471,7 +471,7 @@
             >&copy; {{ 'now' | date: '%Y' }}, {{ shop.name | link_to: routes.root_url -}}
           </small>
           <br>
-          <a
+          {% comment %} <a
             href="https://www.basicamente.io"
             title="Website Desenvolvido pela Basicamente"
             target="_blank"
@@ -479,8 +479,7 @@
             ><span
               style="color:white;font-size:11px"
               ><strong>Basicamente</strong>.pt</span
-            ></a
-          >
+            ></a> {% endcomment %}
         </div>
       </div>
       <div class="footer__payment">
