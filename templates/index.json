@@ -3,6 +3,24 @@
     "16522869307591a941": {
       "type": "slideshow",
       "blocks": {
+        "009b0f54-06aa-45b9-aac3-58f70be489b1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/dia-da-mae.png",
+            "heading": "DIA DA MÃE",
+            "heading_size": "h2",
+            "subheading": "",
+            "button_label": "Ver tudo",
+            "link": "shopify:\/\/collections\/ti-sento-milano",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 10,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "left"
+          }
+        },
         "51f484bd-5d72-4891-b5a6-2d45d273100a": {
           "type": "slide",
           "settings": {
@@ -57,24 +75,6 @@
             "text_alignment_mobile": "left"
           }
         },
-        "009b0f54-06aa-45b9-aac3-58f70be489b1": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/tisento.png",
-            "heading": "TI SENTO - MILANO",
-            "heading_size": "h2",
-            "subheading": "Com um estilo sofisticado e único, para todas as mulheres que adoram seguir as últimas tendências de moda",
-            "button_label": "Ver tudo",
-            "link": "shopify:\/\/collections\/ti-sento-milano",
-            "button_style_secondary": false,
-            "box_align": "middle-left",
-            "show_text_box": false,
-            "text_alignment": "left",
-            "image_overlay_opacity": 10,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "left"
-          }
-        },
         "1652286929f9c6ceff-1": {
           "type": "slide",
           "settings": {
@@ -95,10 +95,10 @@
         }
       },
       "block_order": [
+        "009b0f54-06aa-45b9-aac3-58f70be489b1",
         "51f484bd-5d72-4891-b5a6-2d45d273100a",
         "e8630f03-e437-4693-9f5f-069b2ad622b9",
         "e0d3920b-9d86-4139-9af1-d80f4aba27d0",
-        "009b0f54-06aa-45b9-aac3-58f70be489b1",
         "1652286929f9c6ceff-1"
       ],
       "custom_css": [
