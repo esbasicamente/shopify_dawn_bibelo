@@ -208,8 +208,51 @@
         "padding_bottom": 24
       }
     },
+    "8c2d282d-de2e-4be5-8055-4e47f3ea1f12": {
+      "type": "collage",
+      "blocks": {
+        "template--15595883757759__8c2d282d-de2e-4be5-8055-4e47f3ea1f12-1682532036957f1a25-0": {
+          "type": "video",
+          "settings": {
+            "cover_image": "shopify:\/\/shop_images\/Gant_-_dia_da_mae_23_-_redes_1_0db9a7d8-4569-4f98-b588-0befeddd88e0.jpg",
+            "video_url": "https:\/\/vimeo.com\/821382580?share=copy",
+            "description": "Gant - Dia da Mãe",
+            "image_padding": false
+          }
+        },
+        "template--15595883757759__8c2d282d-de2e-4be5-8055-4e47f3ea1f12-1682532036957f1a25-1": {
+          "type": "product",
+          "settings": {
+            "product": "relogio-gant-castine-1",
+            "second_image": false
+          }
+        },
+        "d95389bc-51a4-4971-a3fe-b01a5ceda93d": {
+          "type": "product",
+          "settings": {
+            "product": "relogio-gant-castine",
+            "second_image": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15595883757759__8c2d282d-de2e-4be5-8055-4e47f3ea1f12-1682532036957f1a25-0",
+        "template--15595883757759__8c2d282d-de2e-4be5-8055-4e47f3ea1f12-1682532036957f1a25-1",
+        "d95389bc-51a4-4971-a3fe-b01a5ceda93d"
+      ],
+      "settings": {
+        "heading": "Dia da Mãe",
+        "heading_size": "h2",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "1658135868811a6065": {
       "type": "collage",
+      "disabled": true,
       "blocks": {
         "883f5d36-425d-4450-988a-2d4cfd28ecee": {
           "type": "video",
@@ -252,6 +295,7 @@
     },
     "1658164322ec0e5634": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "1658164322f365cae5-2": {
           "type": "button",
@@ -440,6 +484,7 @@
     "16522869307591a941",
     "16523666019c61e216",
     "63c31064-d374-4d9b-b061-1da2c83d8e29",
+    "8c2d282d-de2e-4be5-8055-4e47f3ea1f12",
     "1658135868811a6065",
     "1658164322ec0e5634",
     "16523648951c633595",
