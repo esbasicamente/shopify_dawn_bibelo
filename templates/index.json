@@ -358,24 +358,24 @@
             "collection": "gant"
           }
         },
-        "16581596498439a6f4-2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "lotus-silver"
-          }
-        },
         "16581596498439a6f4-1": {
           "type": "featured_collection",
           "settings": {
             "collection": "majorica-1"
+          }
+        },
+        "16581596498439a6f4-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "lotus-silver"
           }
         }
       },
       "block_order": [
         "16581596498439a6f4-0",
         "ba02041d-2c44-4a89-8ae6-91c3d182408b",
-        "16581596498439a6f4-2",
-        "16581596498439a6f4-1"
+        "16581596498439a6f4-1",
+        "16581596498439a6f4-2"
       ],
       "settings": {
         "title": "Sugestões",
