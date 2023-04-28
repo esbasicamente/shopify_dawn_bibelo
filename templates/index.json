@@ -295,13 +295,12 @@
     },
     "1658164322ec0e5634": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "1658164322f365cae5-2": {
           "type": "button",
           "settings": {
             "button_label": "Ver tudo",
-            "button_link": "shopify:\/\/collections\/aneis-de-noivado",
+            "button_link": "shopify:\/\/collections\/relogios-de-mulher",
             "button_style_secondary": false
           }
         }
