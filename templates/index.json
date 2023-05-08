@@ -184,12 +184,12 @@
     "63c31064-d374-4d9b-b061-1da2c83d8e29": {
       "type": "featured-collection",
       "settings": {
-        "title": "Dia da Mãe",
+        "title": "Novidades Mulher",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "dia-da-mae",
+        "collection": "novidades",
         "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
@@ -208,51 +208,8 @@
         "padding_bottom": 24
       }
     },
-    "8c2d282d-de2e-4be5-8055-4e47f3ea1f12": {
-      "type": "collage",
-      "blocks": {
-        "template--15595883757759__8c2d282d-de2e-4be5-8055-4e47f3ea1f12-1682532036957f1a25-0": {
-          "type": "video",
-          "settings": {
-            "cover_image": "shopify:\/\/shop_images\/Gant_-_dia_da_mae_23_-_redes_1.jpg",
-            "video_url": "https:\/\/vimeo.com\/821382580?share=copy",
-            "description": "Gant - Dia da Mãe",
-            "image_padding": false
-          }
-        },
-        "template--15595883757759__8c2d282d-de2e-4be5-8055-4e47f3ea1f12-1682532036957f1a25-1": {
-          "type": "product",
-          "settings": {
-            "product": "relogio-gant-castine-1",
-            "second_image": false
-          }
-        },
-        "d95389bc-51a4-4971-a3fe-b01a5ceda93d": {
-          "type": "product",
-          "settings": {
-            "product": "relogio-gant-castine",
-            "second_image": false
-          }
-        }
-      },
-      "block_order": [
-        "template--15595883757759__8c2d282d-de2e-4be5-8055-4e47f3ea1f12-1682532036957f1a25-0",
-        "template--15595883757759__8c2d282d-de2e-4be5-8055-4e47f3ea1f12-1682532036957f1a25-1",
-        "d95389bc-51a4-4971-a3fe-b01a5ceda93d"
-      ],
-      "settings": {
-        "heading": "GANT - Dia da Mãe",
-        "heading_size": "h2",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "1658135868811a6065": {
       "type": "collage",
-      "disabled": true,
       "blocks": {
         "883f5d36-425d-4450-988a-2d4cfd28ecee": {
           "type": "video",
@@ -300,7 +257,7 @@
           "type": "button",
           "settings": {
             "button_label": "Ver tudo",
-            "button_link": "shopify:\/\/collections\/relogios-de-mulher",
+            "button_link": "shopify:\/\/collections\/aneis-de-noivado",
             "button_style_secondary": false
           }
         }
@@ -483,7 +440,6 @@
     "16522869307591a941",
     "16523666019c61e216",
     "63c31064-d374-4d9b-b061-1da2c83d8e29",
-    "8c2d282d-de2e-4be5-8055-4e47f3ea1f12",
     "1658135868811a6065",
     "1658164322ec0e5634",
     "16523648951c633595",
