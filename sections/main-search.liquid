@@ -1,6 +1,7 @@
 {{ 'template-collection.css' | asset_url | stylesheet_tag }}
 {{ 'component-card.css' | asset_url | stylesheet_tag }}
 {{ 'component-price.css' | asset_url | stylesheet_tag }}
+{{ 'ajaxinate.min.js' | asset_url | script_tag  }}
 
 <link rel="stylesheet" href="{{ 'component-search.css' | asset_url }}" media="print" onload="this.media='all'">
 
@@ -249,7 +250,7 @@
                 {%- endfor -%}
               </ul>
               {%- if paginate.pages > 1 -%}
-                {% render 'pagination', paginate: paginate %}
+                {% render 'pagination', paginate: paginate, anchor: '' %}
               {%- endif -%}
             </div>
           {% endpaginate %}
@@ -259,6 +260,13 @@
   {%- endif -%}
 </div>
 
+<script>
+const endlessCollection = new Ajaxinate({
+container: '#product-grid',
+pagination: '.infinite_next',
+});
+</script>
+                
 {% schema %}
 {
   "name": "t:sections.main-search.name",
