@@ -198,7 +198,7 @@
           "drawer_width": "400",
           "header_title": "Favoritos",
           "display_btn_pdp": true,
-          "display_btn_lists": true,
+          "display_btn_lists": false,
           "product_img_orientation": "square",
           "text_wishlist": "Favoritos",
           "text_add": "Adicionar a Favoritos",
