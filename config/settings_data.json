@@ -201,8 +201,8 @@
           "display_btn_lists": false,
           "product_img_orientation": "square",
           "text_wishlist": "Favoritos",
-          "text_add": "ADICIONAR AOS FAVORITOS",
-          "text_remove": "REMOVER DOS FAVORITOS",
+          "text_add": "Adicionar aos Favoritos",
+          "text_remove": "Remover dos Favoritos",
           "text_empty": "Não tem produtos adicionados aos Favoritos"
         }
       }
