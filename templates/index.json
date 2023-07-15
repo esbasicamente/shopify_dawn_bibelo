@@ -1,22 +1,7 @@
 {
   "sections": {
-    "42d3c0c7-d31e-421f-8299-cdf404900373": {
-      "type": "video",
-      "settings": {
-        "heading": "",
-        "heading_size": "h2",
-        "cover_image": "shopify:\/\/shop_images\/Main_Visual_PR.jpg",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=TqgvLwy1t5g&t=4s&ab_channel=SeikoWatchGlobal",
-        "description": "",
-        "full_width": true,
-        "color_scheme": "background-1",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "16522869307591a941": {
       "type": "slideshow",
-      "disabled": true,
       "blocks": {
         "51f484bd-5d72-4891-b5a6-2d45d273100a": {
           "type": "slide",
@@ -452,7 +437,6 @@
     }
   },
   "order": [
-    "42d3c0c7-d31e-421f-8299-cdf404900373",
     "16522869307591a941",
     "16523666019c61e216",
     "63c31064-d374-4d9b-b061-1da2c83d8e29",
