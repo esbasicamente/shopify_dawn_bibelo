@@ -3,7 +3,7 @@
     "b3ebc7e0-5d41-404e-8936-7ee67f78c011": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<video playsinline=\"\" loop=\"\" muted=\"\" autoplay=\"autoplay\" preload=\"\" id=\"vid\" width=\"100%\">\n\t<source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/512c6cff58be4e86b08a4ba6cc3348bf.webm\" type=\"video\/webm\">\n\t<source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/512c6cff58be4e86b08a4ba6cc3348bf.webm\" type=\"video\/mp4\">\n  <\/video>",
+        "custom_liquid": "<style>\nvideo {\nwidth: 100%;\nheight: auto;\ndisplay: block;\nmargin: 0 auto;\n}\n<\/style>\n<video muted autoplay playsinline loop>\n    <source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/ca98a00c61e1410caaeeb14dc369d245.mp4\"\n                  type=\"video\/mp4\">\n    <source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/ca98a00c61e1410caaeeb14dc369d245.mp4\"\n                  type=\"video\/mp4\">\n<\/video>",
         "color_scheme": "background-1",
         "padding_top": 0,
         "padding_bottom": 0
