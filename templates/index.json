@@ -4,7 +4,8 @@
       "type": "video",
       "settings": {
         "heading": "",
-        "heading_size": "h1",
+        "heading_size": "h2",
+        "cover_image": "shopify:\/\/shop_images\/Main_Visual_PR.jpg",
         "video_url": "https:\/\/www.youtube.com\/watch?v=TqgvLwy1t5g&t=4s&ab_channel=SeikoWatchGlobal",
         "description": "",
         "full_width": true,
