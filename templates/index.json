@@ -2,6 +2,7 @@
   "sections": {
     "b3ebc7e0-5d41-404e-8936-7ee67f78c011": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<style>\nvideo {\nwidth: 100%;\nheight: auto;\ndisplay: block;\nmargin: 0 auto;\nbackground: black;\n}\n<\/style>\n<video muted autoplay playsinline loop>\n    <source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/2e13a0862dcf4f8b939fcb9e425d5ea2.webm\"\n                  type=\"video\/mp4\">\n    <source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/2e13a0862dcf4f8b939fcb9e425d5ea2.webm\"\n                  type=\"video\/mp4\">\n<\/video>",
         "color_scheme": "background-1",
@@ -11,7 +12,6 @@
     },
     "16522869307591a941": {
       "type": "slideshow",
-      "disabled": true,
       "blocks": {
         "51f484bd-5d72-4891-b5a6-2d45d273100a": {
           "type": "slide",
