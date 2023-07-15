@@ -3,7 +3,7 @@
     "b3ebc7e0-5d41-404e-8936-7ee67f78c011": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<style>\n \nvideo { \n \ndisplay: block;\nmargin: 0 auto;\nwidth: 100%;\nheight: 50%;\n \n}\n \n<\/style>\n  \n<video autoplay loop playsinline muted> \n<source src=\"\/\/cdn.shopify.com\/videos\/c\/o\/v\/512c6cff58be4e86b08a4ba6cc3348bf.webm\">\n<\/video>",
+        "custom_liquid": "<style>\n \nvideo { \n \ndisplay: block;\nmargin: 0 auto;\nwidth: 100%;\nheight: auto;\n \n}\n \n<\/style>\n  \n<video autoplay loop playsinline muted> \n<source src=\"\/\/cdn.shopify.com\/videos\/c\/o\/v\/512c6cff58be4e86b08a4ba6cc3348bf.webm\">\n<\/video>",
         "color_scheme": "background-1",
         "padding_top": 0,
         "padding_bottom": 0
