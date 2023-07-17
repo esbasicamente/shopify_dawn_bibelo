@@ -3,8 +3,8 @@
     "b3ebc7e0-5d41-404e-8936-7ee67f78c011": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<style>\n  .video-container {\n    position: relative;\n    width: 100%;\n    height: auto;\n    display: block;\n    margin: 0 auto;\n  }\n\n  video {\n    width: 100%;\n    height: auto;\n    display: block;\n  }\n\n  .button {\n    position: absolute;\n    left: 10%;\n    top: 50%;\n    transform: translateY(-50%);\n    display: block;\n    margin: 10px auto;\n    text-align: center;\n    z-index: 1;\n  }\n<\/style>\n\n<div class=\"video-container\">\n  <video muted autoplay playsinline loop>\n    <source src=\"\/\/cdn.shopify.com\/videos\/c\/o\/v\/ca98a00c61e1410caaeeb14dc369d245.mp4\">\n  <\/video>\n\n  <a href=\"\/\/ourivesariabibelo.com\/collections\/vendors?q=SEIKO&sort_by=created-descending\">\n<button class=\"button\">Ver tudo\n<\/button>\n<\/a>\n<\/div>",
-        "color_scheme": "background-1",
+        "custom_liquid": "<style>\nvideo {\nwidth: 100%;\nheight: auto;\ndisplay: block;\nmargin: 0 auto;\n}\n<\/style>\n<a href=\"\/\/ourivesariabibelo.com\/collections\/vendors?q=SEIKO&sort_by=created-descending\">\n<video muted autoplay playsinline loop>\n    <source src=\"\/\/cdn.shopify.com\/videos\/c\/o\/v\/ca98a00c61e1410caaeeb14dc369d245.mp4\"\n         \n<\/video>\n<\/a>",
+        "color_scheme": "inverse",
         "padding_top": 0,
         "padding_bottom": 0
       }
