@@ -2,8 +2,9 @@
   "sections": {
     "b3ebc7e0-5d41-404e-8936-7ee67f78c011": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
-        "custom_liquid": "<style>\nvideo {\nwidth: 100%;\nheight: auto;\ndisplay: block;\nmargin: 0 auto;\n}\n<\/style>\n<video muted autoplay playsinline loop>\n    <source src=\"\/\/cdn.shopify.com\/videos\/c\/o\/v\/ca98a00c61e1410caaeeb14dc369d245.mp4\"\n         \n<\/video>",
+        "custom_liquid": "<style>\n  .video-container {\n    position: relative;\n    width: 100%;\n    height: auto;\n    display: block;\n    margin: 0 auto;\n  }\n\n  video {\n    width: 100%;\n    height: auto;\n    display: block;\n  }\n\n  .button {\n    position: absolute;\n    top: 50%;\n    left: 10%;\n    transform: translateY(-50%);\n    display: block;\n    margin: 10px auto;\n    text-align: center;\n    z-index: 1;\n  }\n<\/style>\n\n<div class=\"video-container\">\n  <video muted autoplay playsinline loop>\n    <source src=\"\/\/cdn.shopify.com\/videos\/c\/o\/v\/ca98a00c61e1410caaeeb14dc369d245.mp4\">\n  <\/video>\n\n  <button class=\"button\">Ver tudo<\/button>\n<\/div>",
         "color_scheme": "background-1",
         "padding_top": 0,
         "padding_bottom": 0
@@ -11,7 +12,6 @@
     },
     "16522869307591a941": {
       "type": "slideshow",
-      "disabled": true,
       "blocks": {
         "51f484bd-5d72-4891-b5a6-2d45d273100a": {
           "type": "slide",
