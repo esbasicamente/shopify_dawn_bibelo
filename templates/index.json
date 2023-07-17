@@ -4,7 +4,7 @@
       "type": "custom-liquid",
       "settings": {
         "custom_liquid": "<style>\nvideo {\nwidth: 100%;\nheight: auto;\ndisplay: block;\nmargin: 0 auto;\n}\n<\/style>\n<a href=\"\/\/ourivesariabibelo.com\/collections\/vendors?q=SEIKO&sort_by=created-descending\">\n<video muted autoplay playsinline loop>\n    <source src=\"\/\/cdn.shopify.com\/videos\/c\/o\/v\/ca98a00c61e1410caaeeb14dc369d245.mp4\"\n         \n<\/video>\n<\/a>",
-        "color_scheme": "inverse",
+        "color_scheme": "accent-1",
         "padding_top": 0,
         "padding_bottom": 0
       }
