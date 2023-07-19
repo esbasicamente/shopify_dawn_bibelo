@@ -318,16 +318,16 @@
             "collection": "gumus"
           }
         },
-        "ba02041d-2c44-4a89-8ae6-91c3d182408b": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "gant"
-          }
-        },
         "16581596498439a6f4-2": {
           "type": "featured_collection",
           "settings": {
             "collection": "lotus-silver"
+          }
+        },
+        "ba02041d-2c44-4a89-8ae6-91c3d182408b": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "gant"
           }
         },
         "16581596498439a6f4-1": {
@@ -339,8 +339,8 @@
       },
       "block_order": [
         "16581596498439a6f4-0",
-        "ba02041d-2c44-4a89-8ae6-91c3d182408b",
         "16581596498439a6f4-2",
+        "ba02041d-2c44-4a89-8ae6-91c3d182408b",
         "16581596498439a6f4-1"
       ],
       "settings": {
