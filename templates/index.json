@@ -16,12 +16,12 @@
         "51f484bd-5d72-4891-b5a6-2d45d273100a": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/seikoastron.png",
-            "heading": "SEIKO ASTRON",
+            "image": "shopify:\/\/shop_images\/maserati.png",
+            "heading": "MASERATI",
             "heading_size": "h2",
-            "subheading": "O primeiro relógio GPS solar do mundo",
+            "subheading": "Uma experiência de luxo completamente única e um estilo inconfundível que transparece sobretudo nos detalhes, tal como nos seus relógios",
             "button_label": "Ver tudo",
-            "link": "shopify:\/\/collections\/seiko-astron",
+            "link": "",
             "button_style_secondary": false,
             "box_align": "middle-left",
             "show_text_box": false,
