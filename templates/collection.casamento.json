@@ -18,20 +18,13 @@
         "padding_bottom": 0
       }
     },
-    "a4409534-83df-49a0-9c54-fb820154d7a5": {
-      "type": "image-banner",
+    "9a55ccff-e563-4353-a4fb-9bfef851171e": {
+      "type": "custom-liquid",
       "settings": {
-        "image": "shopify:\/\/shop_images\/ESPECIAL_NOIVOS.png",
-        "image_overlay_opacity": 0,
-        "image_height": "small",
-        "adapt_height_first_image": true,
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
+        "custom_liquid": "<style>\n.container {\n  position: relative;\n}\n\n.center {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n}\n\nimg { \n  width: 100%;\n  height: auto;\n}\n<\/style>\n<\/head>\n<body>\n\n<div class=\"container\">\n  <img src=\"https:\/\/ourivesariabibelo.com\/cdn\/shop\/files\/ESPECIAL_NOIVOS.png?v=1696930363\"  width=\"600\" height=\"600\">\n  <div class=\"center\">Centered<\/div>\n<\/div>",
         "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "product-grid": {
@@ -56,7 +49,7 @@
   "order": [
     "banner",
     "165969158211f7a355",
-    "a4409534-83df-49a0-9c54-fb820154d7a5",
+    "9a55ccff-e563-4353-a4fb-9bfef851171e",
     "product-grid"
   ]
 }
