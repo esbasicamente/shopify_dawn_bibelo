@@ -21,7 +21,7 @@
     "9a55ccff-e563-4353-a4fb-9bfef851171e": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<img src=\"https:\/\/ourivesariabibelo.com\/cdn\/shop\/files\/ESPECIAL_NOIVOS.png?v=1696930363\"style=\"width:600px;height:600px;position:relative,top:50%,left:50%\">",
+        "custom_liquid": "<img src=\"https:\/\/ourivesariabibelo.com\/cdn\/shop\/files\/ESPECIAL_NOIVOS.png?v=1696930363\"style=\"width:70%;height:70%\"",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
