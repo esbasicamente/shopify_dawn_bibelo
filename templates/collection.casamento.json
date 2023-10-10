@@ -18,6 +18,22 @@
         "padding_bottom": 0
       }
     },
+    "a4409534-83df-49a0-9c54-fb820154d7a5": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/ESPECIAL_NOIVOS.png",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
@@ -40,6 +56,7 @@
   "order": [
     "banner",
     "165969158211f7a355",
+    "a4409534-83df-49a0-9c54-fb820154d7a5",
     "product-grid"
   ]
 }
