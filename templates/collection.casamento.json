@@ -20,6 +20,7 @@
     },
     "9a55ccff-e563-4353-a4fb-9bfef851171e": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<img src=\"https:\/\/ourivesariabibelo.com\/cdn\/shop\/files\/ESPECIAL_NOIVOS.png?v=1696930363\"style=\"width:80%;height:80%;display:block;margin-left:auto;margin-right:auto;\"",
         "color_scheme": "background-1",
