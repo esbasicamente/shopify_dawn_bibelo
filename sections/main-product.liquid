@@ -486,6 +486,17 @@
                   <span class="product-form__error-message"></span>
                 </div>
 
+                     {%- if product.metafields.custom.grava_o_personalizada -%} 
+                      <p class="line-item-property__field">                    
+                        <style>.textarea{width:100%;line-height:2;</style>
+                        <textarea
+name="properties[product_personalization]"
+placeholder="Your customization (Ex: name)"
+></textarea>
+</p>
+                        {%- endif -%}
+
+                      
                 {%- form 'product', product, id: product_form_id, class: 'form', novalidate: 'novalidate', data-type: 'add-to-cart-form' -%}                
                       <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}" disabled>
                   <div class="product-form__buttons">
