@@ -101,6 +101,10 @@
     "checkout_sidebar_background_color": "#5a6965",
     "checkout_accent_color": "#5a6965",
     "checkout_button_color": "#5a6965",
+    "scm_pl_pisregex": ".card .full-unstyled-link",
+    "scm_pl_piregex": ".product__media img",
+    "scm_pl_lppath": ".product__modal-opener .product__media",
+    "scm_pl_lpspath": ".card .card__inner",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
