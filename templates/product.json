@@ -70,6 +70,12 @@
             "show_dynamic_checkout": true
           }
         },
+        "88efa420-a2ed-45ad-aea4-588bd67106de": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"product__accordion accordion\">\n              <details id=\"Details-collapsible-row-1-template--16698040058102__main\">\n                <summary role=\"button\" aria-expanded=\"false\" aria-controls=\"ProductAccordion-collapsible-row-1-template--16698040058102__main\">\n                  <div class=\"summary__title\">\n                    <h1 class=\"h4 accordion__title\">\n                      Adicionar Gravação\n                    <\/h1>\n                  <\/div>\n                  <svg aria-hidden=\"true\" focusable=\"false\" role=\"presentation\" class=\"icon icon-caret\" viewBox=\"0 0 10 6\">\n  <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z\" fill=\"currentColor\">\n<\/path><\/svg>\n\n                <\/summary>\n\n<label for=\"message\" class=\"form__label\">Message:<\/label>\n<div class=\"field\">\n  <textarea id=\"message\" class=\"text-area field__input\" placeholder=\"Message\" name=\"properties[Message]\"form=\"product-form-{{ section.id }}\"><\/textarea>\n<\/div>"
+          }
+        },
         "4c5725ad-fde6-4442-a9d4-f597cd534efc": {
           "type": "custom_liquid",
           "settings": {
@@ -89,6 +95,7 @@
         "variant_picker",
         "6a1a918c-3ed3-4935-912a-bf1bd61a60f9",
         "buy_buttons",
+        "88efa420-a2ed-45ad-aea4-588bd67106de",
         "4c5725ad-fde6-4442-a9d4-f597cd534efc"
       ],
       "settings": {
@@ -113,7 +120,6 @@
     },
     "multicolumn": {
       "type": "multicolumn",
-      "disabled": true,
       "blocks": {
         "column-0": {
           "type": "column",
@@ -162,6 +168,7 @@
         "e0c61dbf-31dd-41f5-a8bf-208d1b6b323e",
         "b7dd8081-b22b-4ae5-a89c-11753e9ebaf6"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h2",
