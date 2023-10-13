@@ -97,11 +97,10 @@
             {%- elsif card_product.compare_at_price > card_product.price and card_product.available -%}
               <span class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}">-{{ card_product.compare_at_price | minus: card_product.price | times: 100 | divided_by: card_product.compare_at_price | truncate: 5, "" }}%</span></span>
             {%- endif -%}
-  {% assign product_created_at = product.created_at | date: '%s' %}
-{% assign time_ago = 'now' | date: '%s' | minus: product_created_at | divided_by: 86400 %}
-{% if time_ago &amp;lt; 30 %}
-   <span class="new-sticker">New</span>
-{% endif %}
+  {%- assign _label = card_product.tags| where:'_label' | first | remove:'_label:' -%}
+            {%- if _label != blank -%}
+              <span class="badge badge--bottom-left color-{{ settings.sold_out_badge_color_scheme }}">{{ _label }}</span>
+            {%- endif -%}
           </div>
         </div>
       </div>
