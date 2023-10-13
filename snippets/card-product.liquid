@@ -98,12 +98,15 @@
               <span class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}">-{{ card_product.compare_at_price | minus: card_product.price | times: 100 | divided_by: card_product.compare_at_price | truncate: 5, "" }}%</span></span>
             {%- endif -%}
   
+          </div>
+  
+  <div class="card__badge.top {{ settings.badge_position }}">
   {%- assign _label = card_product.tags| where:'_label' | first | remove:'_label:' -%}
             {%- if _label != blank -%}
               <span class="badge badge--bottom-left color-{{ settings.sold_out_badge_color_scheme }}">{{ _label }}</span>
             {%- endif -%}
+  </div>
   
-          </div>
         </div>
       </div>
       <div class="card__content">
