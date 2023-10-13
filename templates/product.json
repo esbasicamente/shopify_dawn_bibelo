@@ -61,7 +61,7 @@
         "88efa420-a2ed-45ad-aea4-588bd67106de": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<p class=\"line-item-property__field\">\n  <label for=\"escreva-em-detalhe-o-que-pretende-gravar-ex-frente-nome-atras-data\">Escreva em detalhe o que pretende gravar. (Ex: frente: Nome, atrás: data)<\/label><br>\n  <input required class=\"required\" id=\"escreva-em-detalhe-o-que-pretende-gravar-ex-frente-nome-atras-data\" type=\"text\" name=\"properties[Escreva em detalhe o que pretende gravar. (Ex: frente: Nome, atrás: data)]\"style=\"width: 100%; line-height:2>\n<\/p>"
+            "custom_liquid": "<p class=\"line-item-property__field\">\n  <label for=\"escreva-em-detalhe-o-que-pretende-gravar-ex-frente-nome-atras-data\">Escreva em detalhe o que pretende gravar. (Ex: frente: Nome, atrás: data)<\/label><br>\n  <input required class=\"required\" id=\"escreva-em-detalhe-o-que-pretende-gravar-ex-frente-nome-atras-data\" type=\"text\" name=\"properties[Escreva em detalhe o que pretende gravar. (Ex: frente: Nome, atrás: data)]\"style=\"width: 100%; line-height:2;>\n<\/p>"
           }
         },
         "6a1a918c-3ed3-4935-912a-bf1bd61a60f9": {
