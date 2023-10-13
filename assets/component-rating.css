@@ -62,6 +62,6 @@
 .new-sticker {
   display: inline-block;
   padding: 6px 8px;
-  background: #5bbf3c;
+  background: transparent;
   color: white;
 }
