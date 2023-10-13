@@ -100,7 +100,7 @@
   
           </div>
   
-  <div class="card__badge.top {{ settings.badge_position }}">
+  <div class="card__badge top {{ settings.badge_position }}">
   {%- assign _label = card_product.tags| where:'_label' | first | remove:'_label:' -%}
             {%- if _label != blank -%}
               <span class="badge badge--bottom-left color-{{ settings.sold_out_badge_color_scheme }}">{{ _label }}</span>
