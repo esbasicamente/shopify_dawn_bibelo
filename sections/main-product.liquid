@@ -489,10 +489,10 @@
                 {%- form 'product', product, id: product_form_id, class: 'form', novalidate: 'novalidate', data-type: 'add-to-cart-form' -%}
 
                       {%- if product.metafields.custom.grava_o_personalizada -%} 
-                      <textarea
-                      name="properties[product_personalization]"
-                      placeholder="Your customization (Ex: name)">                        
-                      </textarea>
+                      <p class="line-item-property__field">
+  <label for="descreva-em-detalhe-o-que-pretende-gravar">Descreva em detalhe o que pretende gravar</label>
+  <input required class="required" id="descreva-em-detalhe-o-que-pretende-gravar" type="text" name="properties[Descreva em detalhe o que pretende gravar]">
+</p>
                         {%- endif -%}
                       
                       <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}" disabled>
