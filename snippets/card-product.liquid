@@ -100,7 +100,7 @@
   
   {%- assign _label = card_product.tags| where:'_label' | first | remove:'_label:' -%}
             {%- if _label != blank -%}
-              <span class="card badge-top color-{{ settings.sold_out_badge_color_scheme }}">{{ _label }}</span>
+              <span class="badge badge--bottom-left color-{{ settings.sold_out_badge_color_scheme }}">{{ _label }}</span>
             {%- endif -%}
   
           </div>
