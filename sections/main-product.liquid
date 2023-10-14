@@ -512,13 +512,13 @@
                       {{ form | payment_button }}
                     {%- endif -%}
                   </div>
-                  {%- if product.metafields.custom.grava_o_personalizada -%}
+                {%- endform -%}
+            {%- if product.metafields.custom.grava_o_personalizada -%}
 <textarea
 name="properties[product_personalization]"
 placeholder="Your customization (Ex: name)"
 ></textarea>
                         {%- endif -%}
-                {%- endform -%}
               </product-form>
 
               {{ 'component-pickup-availability.css' | asset_url | stylesheet_tag }}
