@@ -488,10 +488,14 @@
                 {%- form 'product', product, id: product_form_id, class: 'form', novalidate: 'novalidate', data-type: 'add-to-cart-form' -%}                
                       <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}" disabled>
                   {%- if product.metafields.custom.grava_o_personalizada -%}
-<textarea
-name="properties[product_personalization]"
-placeholder="Your customization (Ex: name)"
-></textarea>
+<div class="rdc-service-engraving">
+  <input type="text" maxlength="20">
+  <div class="rdc-service-counter small">
+    <span class="rdc-counter-current">0</span>
+    <span>&nbsp;/&nbsp;</span>
+    <span class="rdc-counter-max">20</span>
+  </div>
+</div>
                         {%- endif -%}
 
 <div style="margin-top: 3rem; margin-bottom: 1.5rem;">
