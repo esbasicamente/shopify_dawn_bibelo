@@ -494,11 +494,10 @@
                 </div>
                 {%- form 'product', product, id: product_form_id, class: 'form', novalidate: 'novalidate', data-type: 'add-to-cart-form' -%}                
                       <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}" disabled>
+                  
                   {%- if product.metafields.custom.grava_o_personalizada -%}
-                <textarea
-name="properties[Gravação personalizada]"
-placeholder="Your customization (Ex: name)"
-></textarea>
+                <label for="name">Name (4 to 8 characters):</label>
+                <input type="text" id="name" name="properties[Gravação personalizada]" required minlength="4" maxlength="8" size="10" />
                         {%- endif -%}
 
 <div style="margin-top: 3rem; margin-bottom: 1.5rem;">
