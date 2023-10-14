@@ -496,8 +496,22 @@
                       <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}" disabled>
                   
                   {%- if product.metafields.custom.grava_o_personalizada -%}
-                <p></p>Name (4 to 8 characters)</p>
+                <div class="product__accordion accordion">
+              <details id="Details-collapsible-row-1-template--16698040058102__main">
+                <summary role="button" aria-expanded="false" aria-controls="ProductAccordion-collapsible-row-1-template--16698040058102__main">
+                  <div class="summary__title">
+                    <h1 class="h4 accordion__title">
+                      Gravação personalizada
+                    </h1>
+                  </div>
+                  <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-caret" viewBox="0 0 10 6">
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z" fill="currentColor">
+</path></svg>
+
+                </summary>
                 <input type="text" id="name" name="properties[Gravação personalizada]" required minlength="4" maxlength="8" size="10" />
+              </details>
+            </div>
                         {%- endif -%}
 
 <div style="margin-top: 3rem; margin-bottom: 1.5rem;">
