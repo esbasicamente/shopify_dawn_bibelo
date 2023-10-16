@@ -113,6 +113,15 @@
       {%- if show_mobile_slider -%}
         <div class="slider-buttons-multicolumn no-js-hidden medium-hide">
           <button type="button" class="slider-button button2 slider-button--prev" name="previous" aria-label="{{ 'general.slider.previous_slide' | t }}">{% render 'icon-caret' %}</button>
+          <div class="slider-counter caption">
+            <div class="slideshow__control-wrapper">
+              {%- for block in section.blocks -%}
+              <button class="slider-counter__link slider-counter__link--dots link" aria-label="{{ 'sections.slideshow.load_slide' | t }} {{ forloop.index }} {{ 'general.slider.of' | t }} {{ forloop.length }}" aria-controls="Slider-{{ section.id }}">
+                <span class="dot"></span>
+              </button>
+              {%- endfor -%}
+            </div>
+          </div>
           <button type="button" class="slider-button button1 slider-button--next" name="next" aria-label="{{ 'general.slider.next_slide' | t }}">{% render 'icon-caret' %}</button>
         </div>
       {%- endif -%}
