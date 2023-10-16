@@ -496,9 +496,10 @@
                       <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}" disabled>
                   
                   {%- if product.metafields.custom.grava_o_personalizada -%}                
-                <details id="Details-collapsible-row-1-template--16698040058102__main">
+                <div class="product__accordion accordion">
+              <details id="Details-collapsible-row-1-template--16698040058102__main" open="">
                 <summary role="button" aria-expanded="false" aria-controls="ProductAccordion-collapsible-row-1-template--16698040058102__main">
-                 <div class="summary__title" style="margin-bottom: 1rem";>
+                  <div class="summary__title" style="margin-bottom: 1rem";>
                     <h1 class="h4 accordion__title">
                       Gravação personalizada
                     </h1>
@@ -507,6 +508,7 @@
                       <textarea class="text-area1" maxlenght="50" required name="properties[Gravação personalizada]" placeholder="(ex. Frente: Nome, Atrás: Data)"></textarea>      
             </div>
               </details>
+            </div>
                         {%- endif -%}
 
 <div style="margin-top: 2.5rem; margin-bottom: 1.5rem;">
