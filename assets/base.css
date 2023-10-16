@@ -2699,13 +2699,15 @@ details-disclosure > details {
 
 .badge {
   border: 1px solid transparent;
-  border-radius: var(--badge-corner-radius);
+  border-radius: 29px;
   display: inline-block;
-  font-size: 1.2rem;
-  letter-spacing: 0;
-  line-height: 1;
-  padding: 0.6rem 1.3rem;
+  font-size: 8px;
+  letter-spacing: 0.2px;
+  line-height: 20px;
+  padding: 0px 9px;
   text-align: center;
+  font-weight: 500;
+  text-transform: uppercase;
   background-color: rgb(var(--color-badge-background));
   border-color: rgba(var(--color-badge-border), var(--alpha-badge-border));
   color: rgb(var(--color-foreground));
