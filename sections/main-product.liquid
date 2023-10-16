@@ -75,27 +75,7 @@
     outline: none;
     box-shadow: none;
     border: 0;
-  }
-
-.panel-heading.collapsed .fa-chevron-down,
-.panel-heading .fa-chevron-right {
-  display: none;
-}
-
-.panel-heading.collapsed .fa-chevron-right,
-.panel-heading .fa-chevron-down {
-  display: inline-block;
-}
-
-i.fa {
-  cursor: pointer;
-  margin-right: 5px;
-}
-
-.collapsed ~ .panel-body {
-  padding: 0;
-}
-  
+  }  
   </style>
   
   <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
@@ -516,18 +496,17 @@ i.fa {
                       <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}" disabled>
                   
                   {%- if product.metafields.custom.grava_o_personalizada -%}                
-                  <div class="panel panel-info">
-  <div class="panel-heading collapsed" data-toggle="collapse" data-target="#bar">
-    <i class="fa fa-fw fa-chevron-down"></i>
-    <i class="fa fa-fw fa-chevron-right"></i>Foo
-  </div>
-  <div class="panel-body">
-    <!-- The inside div eliminates the 'jumping' animation. -->
-    <div class="collapse" id="bar">
-      Bar.
-    </div>
-  </div>
-</div>
+                <details id="Details-collapsible-row-1-template--16698040058102__main">
+                <summary role="button" aria-expanded="false" aria-controls="ProductAccordion-collapsible-row-1-template--16698040058102__main">
+                 <div class="summary__title" style="margin-bottom: 1rem";>
+                    <h1 class="h4 accordion__title">
+                      Gravação personalizada
+                    </h1>
+                  </div>
+                <div class="textarea2" style="border: 1px solid; border-color: black;">
+                      <textarea class="text-area1" maxlenght="50" required name="properties[Gravação personalizada]" placeholder="(ex. Frente: Nome, Atrás: Data)"></textarea>      
+            </div>
+              </details>
                         {%- endif -%}
 
 <div style="margin-top: 2.5rem; margin-bottom: 1.5rem;">
