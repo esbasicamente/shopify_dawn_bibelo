@@ -84,7 +84,7 @@ text-align: left;
           {%- endfor -%}
         {%- endfor -%}
       </ul>
-    {% comment %}  {%- if show_mobile_slider or show_desktop_slider -%}
+    {%- if show_mobile_slider or show_desktop_slider -%}
         <div class="slider-buttons no-js-hidden">
           <button type="button" class="slider-button slider-button--prev" name="previous" aria-label="{{ 'general.slider.previous_slide' | t }}" aria-controls="Slider-{{ section.id }}">{% render 'icon-caret' %}</button>
           <div class="slider-counter caption">
@@ -95,7 +95,7 @@ text-align: left;
           </div>
           <button type="button" class="slider-button slider-button--next" name="next" aria-label="{{ 'general.slider.next_slide' | t }}" aria-controls="Slider-{{ section.id }}">{% render 'icon-caret' %}</button>
         </div>
-      {%- endif -%} {% endcomment %}
+      {%- endif -%} 
     </slider-component>
 
     {%- if section.settings.show_view_all and more_in_collection -%}
