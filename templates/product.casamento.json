@@ -18,7 +18,7 @@
         "d169e02b-071e-4f74-a250-c91c06825f09": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<small>REF: {{ product.selected_or_first_available_variant.sku }}<\/small>"
+            "custom_liquid": "<small>{{ product.selected_or_first_available_variant.sku }}<\/small>"
           }
         },
         "4230e0d8-b56c-4f05-8759-018e8cecd245": {
@@ -113,7 +113,6 @@
     },
     "multicolumn": {
       "type": "multicolumn",
-      "disabled": true,
       "blocks": {
         "column-0": {
           "type": "column",
@@ -162,6 +161,7 @@
         "e0c61dbf-31dd-41f5-a8bf-208d1b6b323e",
         "b7dd8081-b22b-4ae5-a89c-11753e9ebaf6"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h2",
@@ -192,6 +192,7 @@
         "show_vendor": true,
         "show_rating": false,
         "columns_mobile": "2",
+        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 0
       }
