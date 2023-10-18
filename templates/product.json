@@ -18,7 +18,7 @@
         "d653e745-5df1-48b1-abb9-f2f6a694bb47": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<small>REF: {{ product.selected_or_first_available_variant.sku }}<\/small>"
+            "custom_liquid": "<small>{{ product.selected_or_first_available_variant.sku }}<\/small>"
           }
         },
         "caption": {
