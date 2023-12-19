@@ -427,7 +427,7 @@
     "checkout": {
       "contact": {
         "optional_address2_label": "NIF (Opcional)",
-        "optional_company_label": "NIF (opcional)"
+        "optional_company_label": "NI (opcional)"
       }
     }
   }
